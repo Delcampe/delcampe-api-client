@@ -1,0 +1,76 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+----
+
+= Faire son client Soap = 
+ * ruby : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
+ * perl : http://msdn.microsoft.com/en-us/library/ms995764.aspx
+ * java : http://cafeconleche.org/books/xmljava/chapters/ch03s05.html
+ * php/drupal via nuSoap : http://thedrupalblog.com/executing-soap-call-drupal-using-nusoap
+ * python : http://www.ibm.com/developerworks/library/ws-pyth5/
+= Le client en php = 
+
+
+{{{
+Zend_Loader::loadClass('Zend_Soap_Client');
+$objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
+}}}
+
+
+= Documentation via Soap =
+
+ * http://api.delcampe.net/soap.php?wsdl
+{{{
+var_export($objSoapClient->getFunctions());
+var_export($objSoapClient->getFieldsNameForAuction());
+var_export($objSoapClient->getFieldsNameForFixedPriceItem());
+}}}
+
+http://tools.pointbeing.net/wsdlviewer?wsdl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&sudmit_wsdl=Go
+
+
+= Authentification = 
+
+ * Chaque développeur dispose d'une apikey liée à un compte membre
+ généralement de base, il a 3 apiKey
+  * une liée à son propre compte membre
+  * une liée à son vendeur
+  * une liée à son vendeur "test"
+
+Ensuite on peut avoir autant d'api key qu'il n'y a de vendeurs supplémentaires
+
+L'authentification se résume alors en une simple ligne
+
+
+{{{
+$authResult = $objSoapClient->authenticateUser('L_APIKEY');
+}}}
+
+
+
+= Ajouter un item =
+
+{{{
+
+list($success,$token) = 
+    $objSoapClient->authenticateUser('L_APIKEY');
+
+if(!$success) exit('broken');
+
+$return = 
+    $objSoapClient->addItem( $data, 
+                             $token );
+}}}
