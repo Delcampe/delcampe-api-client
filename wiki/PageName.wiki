@@ -2,17 +2,32 @@
 
 = Introduction =
 
-Add your content here.
+L'api Delcampe propose une interactivité pour des opérations de vente.
 
+== Fonctionnalités présentes ==
+  * mettre un objet en vente (aux enchères ou à prix fixe)
+  * liste de mes objets (avec possiblité de filtre)
+  * modifier un objet
+  * modifier les images d'un objet
+  * liste des actions auxquelle j'ai droit
+  * obtenir l'heure du serveur
+  * modifier l'url des retours d'information
+  * fermer une vente
+  
+== Fonctionnalités futures ==
+ * présenter un objet dans un catalogue de vente (pour utilisateurs prestige)
+ * présenter un objet dans une vitrine de recherche (i want it)
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
+ * obtenir les informations d'un compte (la quantité d'information diffère en fonction de 
+  * c'est moi
+  * c'est le membre lié à mon api key
+  * c'est le membre qui a remporté un de mes objets 
+  * c'est un membre
+ 
+ * récuperer des listes
+  * Liste des catégories
+  * Liste des modifications de catégorie
+  
 ----
 
 = Faire son client Soap = 
