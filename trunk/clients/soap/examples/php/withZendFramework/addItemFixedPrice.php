@@ -27,7 +27,7 @@ printVar($success);
 printVar($token);
 
 if (true === $success) {
-    $return = $objSoapClient->addItem($item_data, $token);
+    $return = $objSoapClient->addItemFixedPrice($item_data, $token);
     printVar($return);
 } else {
     printVar($token);
