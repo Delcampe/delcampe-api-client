@@ -1,13 +1,28 @@
 #summary List of API functions you can call
 
-= Introduction =
+Here is a list of all API functions you can call :
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+addItemAuction()
+addItemFixedPrice()
+addNotificationSetting()
+authenticateUser()
+changeNotificationStatus()
+closeItem()
+getAuthorizedActions()
+getAvailableNotifications()
+getCategoryList()
+getFieldsNamesForItemAuction()
+getFieldsNamesForItemFixedPrice()
+getItemInfo()
+getMyClosedUnsoldItemAuctionList()
+getMyClosedUnsoldItemFixedPriceList()
+getMyOpenItemAuctionList()
+getMyOpenItemFixedPriceList()
+getMySoldItemAuctionList()
+getMySoldItemFixedPriceList()
+getNotificationSettings()
+getServerTime()
+setDefaultFailOverNotificationEmail()
+setDefaultNotificationEmail()
+setDefaultNotificationUrl()
+updateItem() 
