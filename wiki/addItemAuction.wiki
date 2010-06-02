@@ -13,7 +13,14 @@ Call this function to add a new auction item on Delcampe website.
  * return : _array_ : first element is the status (boolean) and second one is additional data
 
 
-== Code example ==
+== Code example (PHP) ==
 {{{
-
+// MANDATORY
+$data['id_country']      = 0;
+$data['id_site']         = 1;
+$data['id_category']     = 80;
+$data['price_starting']  = rand(10, 15) . '.00';
+$data['price_increment'] = '0.' . rand(10, 99);
+$data['currency']        = 'EUR';
+$data['title']           = 'FFF Testing item . ' . date('Y-m-d H:i:s');
 }}}
