@@ -8,21 +8,16 @@ Seeing the problems encountered with our first version of our API, we decided to
 The goal of Delcampe's API is to provide an automatically way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items on sale at the same time.
 
 
-L'api Delcampe propose une interactivité pour des opérations de vente.
-
-== Fonctionnalités présentes ==
-  * mettre un objet en vente (aux enchères ou à prix fixe)
-  * liste de mes objets (avec possiblité de filtre)
-  * modifier un objet
-  * modifier les images d'un objet
-  * liste des actions auxquelle j'ai droit
-  * obtenir l'heure du serveur
-  * modifier l'url des retours d'information
-  * fermer une vente
+== What can I do with this API ? ==
+  * put an item on sale (auction or fixed price)
+  * have a list of all my items on sale (with filters)
+  * modify an item and its images
+  * close an item
+  * manage my notifications settings
+  * get Delcampe's category list
   
-== Fonctionnalités futures ==
- * présenter un objet dans un catalogue de vente (pour utilisateurs prestige)
- * présenter un objet dans une vitrine de recherche (i want it)
+
+
 
  * obtenir les informations d'un compte (la quantité d'information diffère en fonction de 
   * c'est moi
