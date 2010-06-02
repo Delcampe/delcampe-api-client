@@ -1,11 +1,11 @@
 #summary Detail on addItemAuction()
 
-= Introduction =
+== Introduction ==
 
 Call this function to add a new auction item on Delcampe website.
 
 
-= Details =
+== Details ==
 
  * syntax : addItemAuction(string $token, $arrData)
 
