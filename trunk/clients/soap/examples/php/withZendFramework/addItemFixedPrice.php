@@ -23,8 +23,8 @@ foreach ($item_data as $key => $value) {
 
 list($success, $token) = $objSoapClient->authenticateUser($_API_CLIENT_CONF['apiKey']);
 
-printVar($success);
-printVar($token);
+var_export($success);
+var_export($token);
 
 if (true === $success) {
     $return = $objSoapClient->addItemFixedPrice($item_data, $token);
