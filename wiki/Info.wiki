@@ -5,7 +5,7 @@
 
 Seeing the problems encountered with our first version of our API, we decided to rewrite it entirely, using SOAP technology, standards XML notifications, and providing more info and documentation to you, developers.
 
-The goal of Delcampe's API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items on sale at the same time.
+The goal of Delcampe's API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items on sale on the website.
 
 
 == What can I do with this API ? ==
