@@ -2,7 +2,7 @@
 
 Here is a list of all API functions you can call. Click on detail to have more info about it.
 
- * addItemAuction() 
+ * addItemAuction() _detail_
  * addItemFixedPrice()
  * addNotificationSetting()
  * authenticateUser()
