@@ -1,6 +1,6 @@
 #summary List of API functions you can call
 
-Here is a list of all API functions you can call :
+Here is a list of all API functions you can call. Click on a function to have more details about it.
 
  * addItemAuction()
  * addItemFixedPrice()
