@@ -1,4 +1,4 @@
-#summary First steps
+#summary Useful links
 
 = Useful links = 
  * ruby : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
