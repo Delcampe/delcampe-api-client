@@ -1,0 +1,10 @@
+#summary First steps
+
+= Introduction =
+
+This page will give you, step by step, the information needed to start with our API
+
+
+= Details =
+
+ * You need to contact Delcampe customer service, you'll receive an API key.
