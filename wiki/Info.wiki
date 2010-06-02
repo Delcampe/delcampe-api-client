@@ -60,7 +60,7 @@ var_export($objSoapClient->getFieldsNameForFixedPriceItem());
 
 http://tools.pointbeing.net/wsdlviewer?wsdl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&sudmit_wsdl=Go
 
-http://xmethods.net/ve2/WSDLAnalyzer.po
+http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
 
 
 = Authentification = 
