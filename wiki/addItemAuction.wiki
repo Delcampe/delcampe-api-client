@@ -16,3 +16,6 @@ Call this function to add a new auction item on Delcampe website.
 
 
 == Code example ==
+{{{
+
+}}}
