@@ -1,7 +1,5 @@
 #summary Detail on addItemAuction()
 
-== Introduction ==
-
 Call this function to add a new auction item on Delcampe website.
 
 
