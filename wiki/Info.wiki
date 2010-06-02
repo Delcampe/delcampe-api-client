@@ -24,14 +24,10 @@ The goal of Delcampe's API is to provide an automatically way to manage your ite
   * c'est le membre lié à mon api key
   * c'est le membre qui a remporté un de mes objets 
   * c'est un membre
- 
- * récuperer des listes
-  * Liste des catégories
-  * Liste des modifications de catégorie
-  
+
 ----
 
-= Faire son client Soap = 
+= Links = 
  * ruby : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
  * perl : http://msdn.microsoft.com/en-us/library/ms995764.aspx
  * java : http://cafeconleche.org/books/xmljava/chapters/ch03s05.html
