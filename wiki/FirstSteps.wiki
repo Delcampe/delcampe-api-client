@@ -7,4 +7,5 @@ This page will give you, step by step, the information needed to start with our 
 
 = Details =
 
- * You need to contact Delcampe customer service, you'll receive an API key.
+ # To access our API, you need an API key (contact Delcampe customer service)
+ # Before In your API client, call authenticateUser() 
