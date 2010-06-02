@@ -22,5 +22,5 @@ $data['id_category']     = 80;
 $data['price_starting']  = rand(10, 15) . '.00';
 $data['price_increment'] = '0.' . rand(10, 99);
 $data['currency']        = 'EUR';
-$data['title']           = 'Item/'s title';
+$data['title']           = 'My title';
 }}}
