@@ -5,7 +5,7 @@ Call this function to get a list of API functions you are authorized to call
 
 == Call ==
 
- * syntax : getAuthorizedActions(string $token)
+ * syntax : getAuthorizedActions(string token)
 
  * parameter : _string_ : secret token
 
