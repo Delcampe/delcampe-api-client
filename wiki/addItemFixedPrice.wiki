@@ -1,3 +1,5 @@
+#summary Details on addItemFixedPrice()
+
 Call this function to add a new fixed price item on Delcampe website.
 
 
