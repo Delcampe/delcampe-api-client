@@ -3,7 +3,7 @@ Call this function to add a new auction item on Delcampe website.
 
 == Call ==
 
- * syntax : addItemAuction(string $token, $arrData)
+ * syntax : addItemAuction(string $token, array $data)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data needed to create an auction item
@@ -15,9 +15,9 @@ Call this function to add a new auction item on Delcampe website.
   * element 2 : _string_  : message, giving you more information on the function call result 
 
  * example : 
-  * if call of the function is ok :
+  * if call of the function is ok, the return will always be like this :
    * array(true, 'Your request was taken into account!')
-  * if call of the function is not ok :
+  * if call of the function is not ok, the message will differ :
    * array(false, 'err_item_incorrectIdSite')
    * array(false, 'err_item_tooLongDescription')
    * ...
