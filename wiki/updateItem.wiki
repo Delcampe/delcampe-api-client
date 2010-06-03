@@ -1,3 +1,5 @@
+#summary Details on updateItem()
+
 Call this function to update an existing item on Delcampe website.
 
 
