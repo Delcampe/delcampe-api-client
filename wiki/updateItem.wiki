@@ -1,4 +1,5 @@
 #summary Details on updateItem() API function
+#sidebar ApiFunctions
 
 Call this function to update an existing item on Delcampe website.
 
