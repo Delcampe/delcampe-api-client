@@ -1,4 +1,5 @@
 #summary Details on getMyOpenItemFixedPriceList() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of open fixed price items
 
