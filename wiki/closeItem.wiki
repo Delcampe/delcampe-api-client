@@ -7,7 +7,7 @@ You have to specify the reason of the closing by selecting one of the valid reas
 
 == Call ==
 
- * syntax : closeItem(string $token, integer $idItem, string $reason)
+ * syntax : closeItem(string token, integer idItem, string reason)
 
  * parameter 1 : _string_  : secret token
  * parameter 2 : _integer_ : id of the item you want to close
