@@ -6,6 +6,6 @@ This page will give you, step by step, the information needed to start with our 
 
 
 = Details =
- # To access our API, you need an API key. So, the first thing you should do is contact our customer service.
- # Using our documentation and examples, you should try to call a basic API function : [getServerTime](). Doing so, you'll be able to check if everything is ok on your side.
- # Once you have your API key, you can begin to call our API functions to insert items on the website.
+ # Using our documentation and examples, you should try to call a basic API function : [getServerTime](). Doing so, you'll be able to check if everything is ok on your side. This function does not require any authentication.
+ # To access the other functions of our API, you need an API key (contact our customer service to get one)
+ # Once you have your API key, you can begin to call [addItemAuction]() or [addItemFixedPrice]() to insert items on the website.
