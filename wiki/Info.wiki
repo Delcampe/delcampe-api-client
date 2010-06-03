@@ -34,6 +34,4 @@ If you intend to call a PHP SOAP server from a .NET Client, there are a couple o
 
  * http://api.delcampe.net/soap.php?wsdl
 
-http://tools.pointbeing.net/wsdlviewer?wsdl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&sudmit_wsdl=Go
-
-http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
+ * http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
