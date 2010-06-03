@@ -1,4 +1,4 @@
-#summary Details on closeItem()
+#summary Details on closeItem() API function
 
 Call this function to close an item on Delcampe website.<br>
 You cannot close an auction item with a bid on it.<br> 
