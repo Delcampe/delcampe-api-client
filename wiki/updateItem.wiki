@@ -27,8 +27,8 @@ Call this function to update an existing item on Delcampe website.
 == Code example (PHP) ==
 {{{
 //DATA TO UPDATE
-$data['title']                       = 'My updated title';
-$data['description']                 = 'My description'
+$data['title']       = 'My updated title';
+$data['description'] = 'My updated description'
 
 //FUNCTION CALL
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
