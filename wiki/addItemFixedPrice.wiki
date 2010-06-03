@@ -5,7 +5,7 @@ Call this function to add a new fixed price item on Delcampe website.
 
 == Call ==
 
- * syntax : addItemFixedPrice(string $token, array $data)
+ * syntax : addItemFixedPrice(string token, array data)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data needed to create a fixed price item
