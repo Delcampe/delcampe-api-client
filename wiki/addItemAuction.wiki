@@ -1,12 +1,14 @@
 Call this function to add a new auction item on Delcampe website.
 
 
-== Details ==
+== Call ==
 
  * syntax : addItemAuction(string $token, $arrData)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data needed to create an auction item
+
+== Response ==
 
  * return : _array_ : first element is the status (boolean) and second one is additional data
 
