@@ -1,4 +1,5 @@
 #summary Details on getMyClosedUnsoldItemFixedPriceList() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of unsold closed fixed price items
 
