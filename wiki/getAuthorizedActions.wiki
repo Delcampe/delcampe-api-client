@@ -7,7 +7,7 @@ Call this function to get a list of API functions you are authorized to call
 
  * syntax : getAuthorizedActions(string $token)
 
- * parameter 1 : _string_ : secret token
+ * parameter : _string_ : secret token
 
 == Response ==
 
