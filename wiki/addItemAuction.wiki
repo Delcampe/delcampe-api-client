@@ -11,6 +11,12 @@ Call this function to add a new auction item on Delcampe website.
 == Response ==
 
  * response : _array_ : first element is the status (boolean) and second one is additional data
+ * example : 
+  * if call of the function is ok :
+   * array(true, 'Your request was taken into account!')
+  * if call of the function is not ok :
+   * array(false, an error message)
+
 
 
 == Code example (PHP) ==
