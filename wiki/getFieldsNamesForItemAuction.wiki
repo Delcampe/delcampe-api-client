@@ -1,4 +1,5 @@
 #summary Details on getFieldsNamesForItemAuction() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of fields name you can use to handle an auction item
 
