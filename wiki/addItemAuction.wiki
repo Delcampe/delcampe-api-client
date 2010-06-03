@@ -11,7 +11,7 @@ Call this function to add a new auction item on Delcampe website.
 == Response ==
 
  * response : _array_ : 
-  * first element : _boolean_ : is the status is OK (true) or not OK (false)
+  * first element : _boolean_ : true if OK or false if not OK
   * second element : _string_ : one is additional data
  * example : 
   * if call of the function is ok :
