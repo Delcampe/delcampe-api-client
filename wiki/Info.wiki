@@ -25,13 +25,14 @@ Zend_Loader::loadClass('Zend_Soap_Client');
 $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 }}}
 
-= Le Client en .net =
-
-If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, I've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, I'd be interested in hearing that. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
-
 
 = Documentation on the WSDL file =
 
  * http://api.delcampe.net/soap.php?wsdl
 
  * http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
+
+
+= API client on .net =
+
+If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, I've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, I'd be interested in hearing that. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
