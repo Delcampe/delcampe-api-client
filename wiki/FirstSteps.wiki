@@ -6,6 +6,8 @@ This page will give you, step by step, the information needed to start with our 
 
 
 = Details =
+ # To access our API, you need an API key. So, the first thing you should do is contact our customer service.
 
- # To access our API, you need an API key (contact Delcampe customer service)
- # Before In your API client, call authenticateUser() 
+ # Using our documentation and examples, you should try to call a basic API function : getServerTime(). Doing so, you'll be able to check if everything is ok on your side.
+
+ # Once you have your API key, you can begin to call our API functions to insert items on the website.
