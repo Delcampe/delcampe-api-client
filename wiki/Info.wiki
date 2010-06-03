@@ -15,6 +15,7 @@ The goal of Delcampe's API is to provide an automatic way to manage your items o
   * close an item
   * manage my notifications settings
   * get Delcampe's category list
+  * ...
   
 
 = Le client en php = 
