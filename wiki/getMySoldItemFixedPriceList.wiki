@@ -1,4 +1,5 @@
 #summary Details on getMySoldItemFixedPriceList() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of sold fixed price items
 
