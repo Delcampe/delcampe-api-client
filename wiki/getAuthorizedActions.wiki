@@ -1,4 +1,5 @@
 #summary Details on getAuthorizedActions() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of API functions you are authorized to call
 
