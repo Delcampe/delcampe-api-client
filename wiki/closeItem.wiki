@@ -1,5 +1,6 @@
 Call this function to close an item on Delcampe website.
-You cannot close an auction item with a bid on it. You have to specify the reason of the closing by selecting one of the valid reasons.
+You cannot close an auction item with a bid on it. 
+You have to specify the reason of the closing by selecting one of the valid reasons.
 
 
 == Call ==
