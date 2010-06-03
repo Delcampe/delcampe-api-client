@@ -1,6 +1,6 @@
 #summary Details on getFieldsNamesForItemAuction() API function
 
-Call this function to get a list of fields name you can use to handle an item auction
+Call this function to get a list of fields name you can use to handle an auction item
 
 
 == Call ==
