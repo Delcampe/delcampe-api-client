@@ -5,7 +5,7 @@ Call this function to get a list of unsold closed items
 
 == Call ==
 
- * syntax : getMyClosedUnsoldItemAuctionList()(string token)
+ * syntax : getMyClosedUnsoldItemAuctionList(string token)
 
  * parameter : _string_ : secret token
 
