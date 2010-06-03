@@ -8,7 +8,7 @@ You'll find here information about the new version of Delcampe's API, using SOAP
 The goal of Delcampe's API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items on sale on the website.
 
 
-== What can I do with this API ? ==
+= What can I do with this API ? =
   * put an item on sale (auction or fixed price)
   * have a list of all my items on sale (with filters)
   * modify an item and its images
