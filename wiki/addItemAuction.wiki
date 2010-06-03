@@ -10,7 +10,7 @@ Call this function to add a new auction item on Delcampe website.
 
 == Response ==
 
- * return : _array_ : first element is the status (boolean) and second one is additional data
+ * response : _array_ : first element is the status (boolean) and second one is additional data
 
 
 == Code example (PHP) ==
