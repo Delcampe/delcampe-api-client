@@ -1,4 +1,4 @@
-#summary Details on addItemFixedPrice()
+#summary Details on addItemFixedPrice() API function
 
 Call this function to add a new fixed price item on Delcampe website.
 
