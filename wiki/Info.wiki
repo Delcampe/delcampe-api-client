@@ -30,7 +30,7 @@ $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, I've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, I'd be interested in hearing that. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
 
 
-= Documentation via Soap =
+= Documentation on the WSDL file =
 
  * http://api.delcampe.net/soap.php?wsdl
 
