@@ -1,4 +1,5 @@
 #summary Details on getServerTime() API function
+#sidebar ApiFunctions
 
 Call this function to get Delcampe's server time
 
