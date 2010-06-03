@@ -1,4 +1,5 @@
 #summary Details on getMyClosedUnsoldItemAuctionList() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of unsold closed auction items
 
