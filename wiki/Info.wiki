@@ -36,21 +36,3 @@ If you intend to call a PHP SOAP server from a .NET Client, there are a couple o
 http://tools.pointbeing.net/wsdlviewer?wsdl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&sudmit_wsdl=Go
 
 http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
-
-
-= Authentification = 
-
- * Chaque développeur dispose d'une apikey liée à un compte membre
- généralement de base, il a 3 apiKey
-  * une liée à son propre compte membre
-  * une liée à son vendeur
-  * une liée à son vendeur "test"
-
-Ensuite on peut avoir autant d'api key qu'il n'y a de vendeurs supplémentaires
-
-L'authentification se résume alors en une simple ligne
-
-
-{{{
-$authResult = $objSoapClient->authenticateUser('L_APIKEY');
-}}}
