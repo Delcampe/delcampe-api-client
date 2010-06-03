@@ -1,4 +1,4 @@
-#summary Informations de base
+#summary Informations
 #labels Featured,Phase-Requirements
 
 = Introduction =
