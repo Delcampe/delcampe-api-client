@@ -1,4 +1,5 @@
 #summary Details on getMySoldItemAuctionList() API function
+#sidebar ApiFunctions
 
 Call this function to get a list of sold auction items
 
