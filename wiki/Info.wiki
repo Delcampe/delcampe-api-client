@@ -59,19 +59,3 @@ L'authentification se résume alors en une simple ligne
 {{{
 $authResult = $objSoapClient->authenticateUser('L_APIKEY');
 }}}
-
-
-
-= Ajouter un item =
-
-{{{
-
-list($success,$token) = 
-    $objSoapClient->authenticateUser('L_APIKEY');
-
-if(!$success) exit('broken');
-
-$return = 
-    $objSoapClient->addItem( $data, 
-                             $token );
-}}}
