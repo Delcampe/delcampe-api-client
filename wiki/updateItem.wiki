@@ -5,7 +5,7 @@ Call this function to update an existing item on Delcampe website.
 
 == Call ==
 
- * syntax : updateItem(string $token, array $data)
+ * syntax : updateItem(string token, array data)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data you want to modifiy
