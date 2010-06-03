@@ -1,4 +1,5 @@
 #summary Details on authenticateUser() API function
+#sidebar ApiFunctions
 
 Call this function to authenticate yourself and get a personal token
 
