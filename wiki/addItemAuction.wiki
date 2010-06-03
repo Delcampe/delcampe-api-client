@@ -1,4 +1,4 @@
-#summary Details on addItemAuction()
+#summary Details on addItemAuction() API function
 
 Call this function to add a new auction item on Delcampe website.
 
