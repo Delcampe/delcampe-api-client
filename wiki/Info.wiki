@@ -32,11 +32,6 @@ If you intend to call a PHP SOAP server from a .NET Client, there are a couple o
 = Documentation via Soap =
 
  * http://api.delcampe.net/soap.php?wsdl
-{{{
-var_export($objSoapClient->getFunctions());
-var_export($objSoapClient->getFieldsNameForAuction());
-var_export($objSoapClient->getFieldsNameForFixedPriceItem());
-}}}
 
 http://tools.pointbeing.net/wsdlviewer?wsdl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&sudmit_wsdl=Go
 
