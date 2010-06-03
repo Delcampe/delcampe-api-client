@@ -5,7 +5,7 @@ Call this function to get data on a specified item
 
 == Call ==
 
- * syntax : getItemInfo(string $token, integer $idItem)
+ * syntax : getItemInfo(string token, integer idItem)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _integer_ : id of the item
