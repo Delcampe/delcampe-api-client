@@ -1,4 +1,5 @@
 #summary Details on getItemInfo() API function
+#sidebar ApiFunctions
 
 Call this function to get data on a specified item
 
