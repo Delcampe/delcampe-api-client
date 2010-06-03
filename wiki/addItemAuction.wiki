@@ -55,6 +55,6 @@ $data['images']                      = array('http://www.mypictures.com/pic1.jpg
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = addItemAuction($token, $data);
+  $return = $objSoapClient->addItemAuction($token, $data);
 }
 }}}
