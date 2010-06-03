@@ -1,0 +1,22 @@
+#summary Details on getServerTime() API function
+
+Call this function to get Delcampe's server time
+
+
+== Call ==
+
+ * syntax : getServerTime()
+
+== Response ==
+
+ * response : _timestamp_ : Delcampe's server time
+
+== Code example (PHP) ==
+{{{
+//FUNCTION CALL
+list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if (true === $success) {
+  $return = $objSoapClient->getServerTime();
+}
+}}}
