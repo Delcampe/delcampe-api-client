@@ -7,5 +7,5 @@ This page will give you, step by step, the information needed to start with our 
 
 = Details =
  * Using the documentation and examples, you should try to call a basic API function : [getServerTime](). Doing so, you'll be able to check if everything is ok on your side. This function does not require any authentication.
- * To access the other functions of our API, you need an API key (contact the Delcampe customer service to get one)
+ * To access the other functions of the Delcampe API, you need an API key (contact the Delcampe customer service to get one)
  * Once you have your API key, you'll be authorized to call any API function you want, regarding your credentials. You could begin by calling [addItemAuction]() or [addItemFixedPrice]() to insert items on the website.
