@@ -30,11 +30,9 @@ $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 use SOAP::Lite;
 
 my $soap = SOAP::Lite
-    -> uri('http://www.alfredbr.com')
-    -> on_action( sub { join '/', 'http://www.alfredbr.com', $_[1] } )
-    -> proxy('http://localhost/Example1/Service1.asmx');
+    -> uri('http://api.delcampe.net/soap.php?wsdl');
 
-print $soap->HelloWorld()->result;
+print $soap->getServerTime()->result;
 }}}
 
 = Documentation on the WSDL file =
