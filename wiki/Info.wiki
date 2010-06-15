@@ -17,13 +17,25 @@ The goal of Delcampe's API is to provide an automatic way to manage your items o
   * ...
   
 
-= Le client en php = 
+= Php Client = 
 
 {{{
 Zend_Loader::loadClass('Zend_Soap_Client');
 $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 }}}
 
+= Perl Client = 
+
+{{{
+use SOAP::Lite;
+
+my $soap = SOAP::Lite
+    -> uri('http://www.alfredbr.com')
+    -> on_action( sub { join '/', 'http://www.alfredbr.com', $_[1] } )
+    -> proxy('http://localhost/Example1/Service1.asmx');
+
+print $soap->HelloWorld()->result;
+}}}
 
 = Documentation on the WSDL file =
 
