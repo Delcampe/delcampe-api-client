@@ -27,12 +27,17 @@ $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 = Perl Client = 
 
 {{{
+#!/usr/bin/perl
+
 use SOAP::Lite;
+use SOAP::WSDL;
+use strict;
+use warnings;
 
-my $soap = SOAP::Lite
-    -> uri('http://api.delcampe.net/soap.php?wsdl');
+my $service = SOAP::Lite;
+   -> service('http://api.delcampe.net/soap.php?wsdl');
 
-print $soap->getServerTime()->result;
+print $service->getServerTime()->result;
 }}}
 
 
