@@ -17,14 +17,15 @@ The goal of Delcampe's API is to provide an automatic way to manage your items o
   * ...
   
 
-= Php Client = 
+= Sample Clients =
+== Php == 
 
 {{{
 Zend_Loader::loadClass('Zend_Soap_Client');
 $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
 }}}
 
-= Perl Client = 
+== Perl == 
 
 {{{
 #!/usr/bin/perl
@@ -40,6 +41,20 @@ my $service = SOAP::Lite;
 print $service->getServerTime()->result;
 }}}
 
+== Ruby ==
+{{{
+require 'rubygems'
+gem 'soap4r'
+require 'http-access2'
+require 'soap/wsdlDriver'
+
+wsdl = 'http://api.delcampe.net/soap.php?wsdl'
+driver = SOAP::WSDLDriverFactory.new(wsdl).create_rpc_drive r
+driver.wiredump_dev = $defout
+
+ret = driver.getServerTime()
+p ret
+}}}
 
 = Documentation on the WSDL file =
 
