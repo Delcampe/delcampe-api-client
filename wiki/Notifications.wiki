@@ -24,4 +24,24 @@ After a call of an API function, you will often receive a notification when your
   </Delcampe_Notification>
 }}}
 
+=== !Seller_Item_FirstBid ===
+
+ * When is it send ?
+  * immediately when there is a first bid on the item
+
+ * Example
+{{{
+<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-14 13:47:04</Notification_Datetime>
+    <Notification_Type>Seller_Item_FirstBid</Notification_Type>
+    <Notification_Data>
+      <id_item>8494348510</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
+
+
  
