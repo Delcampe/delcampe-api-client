@@ -22,4 +22,11 @@ Be care full
  # lot of fields cannot be changed when auction has his first bid.
 
 = There is a bid on my auction =
- ...
+ When it's happen a notification "[Notifications#Seller_Item_FirstBid Seller_Item_FirstBid]" is sent by the Delcampe Service. It's important to catch it and treat it on your side if you propose your item on sale on another place than Delcampe Website.
+Indeed, as you have a bidder, you have a potential winner, and you cannot retract your item.
+
+If you cannot manage this feedback you must leave the exclusive sale of that object to Delcampe.
+
+= End of a fixed price sale =
+
+It the most easy case, a member of Delcampe website has accept your  price, the service send you a notification [Notifications#Seller_Item_Close_Sold Seller_Item_Close_Sold]
