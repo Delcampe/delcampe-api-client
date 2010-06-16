@@ -5,3 +5,4 @@
  * TheSampleApplicationUsingClient
  * [Info] 	
  * [Links]
+ * [Contact]
