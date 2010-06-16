@@ -6,7 +6,7 @@ As the new Delcampe API is accessible with Soap, you don't need anything more th
 
 = Details =
 
-The first version of the demo is build in php based on ZendFramework.
+The first version of the demo is build in php based on !ZendFramework.
 
 We Hope to your contribution to complete them with  port on other languages.
 
