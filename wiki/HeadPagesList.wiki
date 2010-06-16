@@ -1,7 +1,9 @@
 #summary This page is listed on each other pages
+#labels Featured
 
  * FirstSteps  	 
  * ApiFunctions 	
+ * [Notifications]
  * TheSampleApplicationUsingClient
  * [Info] 	
  * [Links]
