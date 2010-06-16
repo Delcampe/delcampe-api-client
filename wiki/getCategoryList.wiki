@@ -1,0 +1,18 @@
+#summary Details on getCategoryList() API function
+#sidebar ApiFunctions
+
+Call this function to fetch the list of categories (with the code to use in items definition)
+
+=== Call ===
+
+ * syntax : getCategoryList()
+
+=== Response ===
+soon
+
+ * notification : none
+
+=== Code example (PHP) ===
+{{{
+soon
+}}}
