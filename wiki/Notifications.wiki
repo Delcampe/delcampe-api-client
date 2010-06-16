@@ -1,4 +1,4 @@
-#summary List of Notifications (xml format) you could receive
+#summary List of Notifications you could receive
 
 = Introduction =
 
