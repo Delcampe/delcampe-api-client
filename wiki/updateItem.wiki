@@ -34,6 +34,7 @@ $data['title']       = 'My updated title';
 $data['description'] = 'My updated description'
 
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
