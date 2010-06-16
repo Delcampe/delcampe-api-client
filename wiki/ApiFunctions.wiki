@@ -1,6 +1,6 @@
 #summary List of API functions you can call
 
-List of all = API functions = you can call.
+List of *API functions* you can call.
 
  * [addItemAuction]()
  * [addItemFixedPrice]()
