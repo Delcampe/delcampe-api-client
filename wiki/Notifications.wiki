@@ -106,4 +106,23 @@ After a call of an API function, you will often receive a notification when your
     </Notification_Data>
   </Delcampe_Notification>
 }}}
- 
+
+
+=== !Seller_Item_Close_Manually ===
+
+ * When is it send ?
+  * after a call of [closeItem]()
+
+ * Example
+{{{
+<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-14 10:54:08</Notification_Datetime>
+    <Notification_Type>Seller_Item_Close_Manually</Notification_Type>
+    <Notification_Data>
+      <id_item>0094326254</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
