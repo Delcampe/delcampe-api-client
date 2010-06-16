@@ -21,6 +21,7 @@ Call this function to get a list of sold auction items
 == Code example (PHP) ==
 {{{
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
