@@ -5,10 +5,8 @@ This is an external project of Delcampe International
 
 If you need to contact the team of this project (the client)  you can
  * add a comment on matching  wikipage
- * add en antre in http://code.google.com/p/delcampe-api-client/issues/list
+ * add an entry in http://code.google.com/p/delcampe-api-client/issues/list
  * request an access to the google-group
  
-
-
 If you need information about the API
  * Contact the Delcampe Service : http://www.delcampe.net/contact.php?way=email
