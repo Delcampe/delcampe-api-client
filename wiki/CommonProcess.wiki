@@ -4,17 +4,17 @@
 
  * Set params for the item to add.
   * Choose a category.
- you can retrieve the category list with getCategoryList ()
+ you can retrieve the category list with [getCategoryList]()
 
  * Choose if it's a fixed price or an auction
   * discover the wanted params with
-   * getFieldsNamesForItemAuction ()
+   * [getFieldsNamesForItemAuction]()
 or
-   * getFieldsNamesForItemFixedPrice ()
+   * [getFieldsNamesForItemFixedPrice]()
 
  * Send your item
-  * addItemAuction() if it's an auction
-  * addItemFixedPrice() if it's a fixed price
+  * [addItemAuction]() if it's an auction
+  * [addItemFixedPrice]() if it's a fixed price
 
 Now  your  item is in a queue it would be added. 
 
