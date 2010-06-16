@@ -43,5 +43,43 @@ After a call of an API function, you will often receive a notification when your
   </Delcampe_Notification>
 }}}
 
+=== !Seller_Item_Close_Sold ===
 
+ * When is it send ?
+  * when an item is sold on the website
+
+ * Example
+{{{
+<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-14 12:33:33</Notification_Datetime>
+    <Notification_Type>Seller_Item_Close_Sold</Notification_Type>
+    <Notification_Data>
+      <seller_nickname>test_seller</seller_nickname>
+      <id_item>55943975</id_item>
+      <item_title>Title of the item</item_title>
+      <best_bid>12.00 Eur</best_bid>
+      <qty>1</qty>
+      <personal_reference>MyPersonalReference</personal_reference>
+      <url_to_item>http://www.delcampe.net/item.php?language=F&id=55943975</url_to_item>
+      <bids_qty>1</bids_qty>
+      <visits_counter>2</visits_counter>
+      <buyer_id>57252065</buyer_id>
+      <buyer_nickname>test_buyer</buyer_nickname>
+      <buyer_email>buyer@hotmail.com</buyer_email>
+      <buyer_spoken_languages>French</buyer_spoken_languages>
+      <buyer_language>French</buyer_language>
+      <buyer_firstname>John</buyer_firstname>
+      <buyer_surname>Doo</buyer_surname>
+      <buyer_address>buyer street</buyer_address>
+      <buyer_zipcode>6542</buyer_zipcode>
+      <buyer_city>Paris</buyer_city>
+      <buyer_state></buyer_state>
+      <buyer_country>FR</buyer_country>
+      <buyer_phone></buyer_phone>
+      <url_to_rating>http://www.delcampe.net/item.php?language=F&id=55943975#rating</url_to_rating>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
  
