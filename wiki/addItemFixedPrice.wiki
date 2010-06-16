@@ -25,7 +25,7 @@ Call this function to add a new fixed price item on Delcampe website.
    * array(false, 'err_item_tooLongDescription')
    * ...
 
-
+ * notification : [Notifications#Seller_Item_Add Seller_Item_Add]
 
 == Code example (PHP) ==
 {{{
