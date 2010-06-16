@@ -19,5 +19,6 @@ Call this function to get a list of fields name you can use to handle an auction
 == Code example (PHP) ==
 {{{
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->getFieldsNamesForItemAuction();
 }}}
