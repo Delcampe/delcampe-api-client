@@ -1,10 +1,10 @@
 #summary This page is listed on each other pages
 #labels Featured
 
- * FirstSteps  	 
- * ApiFunctions 	
- * [Notifications]
- * TheSampleApplicationUsingClient
+ * [FirstSteps Make your first steps]
+ * [ApiFunctions Api Functions List]
+ * [Notifications Notifications List]
+ * [TheSampleApplicationUsingClient The sample Application using client]
  * [Info] 	
  * [Links]
  * [Contact]
