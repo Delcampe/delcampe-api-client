@@ -4,7 +4,7 @@ After a call of an API function, you will often receive a notification when your
 
 * List of XML Notifications Type you could receive from Delcampe
 
-== !Seller_Item_Add ==
+=== !Seller_Item_Add ===
 
  * When is it send ?
   * after a call of addItemAuction(), when the request is processed 
