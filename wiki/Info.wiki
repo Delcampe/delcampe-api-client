@@ -19,7 +19,7 @@ The goal of Delcampe's API is to provide an automatic way to manage your items o
 
 = Sample Clients =
 == Php == 
-
+=== With Zend_Framework ===
 {{{
 Zend_Loader::loadClass('Zend_Soap_Client');
 $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
