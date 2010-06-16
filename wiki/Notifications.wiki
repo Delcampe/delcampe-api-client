@@ -28,7 +28,7 @@ After a call of an API function, you will often receive a notification when your
 === !Seller_Item_FirstBid ===
 
  * When is it send ?
-  * immediately when there is a first bid on the item
+  * immediately when there is a first bid on an item
 
  * Example
 {{{
@@ -81,6 +81,26 @@ After a call of an API function, you will often receive a notification when your
       <buyer_country>FR</buyer_country>
       <buyer_phone></buyer_phone>
       <url_to_rating>http://www.delcampe.net/item.php?language=F&id=55943975#rating</url_to_rating>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
+
+
+=== !Seller_Item_Close_Unsold ===
+
+ * When is it send ?
+  * when the end time of an unsold item is reached
+
+ * Example
+{{{
+<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-14 13:14:09</Notification_Datetime>
+    <Notification_Type>Seller_Item_Close_Unsold</Notification_Type>
+    <Notification_Data>
+      <id_item>5894326975</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
     </Notification_Data>
   </Delcampe_Notification>
 }}}
