@@ -1,7 +1,6 @@
 #summary Informations on Delcampe's Notifications
 
-After a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations.
-* The notifications are in XML format.
+After a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. The notifications are in XML format.
 
 * List of XML Notifications Type you could receive from Delcampe
 
