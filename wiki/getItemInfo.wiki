@@ -23,6 +23,7 @@ Call this function to get data on a specified item
 == Code example (PHP) ==
 {{{
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
