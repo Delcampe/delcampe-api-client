@@ -37,6 +37,7 @@ You have to specify the reason of the closing by selecting one of the valid reas
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
