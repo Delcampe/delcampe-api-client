@@ -16,15 +16,15 @@ List of XML Notifications you could receive from Delcampe
  * Example
 {{{
 <?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
-	<Delcampe_Notification>
-		<Notification_Token>MyNotificationToken</Notification_Token>
-		<Notification_Datetime>2010-06-15 09:38:27</Notification_Datetime>
-		<Notification_Type>Seller_Item_Add</Notification_Type>
-		<Notification_Data>
-			<id_item>0094429382</id_item>
-			<personal_reference>MyPersonalReference</personal_reference>
-		</Notification_Data>
-	</Delcampe_Notification>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-15 09:38:27</Notification_Datetime>
+    <Notification_Type>Seller_Item_Add</Notification_Type>
+    <Notification_Data>
+      <id_item>0094429382</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
 }}}
  
 
