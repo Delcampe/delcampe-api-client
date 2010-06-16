@@ -2,10 +2,10 @@
 #labels Featured
 
  * [FirstSteps Make your first steps]
+ * [Info] 	
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
  * [CommonProcess Common Process]
  * [TheSampleApplicationUsingClient The sample Application using client]
- * [Info] 	
  * [Links]
  * [Contact]
