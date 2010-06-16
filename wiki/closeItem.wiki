@@ -32,7 +32,7 @@ You have to specify the reason of the closing by selecting one of the valid reas
    * array(false, 'This item is already sold!')
    * array(false, 'There is already a bid on this item!')
 
-
+ * notification : [Notifications#Seller_Item_Close_Manually]
 
 == Code example (PHP) ==
 {{{
