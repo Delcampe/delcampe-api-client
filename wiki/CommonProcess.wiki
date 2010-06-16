@@ -1,0 +1,23 @@
+#summary Use API presented by workflow.
+
+= Add an item for sale =
+
+ * Set params for the item to add.
+  * Choose a category.
+ you can retrieve the category list with getCategoryList()
+
+ * Choose if it's a fixed price or an auction
+  * discover the wanted params with
+   * getFieldsNamesForItemAuction()
+or
+   * getFieldsNamesForItemFixedPrice()
+
+ * Send your item
+  * addItemAuction() if it's an auction
+  * addItemFixedPrice() if it's a fixed price
+
+Now  your  item is in a queue it would be added. 
+
+You would be informed by the delcampe service  when your item is really treat and put on marketplace.
+  * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
+
