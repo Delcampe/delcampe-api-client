@@ -108,7 +108,7 @@ After a call of an API function, you will often receive a notification when your
 }}}
 
 
-=== #Seller_Item_Close_Manually ===
+=== #!Seller_Item_Close_Manually ===
 
  * When is it send ?
   * after a call of [closeItem]()
