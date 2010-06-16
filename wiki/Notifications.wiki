@@ -24,6 +24,7 @@ After a call of an API function, you will often receive a notification when your
   </Delcampe_Notification>
 }}}
 
+
 === !Seller_Item_FirstBid ===
 
  * When is it send ?
@@ -42,6 +43,7 @@ After a call of an API function, you will often receive a notification when your
     </Notification_Data>
   </Delcampe_Notification>
 }}}
+
 
 === !Seller_Item_Close_Sold ===
 
