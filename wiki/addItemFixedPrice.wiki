@@ -65,7 +65,7 @@ $data['images']                      = array('http://www.mypictures.com/pic1.jpg
                                             );
 
 //FUNCTION CALL
-$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl')
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
