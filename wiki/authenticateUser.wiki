@@ -21,5 +21,6 @@ Call this function to authenticate yourself and get a personal token
 == Code example (PHP) ==
 {{{
 //FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 }}}
