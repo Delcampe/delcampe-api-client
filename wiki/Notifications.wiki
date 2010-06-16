@@ -10,7 +10,7 @@ After a call of an API function, you will often receive a notification when your
 We describe the XML format and not the text/html format because it's the xml format which  would be use by you code.
 
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
 }}}
 Here you can find the version and the encoding of the Notification.
 Now the version is not "useful" but Delcampe need to change the format of the  notification , we wil change the version. So it can be interesting to have a check in your code if you code is write for a compatible version of notification. 
@@ -23,7 +23,7 @@ Now the version is not "useful" but Delcampe need to change the format of the  n
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-15 09:38:27</Notification_Datetime>
@@ -43,7 +43,7 @@ Now the version is not "useful" but Delcampe need to change the format of the  n
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-14 13:47:04</Notification_Datetime>
@@ -63,7 +63,7 @@ Now the version is not "useful" but Delcampe need to change the format of the  n
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-14 12:33:33</Notification_Datetime>
@@ -104,7 +104,7 @@ Now the version is not "useful" but Delcampe need to change the format of the  n
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-14 13:14:09</Notification_Datetime>
@@ -124,7 +124,7 @@ Now the version is not "useful" but Delcampe need to change the format of the  n
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding=\'ISO-8859-1\'?>
+<?xml version='1.0' encoding='ISO-8859-1'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-14 10:54:08</Notification_Datetime>
