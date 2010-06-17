@@ -6,6 +6,8 @@ Call this function to add a new notification destination for a specific notifica
  * Email notifications begins with 'Email'
  * XML notifications begins with 'Curl'
 
+For more informations about Delcampe's notifications, see [Notifications].
+
 === Call ===
 
  * syntax : addNotificationSetting(string token, string type, string destination)
