@@ -20,6 +20,8 @@ Call this function to get data on a specified item
   * if call not ok : 
    * element 2 : _string_ : error message
 
+ * notification : none
+
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
