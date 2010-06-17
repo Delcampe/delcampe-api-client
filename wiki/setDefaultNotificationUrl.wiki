@@ -1,17 +1,16 @@
 #summary Details on setDefaultNotificationUrl() API function
 #sidebar ApiFunctions
 
-Call this function to set a default URL where to receive xml notifications
+Call this function to set a default URL on wich xml notifications will be send
 
 For more informations about Delcampe's notifications, see [Notifications].
 
 === Call ===
 
- * syntax : addNotificationSetting(string token, string type, string destination)
+ * syntax : setDefaultNotificationUrl(string token, string destination)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : notification type. Call [getAvailableNotifications]() to get a list of notification types
- * parameter 3 : _string_ : destination where we have to send the notification
+ * parameter 2 : _string_ : url on wich xml notifications will be posted
 
 === Response ===
 
