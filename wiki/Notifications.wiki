@@ -12,7 +12,7 @@ To set the URL of your choice, you have two possibilities :
 Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
  * The notifications sent by call on your server are in XML format
  * These notifications are encoded in UTF-8
- * The different notification are recognized by their type
+ * The different notifications are recognized by their type
 
 == List of XML Notifications type you could receive from Delcampe on your feedback URL ==
 
