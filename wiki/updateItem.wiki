@@ -25,7 +25,6 @@ Call this function to update an existing item on Delcampe website.
    * array(false, 'err_item_tooLongDescription')
    * ...
 
-
 === Code example (PHP) ===
 {{{
 //DATA TO UPDATE
