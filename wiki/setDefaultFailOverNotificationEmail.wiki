@@ -1,7 +1,7 @@
 #summary Details on setDefaultFailOverNotificationEmail() API function
 #sidebar ApiFunctions
 
-Call this function to set an email address on wich xml notifications will be send (as attached file) after 5 unsuccess sending tries on your feedback url.
+Call this function to set an email address to wich xml notifications will be send (as attached file) after 5 unsuccess sending trials on your feedback url.
 
 For more informations about Delcampe's notifications, see [Notifications].
 
