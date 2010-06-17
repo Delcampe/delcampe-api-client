@@ -2,7 +2,7 @@
 
 Notification is the way to Delcampe to give a feedback to you.
 
-For common website members, these notification are send by mail and in Internal Delcampe Messagery.
+For common website members, these notifications are sent by mail and in Internal Delcampe Messagery.
 
 To let api user interact with website, a new format of notifications has created : XMl, and it sent by a simple http call on a URL of your choice with the xml in the POST data.
 
