@@ -10,6 +10,8 @@ To set the URL of your choice, you have two possibilities :
  * If you want to set a specific destination for each notification, call [addNotificationSetting]() 
 
 For more security, you can add, at the end of your URL, a token value of your choice. If you do so, this token will be set in each XML notification you'll receive from Delcampe, giving you the assurance that the notification is sent by Delcampe and no other one.
+ * Example of URL with a token :
+ * This token is set in the notifications you'll receive : <Notification_Token>Bob</Notification_Token>   
 
 
 Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
