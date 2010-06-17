@@ -51,7 +51,7 @@ Concretely, after a call of an API function, you will often receive a notificati
 
  * Example
 {{{
-<?xml version=\'1.0\' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-05-27 14:23:23</Notification_Datetime>
