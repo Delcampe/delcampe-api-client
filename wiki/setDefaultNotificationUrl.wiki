@@ -1,10 +1,7 @@
 #summary Details on setDefaultNotificationUrl() API function
 #sidebar ApiFunctions
 
-Call this function to set a default feedback URL to receive xml notifications
-
- * Email notifications begins with 'Email'
- * XML notifications begins with 'Curl'
+Call this function to set a default URL where to receive xml notifications
 
 For more informations about Delcampe's notifications, see [Notifications].
 
