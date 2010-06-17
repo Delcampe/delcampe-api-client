@@ -47,6 +47,20 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * after a call of [updateItem](), when the request is processed 
 
+ * Example
+{{{
+<?xml version='1.0' encoding='UTF-8'?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-15 09:38:27</Notification_Datetime>
+    <Notification_Type>Seller_Item_Add</Notification_Type>
+    <Notification_Data>
+      <id_item>0094429382</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
+
 
 
 === !Seller_Item_FirstBid ===
