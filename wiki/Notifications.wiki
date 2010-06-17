@@ -104,7 +104,7 @@ Concretely, after a call of an API function, you will often receive a notificati
       <best_bid>12.00 Eur</best_bid>
       <qty>1</qty>
       <personal_reference>MyPersonalReference</personal_reference>
-      <url_to_item>http://www.delcampe.net/item.php?language=F&id=55943975</url_to_item>
+      <url_to_item>http://www.delcampe.net/item.php?language=E&id=55943975</url_to_item>
       <bids_qty>1</bids_qty>
       <visits_counter>2</visits_counter>
       <buyer_id>57252065</buyer_id>
