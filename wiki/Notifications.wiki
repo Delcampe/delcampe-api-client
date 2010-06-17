@@ -3,7 +3,7 @@
 
 Notifications is the way Delcampe gives you feedback on your API actions.
 
-For common website members, notifications are sent by mail and in Internal Delcampe Messagery. For Delcampe's API users, notifications in XML format have been added. This format will allow users to interact with feedbacks. Those notifications are sent by a _simple http call_ on a URL of your choice with the xml in the _POST data_.
+For common website members, notifications are sent by mail and in Internal Delcampe Messagery. For Delcampe's API users, notifications in XML format have been added. This format will allow users to interact with feedbacks. Those notifications are sent by a _simple http call_ on a URL of your choice (_feedback url_) with the xml in the _POST data_.
 
 To set the URL of your choice, you have two possibilities :
  * If you want to set one URL for all your XML notifications, call [setDefaultNotificationUrl]()
