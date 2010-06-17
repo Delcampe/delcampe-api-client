@@ -16,8 +16,6 @@ For more informations about Delcampe's notifications, see [Notifications].
  * parameter 2 : _string_ : notification type. Call [getAvailableNotification]() to get a list of notification types
  * parameter 3 : _string_ : destination where we have to send the notification
 
- * notification : none
-
 === Response ===
 
  * response : _array_ : the response is always an array of 2 elements
@@ -30,6 +28,8 @@ For more informations about Delcampe's notifications, see [Notifications].
   * if call of the function is not ok, the message will differ :
    * array(false, 'The asked destination type is not valid!')
    * array(false, 'The asked destination seems to be invalid!')
+
+ * notification : none
 
 === Code example (PHP) ===
 {{{
