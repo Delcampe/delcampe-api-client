@@ -1,0 +1,40 @@
+#summary Details on getAuthorizedCloseItemReasons() API function
+#sidebar ApiFunctions
+
+Call this function to get the list of authorized reasonsto close an item. You have to set such a reason when calling ([closeItem](). 
+
+
+=== Call ===
+
+ * syntax : getCategoryList(string token, string language, integer parent)
+
+ * parameter 1 : _string_ : secret token
+ * parameter 2 : _character_ : the language in wich you want the categories. You have to specify one of the following values :
+  * 'E' : english
+  * 'F' : français
+  * 'I' : italiano
+  * 'S' : español
+  * 'D' : deutsch
+  * 'N' : nederlands
+ * parameter 3 : _integer_ : the parent category ID. By default 0 to return the main categories
+
+=== Response ===
+
+ * response : _array_ : the response is always an array of 2 elements
+  * element 1 : _boolean_ : true (if call ok) or false (if call not ok)
+  * element 2 : 
+   * if call ok : _array_ : list of Delcampe's categories (regarding parent ID set)
+   * if call not ok : _string_ : error message
+
+ * notification : none
+
+=== Code example (PHP) ===
+{{{
+//FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if (true === $success) {
+  $return = $objSoapClient->getCategoryList($token, 'E', 0);
+}
+}}}
