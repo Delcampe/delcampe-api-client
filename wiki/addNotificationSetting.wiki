@@ -1,12 +1,12 @@
 #summary Details on addItemAuction() API function
 #sidebar ApiFunctions
 
-Call this function to add a new auction item on Delcampe website.
+Call this function to set your notification settings
 
 
 === Call ===
 
- * syntax : addItemAuction(string token, array data)
+ * syntax : addNotificationSetting(string token, array data)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data needed to create an auction item
