@@ -6,7 +6,7 @@ Notifications is the way Delcampe gives you feedback on your API actions.
 For common website members, notifications are sent by mail and in Internal Delcampe Messagery. For Delcampe's API users, notifications in XML format have been added. This format will allow users to interact with feedbacks. Those notifications are sent by a _simple http call_ on a URL of your choice with the xml in the _POST data_.
 
 To set the URL of your choice, you have two choices :
- * You want to set one URL for all your XML notifications : call 
+ * You want to set one URL for all your XML notifications : call [setDefaultNotificationUrl]()
  * You want to set a specific URL for each XML notification : call [addNotificationSetting]() 
 
 Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
