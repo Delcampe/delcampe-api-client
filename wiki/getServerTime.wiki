@@ -4,15 +4,15 @@
 Call this function to get Delcampe's server time
 
 
-== Call ==
+=== Call ===
 
  * syntax : getServerTime()
 
-== Response ==
+=== Response ===
 
  * response : _timestamp_ : Delcampe's server time
 
-== Code example (PHP) ==
+=== Code example (PHP) ===
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
