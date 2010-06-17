@@ -7,10 +7,10 @@ For more informations about Delcampe's notifications, see [Notifications].
 
 === Call ===
 
- * syntax : setDefaultNotificationUrl(string token, string destination)
+ * syntax : changeNotificationStatus(string token, integer notificationID)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : valid url on wich xml notifications will be send
+ * parameter 2 : _integer_ : id of the notification you want to change. Call [getNotificationSettings] to get IDs of your notifications
 
 === Response ===
 
@@ -19,11 +19,8 @@ For more informations about Delcampe's notifications, see [Notifications].
   * element 2 : _string_  : message, giving you more information on the function call result 
 
  * example : 
-  * if call of the function is ok, the return will always be like this :
-   * array(true, 'Your default notification url has been saved!')
-  * if call of the function is not ok, the message will differ :
-   * array(false, 'The asked destination type is not valid!')
-   * array(false, 'The asked destination seems to be invalid!')
+   * array(true, 'The status of the notification is now Active!')
+   * array(true, 'The status of the notification is now Inactive!')
 
  * notification : none
 
