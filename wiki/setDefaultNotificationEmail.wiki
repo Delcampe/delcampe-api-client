@@ -1,7 +1,7 @@
 #summary Details on setDefaultNotificationEmail() API function
 #sidebar ApiFunctions
 
-Call this function to set a default email address on wich all email notifications will be send.
+Call this function to set a default email address to wich all email notifications will be send.
 
 For more informations about Delcampe's notifications, see [Notifications].
 
