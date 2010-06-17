@@ -31,6 +31,6 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = $objSoapClient->setDefaultNotificationUrl($token, 'http://www.mysite.net/feedback_api.php?token=bob');
+  $return = $objSoapClient->changeNotificationStatus($token, 12);
 }
 }}}
