@@ -14,7 +14,7 @@ Call this function to get the list of Delcampe's categories you're able to use i
   * 'F' : français
   * 'I' : italiano
   * 'S' : español
-  * 'D' : deutsch
+  * 'G' : german
   * 'N' : nederlands
  * parameter 3 : _integer_ : the parent category ID. By default 0 to return the main categories
 
