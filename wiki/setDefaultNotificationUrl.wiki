@@ -10,7 +10,7 @@ For more informations about Delcampe's notifications, see [Notifications].
  * syntax : setDefaultNotificationUrl(string token, string destination)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : url on wich xml notifications will be posted
+ * parameter 2 : _string_ : url on wich xml notifications will be send
 
 === Response ===
 
