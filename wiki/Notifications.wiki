@@ -29,12 +29,12 @@ Concretely, after a call of an API function, you will often receive a notificati
   * after a call of [addItemAuction](), when the request is processed 
   * after a call of [addItemFixedPrice](), when the request is processed
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
-    <Notification_Datetime>2010-06-15 09:38:27</Notification_Datetime>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
     <Notification_Type>Seller_Item_Add</Notification_Type>
     <Notification_Data>
       <id_item>8594429382</id_item>
@@ -49,9 +49,9 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * after a call of [updateItem](), when the request is processed 
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-05-27 14:23:23</Notification_Datetime>
@@ -70,12 +70,12 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * immediately when there is a first bid on an item
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
-    <Notification_Datetime>2010-06-14 13:47:04</Notification_Datetime>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
     <Notification_Type>Seller_Item_FirstBid</Notification_Type>
     <Notification_Data>
       <id_item>8494348510</id_item>
@@ -90,12 +90,12 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * when an item is sold on the website
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
-    <Notification_Datetime>2010-06-14 12:33:33</Notification_Datetime>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
     <Notification_Type>Seller_Item_Close_Sold</Notification_Type>
     <Notification_Data>
       <seller_nickname>test_seller</seller_nickname>
@@ -131,12 +131,12 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * when the end time of an unsold item is reached
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
-    <Notification_Datetime>2010-06-14 13:14:09</Notification_Datetime>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
     <Notification_Type>Seller_Item_Close_Unsold</Notification_Type>
     <Notification_Data>
       <id_item>5894326975</id_item>
@@ -151,12 +151,12 @@ Concretely, after a call of an API function, you will often receive a notificati
  * When is it send ?
   * after a call of [closeItem]()
 
- * Example
+==== Example ====
 {{{
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
-    <Notification_Datetime>2010-06-14 10:54:08</Notification_Datetime>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
     <Notification_Type>Seller_Item_Close_Manually</Notification_Type>
     <Notification_Data>
       <id_item>0094326254</id_item>
