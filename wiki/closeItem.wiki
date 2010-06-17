@@ -12,11 +12,7 @@ You have to specify the reason of the closing by selecting one of the valid reas
 
  * parameter 1 : _string_  : secret token
  * parameter 2 : _integer_ : id of the item you want to close
- * parameter 3 : _string_  : reason why you want to close the item. You have to specify one of the following values :
-  * '!TestItem'
-  * '!LostOrBrokenItem'
-  * '!NotAvailableItem'
-  * '!IncorrectItem'
+ * parameter 3 : _string_  : reason why you want to close the item. Call [getAuthorizedCloseItemReasons]() to get a list of valid reasons
 
 === Response ===
 
