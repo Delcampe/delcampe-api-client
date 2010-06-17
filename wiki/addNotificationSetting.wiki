@@ -20,13 +20,10 @@ Call this function to add a new notification settings
 
  * example : 
   * if call of the function is ok, the return will always be like this :
-   * array(true, 'Your request was taken into account!')
+   * array(true, 'Your new notification setting has been saved!')
   * if call of the function is not ok, the message will differ :
-   * array(false, 'err_item_incorrectIdSite')
-   * array(false, 'err_item_tooLongDescription')
-   * ...
-
- * notification : [Notifications#Seller_Item_Add Seller_Item_Add]
+   * array(false, 'The asked destination type is not valid!')
+   * array(false, 'The asked destination seems to be invalid!')
 
 === Code example (PHP) ===
 {{{
