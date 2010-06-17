@@ -20,7 +20,7 @@ For more informations about Delcampe's notifications, see [Notifications].
 
  * example : 
   * if call of the function is ok, the return will always be like this :
-   * array(true, 'Your new notification setting has been saved!')
+   * array(true, 'Your default notification url has been saved!')
   * if call of the function is not ok, the message will differ :
    * array(false, 'The asked destination type is not valid!')
    * array(false, 'The asked destination seems to be invalid!')
