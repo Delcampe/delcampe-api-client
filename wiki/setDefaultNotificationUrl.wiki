@@ -1,7 +1,7 @@
 #summary Details on setDefaultNotificationUrl() API function
 #sidebar ApiFunctions
 
-Call this function to set a default URL on wich xml notifications will be send
+Call this function to set a default URL on wich all xml notifications will be send
 
 For more informations about Delcampe's notifications, see [Notifications].
 
