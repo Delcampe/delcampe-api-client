@@ -18,6 +18,8 @@ Call this function to get a list of sold auction items
    * if call ok : _array_ : list of sold auction items 
    * if call not ok : _string_ : error message
 
+ * notification : none
+
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
