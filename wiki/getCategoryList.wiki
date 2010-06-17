@@ -3,9 +3,20 @@
 
 Call this function to get the list of Delcampe's categories you're able to use in items definition ([addItemAuction]() or [addItemFixedPrice]())
 
+
 === Call ===
 
  * syntax : getCategoryList(string token, string language, integer parent)
+
+ * parameter 1 : _string_ : secret token
+ * parameter 2 : _character_ : the language in wich you want the categories. You have to specify one of the following values :
+  * 'E' : english
+  * 'F' : français
+  * 'I' : italiano
+  * 'S' : español
+  * 'D' : deutsch
+  * 'N' : nederlands
+ * parameter 3 : _integer_ : 
 
 === Response ===
 soon
