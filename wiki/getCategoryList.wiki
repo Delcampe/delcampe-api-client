@@ -30,5 +30,11 @@ Call this function to get the list of Delcampe's categories you're able to use i
 
 === Code example (PHP) ===
 {{{
-soon
+//FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if (true === $success) {
+  $return = $objSoapClient->getCategoryList($token, 'E', 0);
+}
 }}}
