@@ -1,11 +1,17 @@
 #summary Informations on Delcampe's Notifications
 
-After a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
-<br>The notifications sent by call on your server are in XML format.
-<br>The notifications sent by mail are in text or html format.
-<br>The different notification are recognized by their type
+Notification is the way to Delcampe to give a feedback to you.
 
-* List of Notifications type you could receive from Delcampe 
+For common website members, these notification are send by mail and in Internal Delcampe Messagery.
+
+To let api user interact with website, a new format of notifications has created : XMl, and it sent by a simple http call on a URL of your choice with the xml in the POST data.
+
+So after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
+ * The notifications sent by call on your server are in XML format.
+ * The notifications sent by mail are in text or html format.
+ * The different notification are recognized by their type
+
+== List of Notifications type you could receive from Delcampe ==
 
 We describe the XML format and not the text/html format because it's the xml format which  would be use by you code.
 
