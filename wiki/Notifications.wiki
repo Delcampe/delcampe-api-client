@@ -7,6 +7,7 @@ For common website members, notifications are sent by mail and in Internal Delca
 
 Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
  * The notifications sent by call on your server are in XML format.
+ * Thes notifications are encoded in UTF-8
  * The different notification are recognized by their type
 
 == List of Notifications type you could receive from Delcampe ==
