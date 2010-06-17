@@ -1,15 +1,15 @@
 #summary Details on addItemAuction() API function
 #sidebar ApiFunctions
 
-Call this function to set your notification settings
+Call this function to add a new notification settings
 
 
 === Call ===
 
- * syntax : addNotificationSetting(string token, array data)
+ * syntax : addNotificationSetting(string token, string type, array data)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _array_  : containing the data needed to create an auction item
+ * parameter 2 : _string_ : notification type. Call [getAvailableNotification] to get a list of notification types
 
 === Response ===
 
