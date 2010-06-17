@@ -7,7 +7,7 @@ For common website members, notifications are sent by mail and in Internal Delca
 
 To set the URL of your choice, you have two possibilities :
  * If you want to set one URL for all your XML notifications, call [setDefaultNotificationUrl]()
- * If you want to set a specific URL for each XML notification, call [addNotificationSetting]() 
+ * If you want to set a specific destination for each notification, call [addNotificationSetting]() 
 
 Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
  * The notifications sent by call on your server are in XML format
