@@ -1,4 +1,4 @@
-#summary Details on addItemAuction() API function
+#summary Details on addNotificationSetting() API function
 #sidebar ApiFunctions
 
 Call this function to add a new notification destination for a specific notification type.
