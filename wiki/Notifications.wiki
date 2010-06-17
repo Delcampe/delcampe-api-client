@@ -42,6 +42,8 @@ Concretely, after a call of an API function, you will often receive a notificati
 }}}
 
 
+=== !Seller_Item_Update ===
+
 === !Seller_Item_FirstBid ===
 
  * When is it send ?
