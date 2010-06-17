@@ -1,5 +1,5 @@
+#summary Informations on Delcampe's Notifications
 #labels mpe
- type#summary Informations on Delcampe's Notifications
 
 Notifications is the way Delcampe gives you feedback on your API actions.
 
