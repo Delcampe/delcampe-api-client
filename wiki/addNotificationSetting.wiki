@@ -9,7 +9,8 @@ Call this function to add a new notification settings
  * syntax : addNotificationSetting(string token, string type, array data)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : notification type. Call [getAvailableNotification] to get a list of notification types
+ * parameter 2 : _string_ : notification type. Call [getAvailableNotification]() to get a list of notification types
+ * parameter 3 : _string_ : destination where we have to send the notification
 
 === Response ===
 
