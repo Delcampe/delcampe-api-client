@@ -2,8 +2,8 @@
 
 = Introduction =
 
-This page will give you, step by step, the information needed to start with our API
-
+This page will give you, step by step, the information needed to start with the Delcampe API.
+You can found also information about Notifications.
 
 = Details =
  * Using the documentation and examples, you should try to call a basic API function : [getServerTime](). Doing so, you'll be able to check if everything is ok on your side. This function does not require any authentication.
