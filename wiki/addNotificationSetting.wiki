@@ -3,6 +3,8 @@
 
 Call this function to add a new notification destination for a specific notification type.
 
+For now, you can set email notifications or xml notifications.
+
 
 === Call ===
 
