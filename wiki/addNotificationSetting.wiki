@@ -3,8 +3,8 @@
 
 Call this function to add a new notification destination for a specific notification type.
 
-For now, you can set email notifications or xml notifications.
-
+ * Email notifications begins with 'Email_'
+ * XML notifications begins with 'Curl_'
 
 === Call ===
 
