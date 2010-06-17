@@ -32,6 +32,6 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = $objSoapClient->addNotificationSetting($token, 'Curl_Seller_Item_Add', 'http://www.mysite.net/api/feedback_get.php?token=bob');
+  $return = $objSoapClient->addNotificationSetting($token, 'Curl_Seller_Item_Add', 'http://www.mysite.net/feedback_api.php?token=bob');
 }
 }}}
