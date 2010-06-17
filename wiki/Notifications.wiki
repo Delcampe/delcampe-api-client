@@ -4,7 +4,7 @@ Notification is the way to Delcampe to give a feedback to you.
 
 For common website members, these notifications are sent by mail and in Internal Delcampe Messagery.
 
-To let api user interact with website, a new media and format of notifications has added  : The format is XML, and it sent by a simple http call on a URL of your choice with the xml in the POST data.
+Notification is not a part of the API but to let API user interact with website, a new media and format of notifications has added  : The _format is XML_, and it sent by a _simple http call_ on a URL of your choice with the xml in the _POST data_.
 
 So after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
  * The notifications sent by call on your server are in XML format.
