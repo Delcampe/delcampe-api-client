@@ -16,6 +16,8 @@ Call this function to get a list of fields name you can use to handle a fixed pr
    * if call ok : _array_ : list of fields name you can use to handle a fixed price item
    * if call not ok : _string_ : error message
 
+ * notification : none
+
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
