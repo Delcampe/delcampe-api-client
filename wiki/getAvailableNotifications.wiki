@@ -1,8 +1,9 @@
 #summary Details on getAvailableNotifications() API function
 #sidebar ApiFunctions
 
-Call this function to get a list of available notifications
+Call this function to get a list of available notifications.
 
+For more informations about Delcampe's notifications, see [Notifications].
 
 === Call ===
 
