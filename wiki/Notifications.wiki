@@ -53,7 +53,7 @@ Concretely, after a call of an API function, you will often receive a notificati
   <Delcampe_Notification>
     <Notification_Token>bob</Notification_Token>
     <Notification_Datetime>2010-05-27 14:23:23</Notification_Datetime>
-    <Notification_Type>Item_Update</Notification_Type>
+    <Notification_Type>Seller_Item_Update</Notification_Type>
     <Notification_Data>
       <id_item>0092512738</id_item>
       <personal_reference>XAVTEST Bis</personal_reference>
