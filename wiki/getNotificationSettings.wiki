@@ -19,10 +19,6 @@ For more informations about Delcampe's notifications, see [Notifications].
    * if call ok : _array_ : list of your notifications settings
    * if call not ok : _string_ : error message 
 
- * example : 
-   * array(true, )
-
-
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
