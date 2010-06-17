@@ -27,17 +27,11 @@ Call this function to add a new notification settings
 
 === Code example (PHP) ===
 {{{
-//OPTIONAL IMAGES
-$data['images']                      = array('http://www.mypictures.com/pic1.jpg',
-                                             'http://www.mypictures.com/pic2.jpg',
-	                                     'http://www.mypictures.com/pic3.jpg'
-                                            );
-
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = $objSoapClient->addItemAuction($token, $data);
+  $return = $objSoapClient->addNotificationSetting($token, '', '');
 }
 }}}
