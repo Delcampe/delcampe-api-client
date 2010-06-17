@@ -20,7 +20,7 @@ For more informations about Delcampe's notifications, see [Notifications].
 
  * example : 
   * if call of the function is ok, the return will always be like this :
-   * array(true, 'Your default notification email has been saved!')
+   * array(true, 'Your default failover notification email has been saved!')
   * if call of the function is not ok, the message will differ :
    * array(false, 'The asked destination type is not valid!')
    * array(false, 'The asked destination seems to be invalid!')
@@ -34,6 +34,6 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = $objSoapClient->setDefaultNotificationEmail($token, 'john.doo@mysite.com');
+  $return = $objSoapClient->setDefaultFailOverNotificationEmail($token, 'john.doo@mysite.com');
 }
 }}}
