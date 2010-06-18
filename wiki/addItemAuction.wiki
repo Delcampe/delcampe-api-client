@@ -31,7 +31,6 @@ Call this function to add a new auction item on Delcampe website.
 {{{
 // MANDATORY DATA
 $data['id_country']                  = 0;
-$data['id_site']                     = 1;
 $data['id_category']                 = 80;
 $data['price_starting']              = '1.00';
 $data['price_increment']             = '0.01';
