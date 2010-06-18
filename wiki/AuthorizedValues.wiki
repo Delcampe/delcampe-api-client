@@ -70,3 +70,14 @@ Here is a list of fields name with their authorized fixed values.
 
 
 ==== prefered_end_day ====
+
+ * The day you want the sale to be closed
+ * Data type : string
+ * Accepted values and their meaning
+  * 'mon' : monday
+  * 'tue' : tuesday
+  * 'wed' : wednesday
+  * 'thu' : thursday
+  * 'fri' : friday
+  * 'sat' : saterday
+  * 'sun' : sunday
