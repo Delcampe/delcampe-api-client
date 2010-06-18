@@ -2,7 +2,7 @@
 #sidebar ApiFunctions
 
 Call this function to set a failover email address. This address will be used after
-5 unsuccess sending trials of your notification.
+5 unsuccess sending trials of your notifications (xml or email) on the set destination.
 
 For more informations about Delcampe's notifications, see [Notifications].
 
