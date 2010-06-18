@@ -35,3 +35,7 @@ Here is a list of fields name with their authorized fixed values.
   * 'GBP' : Pound sterling
   * 'CAD' : Canadian dollar
   * 'CHF' : Swiss franc
+
+==== duration ====
+==== renew ====
+==== prefered_end_day ====
