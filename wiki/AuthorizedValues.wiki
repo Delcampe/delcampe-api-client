@@ -34,4 +34,4 @@ Here is a list of fields name with their authorized fixed values.
   * 'USD' : United States dollar
   * 'GBP' : Pound sterling
   * 'CAD' : Canadian dollar
-  * 'CHF' :  
+  * 'CHF' : Swiss franc
