@@ -10,7 +10,7 @@ For more informations about Delcampe's notifications, see [Notifications].
  * syntax : changeNotificationStatus(string token, integer notificationID)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _integer_ : id of the notification you want to change. Call [getNotificationSettings] to get IDs of your notifications
+ * parameter 2 : _integer_ : id of the notification you want to change. Call [getNotificationSettings] to get the IDs of your notifications
 
 === Response ===
 
