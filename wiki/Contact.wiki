@@ -1,8 +1,9 @@
 #summary Contact List
+#labels Featured
 
 This is an external project of Delcampe International
 
-If you need to contact the team of this project (the client) :
+= If you need to contact the team of this project (the api client) =
  * you can give [http://spreadsheets.google.com/viewform?formkey=dFFzOFljLTJxMS1sQnVyQThUb1d4Zmc6MQ your Feedback]
  * you can add a comment on matching wikipage 
  * in source browser you can annotate each line of code
@@ -10,5 +11,5 @@ If you need to contact the team of this project (the client) :
  * The developer private  forum is [http://groups.google.com/group/delcampe-api here]
   * request an access to the google-group
  
-If you need information about the API or Request your Api key
+= If you need information about the API or Request your Api key =
  * Contact the [mailto:support_api@delcampe.com  Delcampe Support]
