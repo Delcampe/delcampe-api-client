@@ -7,6 +7,6 @@ Here is a list of fields name with their authorized fixed values.
 ==== id_country ====
 
  * Value type : integer
- * Accepted values :
+ * Accepted values
   * 
   * 'Blu'
