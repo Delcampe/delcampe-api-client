@@ -32,7 +32,7 @@ Call this function to add a new fixed price item on Delcampe website.
 // MANDATORY DATA
 $data['id_country']                  = 0;
 $data['id_category']                 = 80;
-$data['price_buyitnow']              = '1.00';
+$data['fixed_price']                 = '1.00';
 $data['currency']                    = 'EUR';
 $data['title']                       = 'My title';
 
