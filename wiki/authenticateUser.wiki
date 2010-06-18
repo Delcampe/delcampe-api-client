@@ -6,7 +6,7 @@ Call this function to authenticate yourself and get a personal token
 
 === Call ===
 
- * syntax : authenticateUser(string ApiKey)
+ * syntax : authenticateUser(string !ApiKey)
 
  * parameter : _string_ : your personal API key received from Delcampe
 
