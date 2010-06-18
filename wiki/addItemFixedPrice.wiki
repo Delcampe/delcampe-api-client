@@ -9,7 +9,7 @@ Call this function to add a new fixed price item on Delcampe website.
  * syntax : addItemFixedPrice(string token, array data)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _array_  : containing the data needed to create a fixed price item
+ * parameter 2 : _array_  : containing the data needed to create a fixed price item. See [AuthorizedValues] to have details on authorized values for specific fields.
 
 === Response ===
 
