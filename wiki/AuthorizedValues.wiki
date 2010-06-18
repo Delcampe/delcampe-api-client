@@ -26,4 +26,11 @@ Here is a list of fields name with their authorized fixed values.
 
  * Data type : integer
  * Accepted values and their meaning
-  * 1 : 
+  * 1 : stamps
+  * 2 : postcards
+  * 3 : coins
+  * 4 : books
+  * 5 : collections
+  * 6 : phonecards
+  * 7 : pins
+  * 8 : oldpaper
