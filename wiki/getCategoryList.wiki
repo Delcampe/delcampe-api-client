@@ -6,7 +6,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
 
 === Call ===
 
- * syntax : getCategoryList(string token, string language, integer parent)
+ * syntax : getCategoryList(string token, string language, integer parentCategoryID)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _character_ : Optional parameter. The language in wich you want the categories. Default value : 'E'. You can specify one of the following values :
@@ -16,7 +16,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
   * 'S' : español
   * 'G' : german
   * 'N' : nederlands
- * parameter 3 : _integer_ : the parent category ID. By default 0 to return the main categories
+ * parameter 3 : _integer_ : Optional parameter. The parent category ID. If you don't specify a parent category ID, it returns all Delcampe's category tree (more than 18.000 categories). Pay attention to your server performance.
 
 === Response ===
 
