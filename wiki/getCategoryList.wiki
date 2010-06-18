@@ -1,7 +1,7 @@
 #summary Details on getCategoryList() API function
 #sidebar ApiFunctions
 
-Call this function to get the list of Delcampe's categories to use in [addItemAuction]() or [addItemFixedPrice]().
+Call this function to get the list of Delcampe's categories you can set in [addItemAuction]() or [addItemFixedPrice]().
 
 
 === Call ===
