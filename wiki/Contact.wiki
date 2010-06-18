@@ -3,7 +3,7 @@
 
 This is an external project of Delcampe International
 
-= Contact the projet team =
+= Contact the project team =
 _If you need to contact the team of this project (the api client)_
  * you can give [http://spreadsheets.google.com/viewform?formkey=dFFzOFljLTJxMS1sQnVyQThUb1d4Zmc6MQ your Feedback]
  * you can add a comment on matching wikipage 
