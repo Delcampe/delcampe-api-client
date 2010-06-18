@@ -9,5 +9,5 @@ If you need to contact the team of this project (the client)  you can
  * The developer private  forum is [http://groups.google.com/group/delcampe-api here]
   * request an access to the google-group
  
-If you need information about the API
+If you need information about the API or Request your Api key
  * Contact the [mailto:support_api@delcampe.com  Delcampe Support]
