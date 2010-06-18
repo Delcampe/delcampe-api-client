@@ -7,16 +7,16 @@ Here is a list of fields name with their authorized fixed values.
 ==== id_country ====
 
  * Value type : integer
- * Accepted values
-  * 0 : 
-  * 1 :
-  * 2 :
-  * 3 : 
-  * 4 : 
-  * 5 : 
-  * 6 : 
-  * 7 :
-  * 8 :
-  * 9 : 
-  * 10 :
-  * 11 :  
+ * Accepted values and their meaning
+  * 0 : 'net'
+  * 1 : 'fr'
+  * 2 : 'de'
+  * 3 : 'nl'
+  * 4 : 'it'
+  * 5 : 'es'
+  * 6 : 'co.uk'
+  * 7 : 'com'
+  * 8 : 'ch'
+  * 9 : 'be'
+  * 10 : 'at'
+  * 11 : 'ca' 
