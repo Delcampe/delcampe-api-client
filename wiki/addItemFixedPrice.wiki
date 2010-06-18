@@ -31,7 +31,6 @@ Call this function to add a new fixed price item on Delcampe website.
 {{{
 // MANDATORY DATA
 $data['id_country']                  = 0;
-$data['id_site']                     = 1;
 $data['id_category']                 = 80;
 $data['price_buyitnow']              = '1.00';
 $data['currency']                    = 'EUR';
