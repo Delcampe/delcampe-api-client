@@ -6,6 +6,5 @@ Here is a list of each field name accepting only fixed values.
 
 === id_country ===
 
- * Accepted values :
   * 'Bla'
   * 'Blu'
