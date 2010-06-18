@@ -1,7 +1,7 @@
 #summary Details on authenticateUser() API function
 #sidebar ApiFunctions
 
-Call this function to authenticate yourself and get a personal token. When needed, you'll have to pass this token as first parameter when calling API functions. See detail of each function to have more informations.
+Call this function to authenticate yourself and get a personal token. When needed, you'll have to pass this token as first parameter when calling API functions. See detail of each API function to have more informations.
 
 
 === Call ===
