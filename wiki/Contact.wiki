@@ -14,4 +14,4 @@ _If you need to contact the team of this project (the api client)_
  
 = Contact Delcampe =
 _If you need information about the API or Request your Api key_
- * Contact the [mailto:support_api@delcampe.com  Delcampe Support]
+ * Contact the [mailto:support_api@delcampe.com&SUBJECT=About%20Delcampe%20API  Delcampe Support]
