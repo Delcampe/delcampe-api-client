@@ -2,7 +2,7 @@
 
 On this page, you'll find informations on values you can set on different fields when adding a new Auction item ([addItemAuction]()) or a new Fixed price item ([addItemFixedPrice]()). 
 
-Here is a list of each field name accepting only fixed values.
+Here is a list of fields name with their authorized fixed values.
 
 ==== id_country ====
 
