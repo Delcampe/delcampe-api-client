@@ -34,3 +34,8 @@ Here is a list of fields name with their authorized fixed values.
   * 6 : phonecards
   * 7 : pins
   * 8 : oldpaper
+
+==== id_category ====
+
+ * Data type : integer
+ * Accepted values and their meaning : call [getCategoryList]() 
