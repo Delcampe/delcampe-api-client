@@ -3,6 +3,8 @@
 
 Call this function to update an existing item on Delcampe website.
 
+If you update the images of an item, all existing images will be lost and replaced by the new ones.
+
 
 === Call ===
 
