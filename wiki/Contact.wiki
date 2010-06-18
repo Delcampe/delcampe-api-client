@@ -10,4 +10,4 @@ If you need to contact the team of this project (the client)  you can
   * request an access to the google-group
  
 If you need information about the API
- * Contact the Delcampe Service : [support_api@delcampe.com]
+ * Contact the [mailto:support_api@delcampe.com  Delcampe Support]
