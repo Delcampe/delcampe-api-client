@@ -101,7 +101,8 @@ Concretely, after a call of an API function, you will often receive a notificati
       <seller_nickname>test_seller</seller_nickname>
       <id_item>55943975</id_item>
       <item_title>Title of the item</item_title>
-      <best_bid>12.00 Eur</best_bid>
+      <best_bid>12.00</best_bid>
+      <best_bid_currency>Eur</best_bid_currency>
       <qty>1</qty>
       <personal_reference>MyPersonalReference</personal_reference>
       <url_to_item>http://www.delcampe.net/item.php?language=E&id=55943975</url_to_item>
