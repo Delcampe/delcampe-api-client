@@ -24,6 +24,6 @@ Here is a list of fields name with their authorized fixed values.
 
 ==== id_site ====
 
- * Value type : integer
+ * Data type : integer
  * Accepted values and their meaning
   * 1 : 
