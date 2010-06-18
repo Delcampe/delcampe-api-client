@@ -29,3 +29,9 @@ Here is a list of fields name with their authorized fixed values.
 
 ==== currency ====
  * Data type : string
+ * Accepted values and their meaning
+  * 'EUR' : 
+  * 'USD' :
+  * 'GBP' : 
+  * 'CAD' :
+  * 'CHF' :  
