@@ -10,4 +10,4 @@
  * [Links]
  * [Contact]
 ----
- [list list of all pages]
+ [http://code.google.com/p/delcampe-api-client/w/list list of all pages]
