@@ -10,4 +10,4 @@
  * [Links]
  * [Contact]
 ----
- [/w/list list of all pages]
+ [list list of all pages]
