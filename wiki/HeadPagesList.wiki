@@ -9,3 +9,5 @@
  * [TheSampleApplicationUsingClient The sample Application]
  * [Links]
  * [Contact]
+----
+ [/w/list list of all pages]
