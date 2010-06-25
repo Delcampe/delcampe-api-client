@@ -2,19 +2,19 @@
 
 = Introduction =
 
-You'll find here information about the new version of Delcampe's API, using SOAP technology, standards XML notifications, and providing more info and documentation to you, developers.
+You'll find here information about the new version of Delcampe API, using [http://en.wikipedia.org/wiki/SOAP SOAP] technology, standards XML notifications, and providing more info and documentation to you, developers.
 
-The goal of Delcampe's API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items on sale on the website.
+The goal of Delcampe API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items to sell on the marketplace.
 
 
-= What can I do with this API ? =
+= What can you do with this API ? =
   * put an item on sale (auction or fixed price)
-  * have a list of all my items on sale (with filters)
-  * modify an item and its images
+  * have a list of all your items on sale (with possible filters)
+  * modify an item (info and images)
   * close an item
-  * manage my notifications settings
+  * manage your notifications settings
   * get Delcampe's category list
-  * ...
+  * etc.
   
 
 = Sample Clients =
@@ -78,4 +78,4 @@ p ret
 
 = API client on .net =
 
-If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, I've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, I'd be interested in hearing that. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
+If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, we've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, we'd be interested to get some info, so we can inform here. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
