@@ -47,11 +47,11 @@ Here is a list of fields name with their authorized fixed values.
  * Duration of the sale
  * Data type : integer
  * Accepted values and their meaning
-  * 7 : sale duration of 7 days
-  * 10 : sale duration of 10 days
-  * 14 : sale duration of 14 days
-  * 21 : sale duration of 21 days
-  * 28 : sale duration of 28 days
+  * *7* : sale duration of 7 days
+  * *10* : sale duration of 10 days
+  * *14* : sale duration of 14 days
+  * *21* : sale duration of 21 days
+  * *28* : sale duration of 28 days
 
 
 ==== renew ====
