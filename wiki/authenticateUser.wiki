@@ -25,4 +25,9 @@ Call this function to authenticate yourself and get a personal token. When neede
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
+  if ($return[0] === true) {
+    var_export($return[1], 1);
+  } else {
+    echo 'Function call failed. Error message : ' . $return[1]; 
+  }
 }}}
