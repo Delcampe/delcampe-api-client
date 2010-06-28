@@ -59,14 +59,14 @@ Here is a list of fields name with their authorized fixed values.
  * Number of times the sale should be renewed if the item is not sold
  * Data type : integer
  * Accepted values and their meaning
-  * 0 : the sale will not be renewed
-  * 1 : renew the sale 1 time
-  * 2 : renew the sale 2 times
-  * 3 : renew the sale 3 times
-  * 4 : renew the sale 4 times
-  * 5 : renew the sale 5 times
-  * 10 : renew the sale 10 times
-  * 99 : renew the sale 99 times
+  * *0* : the sale will not be renewed
+  * *1* : renew the sale 1 time
+  * *2* : renew the sale 2 times
+  * *3* : renew the sale 3 times
+  * *4* : renew the sale 4 times
+  * *5* : renew the sale 5 times
+  * *10* : renew the sale 10 times
+  * *99* : renew the sale 99 times
 
 
 ==== prefered_end_day ====
@@ -74,10 +74,10 @@ Here is a list of fields name with their authorized fixed values.
  * The day you want the sale to be closed
  * Data type : string
  * Accepted values and their meaning
-  * 'mon' : monday
-  * 'tue' : tuesday
-  * 'wed' : wednesday
-  * 'thu' : thursday
-  * 'fri' : friday
-  * 'sat' : saterday
-  * 'sun' : sunday
+  * *mon* : monday
+  * *tue* : tuesday
+  * *wed* : wednesday
+  * *thu* : thursday
+  * *fri* : friday
+  * *sat* : saterday
+  * *sun* : sunday
