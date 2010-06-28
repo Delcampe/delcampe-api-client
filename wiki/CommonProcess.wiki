@@ -15,9 +15,9 @@ Now, your item is in a queue. It will be added on Delcampe's website soon.
 You will be informed by the Delcampe service when your item will be really processed and put on marketplace.
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
 
-= My item is  online but I want make a change =
- * [updateItem]() is able to modify  some fields
-Be care full 
+= My item is online but I want to make a change on it =
+ * Call [updateItem]() to modify some fields.
+Be carefull 
  # lot of fields cannot be changed when auction has his first bid.
 
 = There is a bid on my auction =
