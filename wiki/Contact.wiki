@@ -5,7 +5,7 @@
 
 To *request your API key* or simply get more info about the API
 
- * Contact the [mailto:support_api@delcampe.com&SUBJECT=API%20key%20request&BODY=I%20contact%20you%20about%20Delcampe's%20API.%20Please%20Can%20you%20send%20me%20information Delcampe API Support]
+ * Contact the [mailto:support_api@delcampe.com&SUBJECT=API%20key%20request&BODY=API%20key%20request... Delcampe API Support]
 
 = Contact the project team =
 _If you need to contact the team of this project (the api client)_
