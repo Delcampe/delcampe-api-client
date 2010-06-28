@@ -10,11 +10,10 @@ A delay of 5 seconds is applied between two calls of this function.
 
 === Call ===
 
- * syntax : closeItemPriority(string token, integer idItem, string reason)
+ * syntax : closeItemPriority(string token, integer idItem)
 
  * parameter 1 : _string_  : secret token
  * parameter 2 : _integer_ : id of the item you want to close
- * parameter 3 : _string_  : reason why you want to close the item. Call [getAuthorizedCloseItemReasons]() to get a list of valid reasons
 
 === Response ===
 
@@ -24,7 +23,7 @@ A delay of 5 seconds is applied between two calls of this function.
 
  * example : 
   * if call of the function is ok, the return will always be like this :
-   * array(true, 'Your request was taken into account!')
+   * array(true, 'Your item has been closed!')
   * if call of the function is not ok, the message will differ :
    * array(false, 'You are not the owner of this item!')
    * array(false, 'This item is already sold!')
