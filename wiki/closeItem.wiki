@@ -5,6 +5,8 @@ Call this function to close an item on Delcampe website.<br>
 You cannot close an auction item with a bid on it.<br> 
 You have to specify the reason of the closing by selecting one of the valid reasons.
 
+This function call will be placed in a queue and processed later.
+
 
 === Call ===
 
