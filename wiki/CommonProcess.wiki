@@ -18,7 +18,7 @@ You will be informed by the Delcampe service when your item will be really proce
 = My item is online but I want to make a change on it =
  * Call [updateItem]() to modify some fields. Be carefull : some fields cannot be changed when auction has his first bid.
 
-== There is a bid on my auction ==
+= There is a bid on my auction =
 When it happens, a notification "[Notifications#Seller_Item_FirstBid Seller_Item_FirstBid]" is sent to you by the Delcampe Service. It's important for you to catch it and process it on your side if you propose your item on sale on another place than Delcampe Website.
 Indeed, as you have a bidder, you have a potential winner, and you cannot retract your item.
 
