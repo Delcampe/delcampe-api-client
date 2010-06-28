@@ -6,6 +6,7 @@
 {{{
 <?php
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+var_export($objSoapClient->getServerTime());
 ?>
 }}}
 === With !Zend_Framework ===
@@ -13,12 +14,16 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 <?php
 Zend_Loader::loadClass('Zend_Soap_Client');
 $objSoapClient = new Zend_Soap_Client('http://api.delcampe.net/soap.php?wsdl');
+var_export($objSoapClient->getServerTime());
+}
 ?>
 }}}
 === With nuSoap ===
 {{{
 <?php
 require_once('nusoap.php');
+$objSoapClient = new nusoap('http://api.delcampe.net/soap.php?wsdl');
+var_export($objSoapClient->getServerTime());
 ?>
 }}}
 == Perl == 
