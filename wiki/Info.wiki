@@ -1,12 +1,5 @@
 #summary Informations
 
-= Introduction =
-
-You'll find here information about the new version of Delcampe API, using [http://en.wikipedia.org/wiki/SOAP SOAP] technology, standards XML notifications, and providing more info and documentation to you, developers.
-
-The goal of Delcampe API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items to sell on the marketplace.
-
-
 = Sample Clients =
 == Php == 
 === With PECL (native in php) ===
