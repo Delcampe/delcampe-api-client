@@ -1,7 +1,8 @@
 #summary Details on addItemAuction() API function
 #sidebar ApiFunctions
 
-Call this function to add a new auction item on Delcampe website.
+Call this function to add a new auction item on Delcampe website. 
+The auction will be placed in a queue and processed later.
 
 
 === Call ===
