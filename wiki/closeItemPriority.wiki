@@ -2,6 +2,7 @@
 #sidebar ApiFunctions
 
 Call this function if you need to close *immediately* an item on Delcampe website.<br>
+This close method must *only* be used to close an item sold on another website.
 You cannot close an auction item with a bid on it.<br>
 
 A delay of 5 seconds is applied between two calls of this function.
@@ -9,7 +10,7 @@ A delay of 5 seconds is applied between two calls of this function.
 
 === Call ===
 
- * syntax : closeItem(string token, integer idItem, string reason)
+ * syntax : closeItemPriority(string token, integer idItem, string reason)
 
  * parameter 1 : _string_  : secret token
  * parameter 2 : _integer_ : id of the item you want to close
