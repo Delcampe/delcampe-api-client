@@ -7,16 +7,6 @@ You'll find here information about the new version of Delcampe API, using [http:
 The goal of Delcampe API is to provide an automatic way to manage your items on Delcampe's website. So, the API is for big sellers who have a lot of items to sell on the marketplace.
 
 
-= What can you do with this API ? =
-  * put an item on sale (auction or fixed price)
-  * have a list of all your items on sale (with possible filters)
-  * modify an item (info and images)
-  * close an item
-  * manage your notifications settings
-  * get Delcampe's category list
-  * etc.
-  
-
 = Sample Clients =
 == Php == 
 === With PECL (native in php) ===
