@@ -1,7 +1,9 @@
 #summary Contact List
 #labels Featured
 
-This is an external project of Delcampe International
+= Contact Delcampe =
+_If you need information about the API or Request your Api key_
+ * Contact the [mailto:support_api@delcampe.com&SUBJECT=About%20Delcampe%20API&BODY=I%20Contact%20you%20about%20the%20API%20Delcampe.%20Please%20Can%20you%20send%20me%20information   Delcampe Support]
 
 = Contact the project team =
 _If you need to contact the team of this project (the api client)_
@@ -9,8 +11,3 @@ _If you need to contact the team of this project (the api client)_
  * you can add a comment on matching wikipage 
  * in source browser you can annotate each line of code
  * if  you found an issue or if you want to propose some changes (in the client), you can submit a new [http://code.google.com/p/delcampe-api-client/issues/list ticket], but please make a little check in the existing listing before to create a new entry.
-
- 
-= Contact Delcampe =
-_If you need information about the API or Request your Api key_
- * Contact the [mailto:support_api@delcampe.com&SUBJECT=About%20Delcampe%20API&BODY=I%20Contact%20you%20about%20the%20API%20Delcampe.%20Please%20Can%20you%20send%20me%20information   Delcampe Support]
