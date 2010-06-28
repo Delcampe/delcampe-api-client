@@ -26,9 +26,9 @@ If you cannot manage this feedback you must leave the exclusive sale of that obj
 
 = End of a fixed price sale =
 
-It the most easy case, a member of Delcampe website has accept your  price, the service send you a notification [Notifications#Seller_Item_Close_Sold Seller_Item_Close_Sold]
+It the most easy case, a member of Delcampe website has accept your price, the service send you a notification [Notifications#Seller_Item_Close_Sold Seller_Item_Close_Sold]
 
-You can use API to retrive the list of all item sold [getMySoldItemFixedPriceList]()
+You can use the API to retrieve the list of all your sold items [getMySoldItemFixedPriceList]()
 
 = Manage my notifications parameters =
  There is many notification type. You can retrieve the full list with [getAvailableNotifications]().
