@@ -6,7 +6,6 @@
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
  * [CommonProcess Common Process]
- * [TheSampleApplicationUsingClient The sample Application]
  * [Links]
  * [Contact]
 ----
