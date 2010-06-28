@@ -5,6 +5,7 @@
  * [Info] 	
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
+ * [AuthorizedValues Authorized fixed values]
  * [CommonProcess Common Process]
  * [Links]
  * [Contact]
