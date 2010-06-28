@@ -1,7 +1,5 @@
 #summary How to start
 
-This page will give you, step by step, the information needed to start with the Delcampe API.
-
  * Using the documentation and examples, you should try to call a basic API function : [getServerTime](). Doing so, you'll be able to check if everything is ok on your side. This simple function does not require any authentication.
 
  * To access the other functions of the Delcampe API, you need an API key ([Contact#Contact_Delcampe contact] the Delcampe customer service to get one)
