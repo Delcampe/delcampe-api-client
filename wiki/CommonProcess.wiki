@@ -2,7 +2,7 @@
 
 = Add an item for sale =
 
- * Choose parameter value for the item to add.
+ * Choose the parameter values for the item to add.
   * Choose a category : you can retrieve the category list with [getCategoryList]()
   * Choose if it's a fixed price or an auction, discover the wanted params with
    * [getFieldsNamesForItemAuction]()
@@ -11,9 +11,8 @@
   * [addItemAuction]() if it's an auction
   * [addItemFixedPrice]() if it's a fixed price
 
-Now  your  item is in a queue it would be added. 
-
-You would be informed by the delcampe service  when your item is really treat and put on marketplace.
+Now, your item is in a queue. It will be added on Delcampe's website soon.
+You will be informed by the Delcampe service when your item will be really processed and put on marketplace.
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
 
 = My item is  online but I want make a change =
