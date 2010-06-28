@@ -28,5 +28,10 @@ list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
   $return = $objSoapClient->getAuthorizedActions($token);
+  if ($return[0] === true) {
+    var_export($return[1], 1);
+  } else {
+    echo 'Function call failed. Error message : ' . $return[1]; 
+  }
 }
 }}}
