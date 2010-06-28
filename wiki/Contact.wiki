@@ -9,8 +9,7 @@ _If you need to contact the team of this project (the api client)_
  * you can add a comment on matching wikipage 
  * in source browser you can annotate each line of code
  * if  you found an issue or if you want to propose some changes (in the client), you can submit a new [http://code.google.com/p/delcampe-api-client/issues/list ticket], but please make a little check in the existing listing before to create a new entry.
- * The developer private  forum is [http://groups.google.com/group/delcampe-api here]
-  * request an access to the google-group
+
  
 = Contact Delcampe =
 _If you need information about the API or Request your Api key_
