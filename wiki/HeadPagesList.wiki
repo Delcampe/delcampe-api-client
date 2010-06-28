@@ -1,7 +1,7 @@
 #summary This page is listed on each other pages
 #labels Featured
 
- * [FirstSteps Make your first steps]
+ * [FirstSteps How to start]
  * [Info] 	
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
