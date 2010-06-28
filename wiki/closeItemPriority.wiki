@@ -1,7 +1,7 @@
 #summary Details on closeItemPriority() API function
 #sidebar ApiFunctions
 
-Call this function if you need to close immediately an item on Delcampe website.<br>
+Call this function if you need to close *immediately* an item on Delcampe website.<br>
 You cannot close an auction item with a bid on it.<br>
 
 A delay of 5 seconds is applied between two calls of this function.
