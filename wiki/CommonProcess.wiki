@@ -31,7 +31,7 @@ It the most easy case, a member of Delcampe website has accept your price, the s
 You can use the API to retrieve the list of all your sold items [getMySoldItemFixedPriceList]()
 
 = Manage my notifications parameters =
- There is many notification type. You can retrieve the full list with [getAvailableNotifications]().
+There is many notification type. You can retrieve the full list with [getAvailableNotifications]().
 
 Theses notifications are sent by email and/or by curl.
 
