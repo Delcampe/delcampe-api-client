@@ -8,6 +8,7 @@ List of *API functions* you can call.
  * [authenticateUser]()
  * [changeNotificationStatus]()
  * [closeItem]()
+ * [closeItemPriority]()
  * [getAuthorizedActions]()
  * [getAuthorizedCloseItemReasons]()
  * [getAvailableNotifications]()
