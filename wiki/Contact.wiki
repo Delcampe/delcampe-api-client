@@ -2,7 +2,9 @@
 #labels Featured
 
 = Contact Delcampe =
-_If you need information about the API or Request your Api key_
+
+To request your API key or simply get more info about the API
+
  * Contact the [mailto:support_api@delcampe.com&SUBJECT=About%20Delcampe%20API&BODY=I%20Contact%20you%20about%20the%20API%20Delcampe.%20Please%20Can%20you%20send%20me%20information   Delcampe Support]
 
 = Contact the project team =
