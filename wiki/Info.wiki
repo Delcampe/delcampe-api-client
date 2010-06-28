@@ -22,7 +22,8 @@ var_export($objSoapClient->getServerTime());
 {{{
 <?php
 require_once('nusoap.php');
-$objSoapClient = new nusoap('http://api.delcampe.net/soap.php?wsdl');
+$objSoapClient = new soap_server();
+$objSoapClient ->configureWSDL('delcampewsdl', 'http://api.delcampe.net/soap.php?wsdl');
 var_export($objSoapClient->getServerTime());
 ?>
 }}}
