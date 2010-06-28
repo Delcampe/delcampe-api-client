@@ -38,6 +38,6 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if (true === $success) {
-  $return = $objSoapClient->closeItem($token, 96485615, 'TestItem');
+  $return = $objSoapClient->closeItemPriority($token, 96485615);
 }
 }}}
