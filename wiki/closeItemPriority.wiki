@@ -29,7 +29,7 @@ A delay of 5 seconds is applied between two calls of this function.
    * array(false, 'This item is already sold!')
    * array(false, 'There is already a bid on this item!')
 
- * notification : [Notifications#Seller_Item_Close_Manually Seller_Item_Close_Manually]
+ * notification : none
 
 === Code example (PHP) ===
 {{{
