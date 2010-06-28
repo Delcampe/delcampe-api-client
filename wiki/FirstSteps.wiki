@@ -1,4 +1,4 @@
-#summary First steps
+#summary How to start
 
 This page will give you, step by step, the information needed to start with the Delcampe API.
 
