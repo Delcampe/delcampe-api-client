@@ -31,12 +31,12 @@ It the most easy case, a member of Delcampe website has accept your price, the s
 You can use the API to retrieve the list of all your sold items [getMySoldItemFixedPriceList]()
 
 = Manage my notifications parameters =
-There is many notification type. You can retrieve the full list with [getAvailableNotifications]().
+There is many notification types. You can retrieve the full list with [getAvailableNotifications]().
 
-Theses notifications are sent by email and/or by curl.
+These notifications are sent by email and/or by curl.
 
-If you decide to use api to manage your sales, the curl notification is the best way to handle feedbacks.
+If you decide to use the API to manage your sales, the curl notification is the best way to handle feedbacks.
 
-The most easy and  common usage is to set where the Service would send theses notifications. Do it with [setDefaultNotificationUrl]().
+The most easy and common usage is to set the URL where the Service should send these notifications. Do it using [setDefaultNotificationUrl]().
  
-You can want to receive also notification by mail,  [setDefaultNotificationEmail]() let you choose an email different of the account email of the seller.
+If you want to also receive notifications by mail, [setDefaultNotificationEmail]() let you choose a different email than the account email of the seller.
