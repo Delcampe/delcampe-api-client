@@ -52,7 +52,7 @@ ret = driver.getServerTime()
 p ret
 }}}
 
- For more info on Ruby and SOAP : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
+ * For more info on Ruby and SOAP : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
 
 = Documentation on the WSDL file =
 
