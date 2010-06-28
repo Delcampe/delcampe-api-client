@@ -23,4 +23,10 @@ Call this function to get a list of fields name you can use to handle a fixed pr
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->getFieldsNamesForItemFixedPrice();
+
+if ($return[0] === true) {
+  var_export($return[1], 1);
+} else {
+  echo 'Function call failed. Error message : ' . $return[1]; 
+}
 }}}
