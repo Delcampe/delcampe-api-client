@@ -65,6 +65,10 @@ p ret
 
  * For more info on Ruby and SOAP : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
 
+== Java ==
+
+== Python ==
+
 = Documentation on the WSDL file =
 
  * http://api.delcampe.net/soap.php?wsdl
