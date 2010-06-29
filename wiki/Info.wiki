@@ -43,6 +43,8 @@ my $service = SOAP::Lite;
 print $service->getServerTime()->result;
 }}}
 
+ * perl : http://msdn.microsoft.com/en-us/library/ms995764.aspx
+
 == Ruby ==
 {{{
 require 'rubygems'
