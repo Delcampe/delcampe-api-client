@@ -27,6 +27,9 @@ $objSoapClient = new soapclient('http://api.delcampe.net/soap.php?wsdl', true);
 var_export($objSoapClient->getServerTime());
 ?>
 }}}
+
+ * For more info : http://thedrupalblog.com/executing-soap-call-drupal-using-nusoap
+
 == Perl == 
 
 {{{
