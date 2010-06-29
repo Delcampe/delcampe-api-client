@@ -1,4 +1,4 @@
-#summary Use API presented by workflow.
+#summary Concrete cases of the use of the API .
 
 = Add an item for sale =
 
