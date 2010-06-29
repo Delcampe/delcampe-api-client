@@ -2,7 +2,7 @@
 #labels Featured
 
  * [FirstSteps How to start]
- * [Info] 	
+ * [Info Soap documentation] 	
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
  * [AuthorizedValues Authorized fixed values]
