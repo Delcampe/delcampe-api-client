@@ -1,5 +1,11 @@
 #summary Informations
 
+= Documentation on the WSDL file =
+
+ * http://api.delcampe.net/soap.php?wsdl
+
+ * http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
+
 = Sample Clients =
 == Php == 
 === With PECL (native in php) ===
@@ -72,13 +78,6 @@ p ret
 == Python ==
 
  * For info on Python and SOAP : http://www.ibm.com/developerworks/library/ws-pyth5/
-
-= Documentation on the WSDL file =
-
- * http://api.delcampe.net/soap.php?wsdl
-
- * http://xmethods.net/ve2/WSDLAnalyzer.po?wsdlurl=http%3A%2F%2Fapi.delcampe.net%2Fsoap.php%3Fwsdl&submit=submit
-
 
 = API client on .net =
 
