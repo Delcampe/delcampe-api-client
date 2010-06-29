@@ -6,7 +6,7 @@
  * [ApiFunctions Api Functions List]
  * [Notifications Notifications List]
  * [AuthorizedValues Authorized fixed values]
- * [CommonProcess Common Process]
+ * [CommonProcess Case studies]
  * [Contact]
 ----
  [http://code.google.com/p/delcampe-api-client/w/list list of all pages]
