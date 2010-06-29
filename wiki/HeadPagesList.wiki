@@ -7,7 +7,6 @@
  * [Notifications Notifications List]
  * [AuthorizedValues Authorized fixed values]
  * [CommonProcess Common Process]
- * [Links]
  * [Contact]
 ----
  [http://code.google.com/p/delcampe-api-client/w/list list of all pages]
