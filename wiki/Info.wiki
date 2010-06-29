@@ -77,6 +77,6 @@ p ret
 
  * For info on Python and SOAP : http://www.ibm.com/developerworks/library/ws-pyth5/
 
-= API client on .net =
+= .net =
 
 If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, we've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, we'd be interested to get some info, so we can inform here. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
