@@ -1,3 +1,2 @@
 === Links that could help you === 
- * java : http://cafeconleche.org/books/xmljava/chapters/ch03s05.html
  * python : http://www.ibm.com/developerworks/library/ws-pyth5/
