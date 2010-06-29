@@ -24,11 +24,14 @@ Call this function to get the ID of the seller linked to the given token
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
-$return = $objSoapClient->getMySellerId($token);
+list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
-if ($return[0] === true) {
-  var_export($return[1], 1);
-} else {
-  echo 'Function call failed. Error message : ' . $return[1]; 
+if (true === $success) {
+  $return = $objSoapClient->getMySellerId($token);
+  if ($return[0] === true) {
+    var_export($return[1], 1);
+  } else {
+    echo 'Function call failed. Error message : ' . $return[1]; 
+  }
 }
 }}}
