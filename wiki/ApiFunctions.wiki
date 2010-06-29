@@ -1,5 +1,5 @@
 #summary List of API functions you can call
-#labels Featured
+#labels FeaturedBla
 
 List of *API functions* you can call.
 
