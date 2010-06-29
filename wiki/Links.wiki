@@ -1,2 +1,0 @@
-=== Links that could help you === 
- * python : http://www.ibm.com/developerworks/library/ws-pyth5/
