@@ -71,6 +71,8 @@ p ret
 
 == Python ==
 
+ * For info on Python and SOAP : http://www.ibm.com/developerworks/library/ws-pyth5/
+
 = Documentation on the WSDL file =
 
  * http://api.delcampe.net/soap.php?wsdl
