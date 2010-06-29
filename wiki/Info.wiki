@@ -1,5 +1,3 @@
-#summary Informations
-
 = Documentation on the WSDL file =
 
  * http://api.delcampe.net/soap.php?wsdl
