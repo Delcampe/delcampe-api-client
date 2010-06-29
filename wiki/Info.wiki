@@ -43,7 +43,7 @@ my $service = SOAP::Lite;
 print $service->getServerTime()->result;
 }}}
 
- * perl : http://msdn.microsoft.com/en-us/library/ms995764.aspx
+ * For more info on Perl and SOAP : http://msdn.microsoft.com/en-us/library/ms995764.aspx
 
 == Ruby ==
 {{{
