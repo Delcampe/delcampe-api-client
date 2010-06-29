@@ -21,6 +21,7 @@ List of *API functions* you can call.
  * [getMyClosedUnsoldItemFixedPriceList]()
  * [getMyOpenItemAuctionList]()
  * [getMyOpenItemFixedPriceList]()
+ * [getMySellerId]()
  * [getMySoldItemAuctionList]()
  * [getMySoldItemFixedPriceList]()
  * [getNotificationSettings]()
