@@ -67,6 +67,8 @@ p ret
 
 == Java ==
 
+ * For more info on Java and SOAP : http://cafeconleche.org/books/xmljava/chapters/ch03s05.html
+
 == Python ==
 
 = Documentation on the WSDL file =
