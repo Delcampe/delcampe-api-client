@@ -1,5 +1,4 @@
 === Links that could help you === 
- * perl : http://msdn.microsoft.com/en-us/library/ms995764.aspx
  * java : http://cafeconleche.org/books/xmljava/chapters/ch03s05.html
  * php/drupal via nuSoap : http://thedrupalblog.com/executing-soap-call-drupal-using-nusoap
  * python : http://www.ibm.com/developerworks/library/ws-pyth5/
