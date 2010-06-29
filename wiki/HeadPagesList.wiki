@@ -1,4 +1,4 @@
-#summary This page is listed on each other pages
+#summary Main pages
 #labels Featured
 
  * [FirstSteps How to start]
