@@ -121,6 +121,8 @@ Concretely, after a call of an API function, you will often receive a notificati
       <buyer_state></buyer_state>
       <buyer_country>FR</buyer_country>
       <buyer_phone></buyer_phone>
+      <buyer_rating_nbr>20</buyer_rating_nbr>
+      <buyer_rating_percentage>98</buyer_rating_percentage>
       <url_to_rating>http://www.delcampe.net/item.php?language=F&id=55943975#rating</url_to_rating>
     </Notification_Data>
   </Delcampe_Notification>
