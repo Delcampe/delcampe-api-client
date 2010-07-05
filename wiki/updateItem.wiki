@@ -26,7 +26,8 @@ If you update the images of an item, all existing images of this item will be lo
    * array(false, 'err_item_tooLongDescription')
    * ...
 
- * notification : [Notifications#Seller_Item_Update Seller_Item_Update]
+=== Notification ===
+ * [Notifications#Seller_Item_Update Seller_Item_Update]
 
 === Code example (PHP) ===
 {{{
