@@ -6,7 +6,7 @@
 
  * Once you have your API key, you'll be authorized to call any API function you need, regarding your credentials. You could begin by calling [addItemAuction]() or [addItemFixedPrice]() to insert items on the website for example.
 
- * To get a list of *API functions* you can call, click [ApiFunctions here]
+ * To get details on every *API functions* you can call, click [ApiFunctions here]
 
  * To have more informations on different *notification* types and how to handle it, click [Notifications here]. 
 
