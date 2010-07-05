@@ -5,4 +5,9 @@
   * errorMsg : _string_ : message giving you more information on the function call failure
   * data : _string_ : message giving you the function call's information
 
- * fff
+ * If status is true
+   * data will be filled with relevant information
+   * errorMsg will be empty
+ * If status is false
+   * data will be empty
+   * errorMsg will be filled with relevant information
