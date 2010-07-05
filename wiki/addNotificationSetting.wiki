@@ -29,7 +29,8 @@ For more informations about Delcampe's notifications, see [Notifications].
    * array(false, 'The asked destination type is not valid!')
    * array(false, 'The asked destination seems to be invalid!')
 
- * notification : none
+=== Notification === 
+ * None
 
 === Code example (PHP) ===
 {{{
