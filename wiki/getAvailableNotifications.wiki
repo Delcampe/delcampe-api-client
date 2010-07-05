@@ -19,7 +19,8 @@ For more informations about Delcampe's notifications, see [Notifications].
    * if call ok : _array_ : list of available notifications
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
