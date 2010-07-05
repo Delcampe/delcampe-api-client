@@ -18,7 +18,8 @@ Call this function to get a list of open fixed price items
    * if call ok : _array_ : list of open fixed price items ID
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
