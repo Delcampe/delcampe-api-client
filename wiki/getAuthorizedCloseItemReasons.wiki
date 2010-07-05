@@ -16,7 +16,8 @@ Call this function to get the list of authorized reasonsto close an item. You ha
    * if call ok : _array_ : list of authorized reasons to close an item
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
