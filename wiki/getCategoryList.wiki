@@ -26,7 +26,8 @@ Call this function to get the list of Delcampe's categories you can set in [addI
    * if call ok : _array_ : list of Delcampe's categories (regarding parent ID set)
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
