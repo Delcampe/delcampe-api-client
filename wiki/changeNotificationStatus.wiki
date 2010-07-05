@@ -22,7 +22,8 @@ For more informations about Delcampe's notifications, see [Notifications].
    * array(true, 'The status of the notification is now Active!')
    * array(true, 'The status of the notification is now Inactive!')
 
- * notification : none
+=== Notification === 
+ * none
 
 === Code example (PHP) ===
 {{{
