@@ -18,7 +18,8 @@ Call this function to get a list of unsold closed auction items
    * if call ok : _array_ : list of unsold closed auction items ID
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
