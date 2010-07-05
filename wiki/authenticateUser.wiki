@@ -19,7 +19,8 @@ Call this function to authenticate yourself and get a personal token. When neede
    * if call ok : _string_ : your personal token
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification === 
+ * None
 
 === Code example (PHP) ===
 {{{
