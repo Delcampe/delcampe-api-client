@@ -13,7 +13,7 @@
    * *errorMsg* will be filled with relevant information
 
 
-if (false === ) {
+if (false === return->status) {
   echo return->data;
 } else {
   echo return->errorMsg;
