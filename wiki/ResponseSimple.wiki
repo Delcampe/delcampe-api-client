@@ -2,7 +2,6 @@
 
 ResponseSimple is an object, returned by some API functions, with 3 datafields :
 
- * status : _boolean : true (if call OK) or false (if call not OK)
+ * status : _boolean_ : true (if call OK) or false (if call not OK)
  * errorMsg : _string_ : message giving you more information on the function call failure
  * data : _string : message giving you the call information
-
