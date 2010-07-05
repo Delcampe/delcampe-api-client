@@ -18,7 +18,8 @@ Call this function to get a list of API functions you are authorized to call
    * if call ok : _array_ : list of API functions you are authorized to call
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
