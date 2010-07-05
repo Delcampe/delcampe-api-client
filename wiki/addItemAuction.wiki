@@ -27,7 +27,7 @@ This new item will be placed in a queue and processed later.
    * array(false, 'err_item_tooLongDescription')
    * ...
 
- * notification : [Notifications#Seller_Item_Add Seller_Item_Add]
+=== notification === : [Notifications#Seller_Item_Add Seller_Item_Add]
 
 === Code example (PHP) ===
 {{{
