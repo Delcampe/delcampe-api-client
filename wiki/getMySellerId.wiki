@@ -18,7 +18,8 @@ Call this function to get the ID of the seller linked to the given token
    * if call ok : _integer_ : ID of the seller linked to the token
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
