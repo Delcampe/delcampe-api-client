@@ -12,4 +12,4 @@
 
  * [CommonProcess Common Process] : some use cases presenting the content of the 2 previous lists but in common workflows.
 
- * To see each API function working, you can go [http://www.validwsdl.com/ here] and type the WSDL url (! http://api.delcampe.net/soap.php?wsdl) in the right field.
+ * To see each API function working, you can go [http://www.validwsdl.com/ here] and type the WSDL url (!http://api.delcampe.net/soap.php?wsdl) in the right field.
