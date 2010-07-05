@@ -30,7 +30,8 @@ This function call will be placed in a queue and processed later.
    * array(false, 'This item is already sold!')
    * array(false, 'There is already a bid on this item!')
 
- * notification : [Notifications#Seller_Item_Close_Manually Seller_Item_Close_Manually]
+=== Notification ===
+ * [Notifications#Seller_Item_Close_Manually Seller_Item_Close_Manually]
 
 === Code example (PHP) ===
 {{{
