@@ -19,7 +19,8 @@ Call this function to get data on a specified item
    * if call ok : _array_ : complete data of the specified item
    * if call not ok : _string_ : error message
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
