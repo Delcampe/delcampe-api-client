@@ -12,7 +12,8 @@ Call this function to get Delcampe's server time
 
  * response : _timestamp_ : Delcampe's server time
 
- * notification : none
+=== Notification ===
+ * None
 
 === Code example (PHP) ===
 {{{
