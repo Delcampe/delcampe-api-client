@@ -27,9 +27,9 @@ $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 if (return->status === true)
   $return = $objSoapClient->getMySellerId($return->data)
 
-  if (return->status === false) {
-    var_export($return->errorMsg, 1);
-  } else {
+  if (return->status === true) {
     var_export($return->data, 1);
+  } else {
+    var_export($return->errorMsg, 1);
   } 
 }}}}
