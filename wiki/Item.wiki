@@ -1,13 +1,10 @@
-#summary One-sentence summary of this page.
+#summary Details on object Item
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * Item is an object with 6 datafields :
+  * *id_item* : _integer_ : id of the item
+  * *id_country* : _integer_ : id of the country related to the item
+  * *id_category* : *integer* : id of the category related to the item
+  * *title* : _string_ : title of the item
+  * *subtitle* : _string_ : subtitle of the item
+  * *personal_reference* : _string_ : your personal reference for this item
+  * *description* : _string_ : description of the item
