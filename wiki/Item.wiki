@@ -20,3 +20,4 @@
   * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold
   * *option_boldtitle* : _boolean_ : bold title (true) or not (false) choosen for the item
   * *option_coloredborder* : _boolean_ : colored border (true) or not (false) choosen for the item
+  * *option_highlight* : _boolean_ : highlight (true) or not (false) choosen for the item
