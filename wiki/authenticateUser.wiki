@@ -13,7 +13,7 @@ Call this function to authenticate yourself and get a personal token. When neede
 
 === Response ===
 
- * ResponseSimple
+ * ResponseSimple, giving you a token
 
 === Notification === 
  * None
