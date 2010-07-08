@@ -23,3 +23,5 @@
   * *option_highlight* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_keepoptionsonrenewal* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_lastminutebidding* : _boolean_ : option chosen (true) or not (false) for the item
+  * *option_privatebidding* : _boolean_ : option chosen (true) or not (false) for the item
+  * *option_subtitle* : _boolean_ : option chosen (true) or not (false) for the item
