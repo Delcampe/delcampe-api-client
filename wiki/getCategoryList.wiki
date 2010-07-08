@@ -31,7 +31,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getCategoryList($token, 'E', 0);
+  $return = $objSoapClient->getCategoryList($return->data, 'E', 0);
 
   if ($return->status === true) {
     foreach ($return->data as $objCategory) {     
