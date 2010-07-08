@@ -27,8 +27,8 @@ if ($return->status === true) {
   $return = $objSoapClient->getItemInfo($return->data, 85846154);
 
   if ($return->status === true) {
-    $objItem = $return->data
-    var_export($objItem->id_item, 1);
+    $objItem = $return->data[0]
+    var_export($objItem, 1);
   } else {
     var_export($return->errorMsg, 1);
   } 
