@@ -24,7 +24,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
-if (return->status === true)
+if ($return->status === true)
   $return = $objSoapClient->getMySellerId($return->data)
 
   if (return->status === true) {
