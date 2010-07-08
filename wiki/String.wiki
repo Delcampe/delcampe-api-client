@@ -1,4 +1,4 @@
 #summary Details on String object
 
- * !String is an object with 1 datafield :
+ * String is an object with 1 datafield :
   * *data* : _string_ 
