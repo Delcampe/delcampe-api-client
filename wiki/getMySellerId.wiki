@@ -12,7 +12,7 @@ Call this function to get the ID of the seller linked to the given token
 
 === Response ===
 
- * ResponseSimple
+ * ResponseSimple, giving you the ID of the seller linked to the token
 
 === Notification ===
  * None
