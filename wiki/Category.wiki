@@ -1,4 +1,4 @@
 #summary Details on object Category
 
  * Category is an object with 6 datafields :
-  * *data* : _string_ 
+  * *id* : _int_ 
