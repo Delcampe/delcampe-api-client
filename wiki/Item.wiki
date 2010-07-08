@@ -1,6 +1,6 @@
 #summary Details on object Item
 
- * Item is an object with 6 datafields :
+ * Item is an object with 27 datafields :
   * *id_item* : _integer_ : id of the item
   * *id_country* : _integer_ : id of the country related to the item
   * *id_category* : *integer* : id of the category related to the item
