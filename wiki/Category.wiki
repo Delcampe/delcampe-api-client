@@ -1,9 +1,9 @@
 #summary Details on object Category
 
  * Category is an object with 6 datafields :
-  * *id* : _integer_ 
+  * *id* : _integer_ : id of the category
   * *id_site* : _integer_
-  * *name* : string
+  * *name* : string : name of the category
   * *id_parent* : _integer_
   * *child* : _boolean_
   * *selectable* : _boolean_
