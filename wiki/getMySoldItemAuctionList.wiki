@@ -11,7 +11,7 @@ Call this function to get a list of sold auction items
  * parameter : _string_ : secret token
 
 === Response ===
- * ResponseCategory, giving you a list of sold auction items ID
+ * ResponseItem, giving you a list of sold auction items ID
 
 === Notification ===
  * None
