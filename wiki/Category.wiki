@@ -2,3 +2,6 @@
 
  * Category is an object with 6 datafields :
   * *id* : _int_ 
+  * *id_site* : _int_
+  * *name* : string
+  * *id_parent* : _int_
