@@ -3,7 +3,7 @@
  * Category is an object with 6 datafields :
   * *id* : _integer_ : id of the category
   * *id_site* : _integer_ : this value is not used
-  * *name* : string : name of the category
+  * *name* : *string* : name of the category
   * *id_parent* : _integer_ : id of the parent category
   * *child* : _boolean_ : this category has childs categories (true) or not (false)
   * *selectable* : _boolean_ : this category can be used (true) or not (false)
