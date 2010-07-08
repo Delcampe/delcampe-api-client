@@ -25,3 +25,6 @@
   * *option_lastminutebidding* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_privatebidding* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_subtitle* : _boolean_ : option chosen (true) or not (false) for the item
+  * *option_topcategory* : _boolean_ : option chosen (true) or not (false) for the item
+  * *option_toplisting* : _boolean_ : option chosen (true) or not (false) for the item
+  * *option_topmain* : _boolean_ : option chosen (true) or not (false) for the item
