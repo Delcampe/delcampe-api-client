@@ -28,14 +28,17 @@ Call this function to get the list of Delcampe's categories you can set in [addI
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
-list($success, $token) = $objSoapClient->authenticateUser('MyPersonalApiKey');
+$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
-if (true === $success) {
+if ($return->status === true) {
   $return = $objSoapClient->getCategoryList($token, 'E', 0);
-  if ($return[0] === true) {
-    var_export($return[1], 1);
+
+  if ($return->status === true) {
+    foreach ($return->data as $objCategory) {     
+      var_export($objCategory->data, 1);
+    }
   } else {
-    echo 'Function call failed. Error message : ' . $return[1]; 
-  }
+    var_export($return->errorMsg, 1);
+  } 
 }
 }}}
