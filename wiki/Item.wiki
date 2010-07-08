@@ -21,3 +21,4 @@
   * *option_boldtitle* : _boolean_ : bold title (true) or not (false) choosen for the item
   * *option_coloredborder* : _boolean_ : colored border (true) or not (false) choosen for item's title
   * *option_highlight* : _boolean_ : highlight (true) or not (false) choosen for the item's title
+  * *option_keepoptionsonrenewal* : _boolean_ : keep choosen options (true) or not (false) at each sale renew
