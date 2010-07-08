@@ -6,4 +6,4 @@
   * *name* : string
   * *id_parent* : _integer_
   * *child* : _boolean_
-  * selectable : _boolean_
+  * *selectable* : _boolean_
