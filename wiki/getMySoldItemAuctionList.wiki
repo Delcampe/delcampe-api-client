@@ -27,7 +27,7 @@ if ($return->status === true) {
 
   if ($return->status === true) {
     foreach ($return->data as $objItem) {     
-      var_export($objItem->data, 1);
+      var_export($objItem->id_item, 1);
     }
   } else {
     var_export($return->errorMsg, 1);
