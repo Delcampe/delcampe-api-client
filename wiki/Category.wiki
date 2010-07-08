@@ -2,7 +2,7 @@
 
  * Category is an object with 6 datafields :
   * *id* : _integer_ : id of the category
-  * *id_site* : _integer_
+  * *id_site* : _integer_ : id of the site
   * *name* : string : name of the category
   * *id_parent* : _integer_
   * *child* : _boolean_
