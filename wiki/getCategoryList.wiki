@@ -19,7 +19,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
  * parameter 3 : _integer_ : Optional parameter. The parent category ID. If you don't specify a parent category ID, it returns all Delcampe's category tree (more than 18.000 categories). Pay attention to your server performance.
 
 === Response ===
- * ResponseItem, giving you a list of Delcampe's categories (regarding parent ID set)
+ * ResponseCategory, giving you a list of Delcampe's categories (regarding parent ID set)
 
 === Notification ===
  * None
