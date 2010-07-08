@@ -11,10 +11,3 @@
  * If *status* is _false_
    * *data* will be empty
    * *errorMsg* will be filled with relevant information
-
-
-if (false === return->status) {
-  echo return->data;
-} else {
-  echo return->errorMsg;
-}
