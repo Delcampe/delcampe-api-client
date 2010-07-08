@@ -1,4 +1,4 @@
-#summary Details on String object
+#summary Details on object String
 
  * String is an object with 1 datafield :
   * *data* : _string_ 
