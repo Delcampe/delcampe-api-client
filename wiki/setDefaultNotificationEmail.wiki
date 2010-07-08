@@ -23,6 +23,7 @@ For more informations about Delcampe's notifications, see [Notifications].
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
