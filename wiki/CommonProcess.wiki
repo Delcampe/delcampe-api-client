@@ -19,7 +19,7 @@ You will be informed by the Delcampe service when your item will be really proce
   With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
   This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can merge info at this time.
 
-If you miss it, you can search it [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
+If you miss it, you can search it with [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
 
 = My item is online but I want to make a change on it =
  * Call [updateItem]() to modify some fields. Be carefull : some fields cannot be changed when auction has his first bid.
