@@ -15,6 +15,12 @@ Now, your item is in a queue. It will be added on Delcampe's website soon.
 You will be informed by the Delcampe service when your item will be really processed and put on marketplace.
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
 
+= How to retrieve an item previously added on website =
+  With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
+  This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can merge info on this time.
+
+If you miss it, you can search it [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
+
 = My item is online but I want to make a change on it =
  * Call [updateItem]() to modify some fields. Be carefull : some fields cannot be changed when auction has his first bid.
 
