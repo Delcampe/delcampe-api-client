@@ -17,7 +17,7 @@ You will be informed by the Delcampe service when your item will be really proce
 
 = How to retrieve an item previously added on website =
   With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
-  This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can merge info on this time.
+  This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can merge info at this time.
 
 If you miss it, you can search it [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
 
