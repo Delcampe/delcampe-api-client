@@ -14,7 +14,7 @@
 Now, your item is in a queue. It will be added on Delcampe's website soon.
 You will be informed by the Delcampe service when your item will be really processed and put on marketplace.
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
-So, check how to [#Manage_my_notifications_parameters]
+So, check how to [#Manage_my_notifications_parameters Manage the notifications parameters]
 
 = How to retrieve an item previously added on website =
   With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
@@ -47,3 +47,7 @@ If you decide to use the API to manage your sales, the curl notification is the 
 The most easy and common usage is to set the URL where the Service should send these notifications. Do it using [setDefaultNotificationUrl]().
  
 If you want to also receive notifications by mail, [setDefaultNotificationEmail]() let you choose a different email than the account email of the seller.
+
+Note also : the recipent is defined by the notification settings of the *owner* of items, not of the *sender*
+
+As email is a preconfigured target, for each item sent ie, the owner would recive an email.
