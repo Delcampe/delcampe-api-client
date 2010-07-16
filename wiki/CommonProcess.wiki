@@ -51,3 +51,10 @@ If you want to also receive notifications by mail, [setDefaultNotificationEmail]
 Note also : the recipent is defined by the notification settings of the *owner* of items, not of the *sender*
 
 As email is a preconfigured target, for each item sent ie, the owner would recive an email.
+
+= How choose a category for my items =
+Like on the website, items are proposed by seller for category.
+In your item date for sending you need to provide a  valid category id.
+
+To know the list you can call [getCategoryList]() wich return a list of [ResponseCategory]
+ 
