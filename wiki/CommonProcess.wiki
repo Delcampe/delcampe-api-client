@@ -14,6 +14,7 @@
 Now, your item is in a queue. It will be added on Delcampe's website soon.
 You will be informed by the Delcampe service when your item will be really processed and put on marketplace.
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
+So, check how to [#Manage_my_notifications_parameters]
 
 = How to retrieve an item previously added on website =
   With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
