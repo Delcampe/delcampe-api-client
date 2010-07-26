@@ -8,7 +8,7 @@ To set the URL of your choice, you have two possibilities :
  * If you want to set one URL for all your XML notifications, call [setDefaultNotificationUrl]()
  * If you want to set a specific destination for each notification, call [addNotificationSetting]() 
 
-After 5 unsuccess xml notification sending on your feedback url, the xml notification will be sent on an email address. Call [setDefaultFailOverNotificationEmail]() to set this email address.
+After 5 unsuccessful xml notification sending on your feedback url, the xml notification will be sent on an email address. Call [setDefaultFailOverNotificationEmail]() to set this email address.
 
 For more security, you can add, at the end of your URL, a token value of your choice. If you do so, this token will be set in each XML notification you'll receive from Delcampe, giving you the assurance that the notification is sent by Delcampe and no other one.
  * Example of URL with a token : {{{http://www.mysite.net/feedback_api.php?token=bob}}}
