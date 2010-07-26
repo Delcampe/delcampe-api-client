@@ -54,17 +54,19 @@ print $service->getServerTime()->result;
 
 == Ruby ==
 {{{
-require 'rubygems'
-gem 'soap4r'
-require 'http-access2'
-require 'soap/wsdlDriver'
+require 'savon'
 
-wsdl = 'http://api.delcampe.net/soap.php?wsdl'
-driver = SOAP::WSDLDriverFactory.new(wsdl).create_rpc_drive r
-driver.wiredump_dev = $defout
+class DelcampeSoap
+  attr_accessor :wsdl_url,:connection
+  def initialize(url)
+    @wsdl_url = url
+    @connection = Savon::Client.new @wsdl_url
+  end
+end
 
-ret = driver.getServerTime()
-p ret
+dsoap = DelcampeSoap.new "http://api.delcampe.net/soap.php?wsdl"
+response = dsoap.connection.get_server_time
+puts response.to_hash[:get_server_time_response][:get_server_time_return]
 }}}
 
  * For more info on Ruby and SOAP : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
