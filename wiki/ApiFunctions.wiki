@@ -17,6 +17,7 @@ List of *API functions* you can call.
  * [getFieldsNamesForItemAuction]()
  * [getFieldsNamesForItemFixedPrice]()
  * [getItemInfo]()
+ * [getItemInfoByPersonalReference]()
  * [getMyClosedUnsoldItemAuctionList]()
  * [getMyClosedUnsoldItemFixedPriceList]()
  * [getMyOpenItemAuctionList]()
