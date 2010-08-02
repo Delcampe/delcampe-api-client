@@ -30,7 +30,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->updateItem($return->data, $data);
+  $return = $objSoapClient->updateItem($return->data, 99999999 ,$data);
 
   if ($return->status === true) {
     var_export($return->data, 1);
