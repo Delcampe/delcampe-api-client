@@ -27,13 +27,13 @@ $data['id_category']                 = 80;
 $data['fixed_price']                 = '1.00';
 $data['currency']                    = 'EUR';
 $data['title']                       = 'My title';
+$data['personal_reference']          = 'My personal ref';
 
 //OPTIONAL DATA
 $data['qty']                         = 3;
 $data['date_end']                    = '2010-07-01 10:00:00';
 $data['duration']                    = 10;
 $data['description']                 = 'My description'
-$data['personal_reference']          = 'My personal ref';
 $data['renew']                       = 2;
 $data['option_lastminutebidding']    = true;
 $data['option_privatebidding']       = false;
