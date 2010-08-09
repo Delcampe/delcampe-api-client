@@ -71,7 +71,7 @@ if ($return->status === true) {
     if (false === $return->status) {
         //Insert KO 
         if (!is_null($return->data)) {    
-            //To list items in error
+            //To list items in error, based on the personal reference of each item
             foreach ($return->data as $data) {
                 if (false === $data->status) {
                     printVar($data->errorMsg . ' for Item :' . $data->persRef);
