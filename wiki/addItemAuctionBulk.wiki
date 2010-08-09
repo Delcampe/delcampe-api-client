@@ -1,0 +1,76 @@
+#summary Details on addItemAuctionBulk() API function
+#sidebar ApiFunctions
+
+Call this function to add bulk new auction items on Delcampe website. 
+
+The new items will be placed in a queue and processed later.
+
+
+=== Call ===
+
+ * syntax : addItemAuctionBulk(string token, array dataBulk)
+
+ * parameter 1 : _string_ : secret token
+ * parameter 2 : _array_  : containing arrays of data needed to create the auction items. See [AuthorizedValues] to have details on authorized values for specific fields.
+
+=== Response ===
+
+ * ResponseSimpleBulk, giving you more information on the function call result 
+
+=== Notification === 
+ * [Notifications#Seller_Item_Add Seller_Item_Add]
+
+=== Code example (PHP) ===
+{{{
+for ($i = 0; $i < 100; $i++) {
+  // MANDATORY DATA
+  $data['id_country']                  = 0;
+  $data['id_category']                 = 80;
+  $data['price_starting']              = '1.00';
+  $data['price_increment']             = '0.01';
+  $data['currency']                    = 'EUR';
+  $data['title']                       = 'My title';
+  $data['personal_reference']          = 'My personal ref';
+
+  //OPTIONAL DATA
+  $data['price_reserve']               = '5.00';
+  $data['date_end']                    = '2010-07-01 10:00:00';
+$data['duration']                    = 10;
+$data['description']                 = 'My description'
+$data['renew']                       = 2;
+$data['option_lastminutebidding']    = true;
+$data['option_privatebidding']       = false;
+$data['option_subtitle']             = true;
+$data['subtitle']                    = 'My subtitle';
+$data['option_boldtitle']            = true;
+$data['option_highlight']            = false;
+$data['option_coloredborder']        = true;
+$data['option_toplisting']           = false;
+$data['option_topcategory']          = false;
+$data['option_topmain']              = false;
+$data['option_keepoptionsonrenewal'] = true;
+$data['prefered_end_day']            = 'mon';
+$data['prefered_end_hour']           = '15:00';
+
+//OPTIONAL IMAGES
+$data['images']                      = array('http://www.mypictures.com/pic1.jpg',
+                                             'http://www.mypictures.com/pic2.jpg',
+	                                     'http://www.mypictures.com/pic3.jpg'
+                                            );
+
+$dataBulk = $data[];
+
+//FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if ($return->status === true) {
+  $return = $objSoapClient->addItemAuction($return->data, $data);
+
+  if ($return->status === true) {
+    var_export($return->data, 1);
+  } else {
+    var_export($return->errorMsg, 1);
+  } 
+}
+}}}
