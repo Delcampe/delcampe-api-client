@@ -1,0 +1,11 @@
+#summary Verbose change log of the project.
+
+= Introduction =
+
+Add your content here.
+
+
+= 2010-08-09 =
+ * 2 new functions : addItemAuctionBulk() and addItemFixedPriceBulk(), to easily add multiple items at once. 
+= 2010-07-09 =
+ * First release with a set of usual function to create new items.
