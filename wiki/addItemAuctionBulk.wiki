@@ -35,42 +35,55 @@ for ($i = 0; $i < 100; $i++) {
   //OPTIONAL DATA
   $data['price_reserve']               = '5.00';
   $data['date_end']                    = '2010-07-01 10:00:00';
-$data['duration']                    = 10;
-$data['description']                 = 'My description'
-$data['renew']                       = 2;
-$data['option_lastminutebidding']    = true;
-$data['option_privatebidding']       = false;
-$data['option_subtitle']             = true;
-$data['subtitle']                    = 'My subtitle';
-$data['option_boldtitle']            = true;
-$data['option_highlight']            = false;
-$data['option_coloredborder']        = true;
-$data['option_toplisting']           = false;
-$data['option_topcategory']          = false;
-$data['option_topmain']              = false;
-$data['option_keepoptionsonrenewal'] = true;
-$data['prefered_end_day']            = 'mon';
-$data['prefered_end_hour']           = '15:00';
+  $data['duration']                    = 10;
+  $data['description']                 = 'My description'
+  $data['renew']                       = 2;
+  $data['option_lastminutebidding']    = true;
+  $data['option_privatebidding']       = false;
+  $data['option_subtitle']             = true;
+  $data['subtitle']                    = 'My subtitle';
+  $data['option_boldtitle']            = true;
+  $data['option_highlight']            = false;
+  $data['option_coloredborder']        = true;
+  $data['option_toplisting']           = false;
+  $data['option_topcategory']          = false;
+  $data['option_topmain']              = false;
+  $data['option_keepoptionsonrenewal'] = true;
+  $data['prefered_end_day']            = 'mon';
+  $data['prefered_end_hour']           = '15:00';
 
-//OPTIONAL IMAGES
-$data['images']                      = array('http://www.mypictures.com/pic1.jpg',
-                                             'http://www.mypictures.com/pic2.jpg',
-	                                     'http://www.mypictures.com/pic3.jpg'
-                                            );
+  //OPTIONAL IMAGES
+  $data['images']                      = array('http://www.mypictures.com/pic1.jpg',
+                                               'http://www.mypictures.com/pic2.jpg',
+	                                       'http://www.mypictures.com/pic3.jpg'
+                                              );
 
-$dataBulk = $data[];
+  $dataBulk[] = $data;
+}
 
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->addItemAuction($return->data, $data);
+  $return = $objSoapClient->addItemAuctionBulk($return->data, $dataBulk);
 
-  if ($return->status === true) {
-    var_export($return->data, 1);
-  } else {
-    var_export($return->errorMsg, 1);
-  } 
+    if (false === $return->status) {
+        //Insert KO 
+        if (!is_null($return->data)) {    
+            //To list items in error
+            foreach ($return->data as $data) {
+                if (false === $data->status) {
+                    printVar($data->errorMsg . ' for Item :' . $data->persRef);
+                }                    
+            }
+        } else {
+            //General error (not authorized to call this method, too much items to insert, ...)
+            printVar($return->errorMsg);
+        }     
+    } else {
+        //Insert OK
+        printVar($return->data[0]->data);
+    }
 }
 }}}
