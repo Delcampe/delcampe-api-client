@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+Here is the [http://code.google.com/p/delcampe-api-client/updates/list full log of change] and below a summary of most important changes.
 
 
 = 2010-08-09 =
