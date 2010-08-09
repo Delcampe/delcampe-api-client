@@ -6,10 +6,10 @@
   * *data* : _array_ of [ResponseSimple] objects 
 
  * If *status* is _true_
-   * *data* will be filled with relevant information
+   * All items were correctly add in process queue
    * *errorMsg* will be empty
  * If *status* is _false_
    * If *data* is null
      * *errorMsg* will be filled with relevant information : not authorized to call this method, too much items to insert,...
    * If *data* is not null
-     * *data* will be filled with [ResponseSimple] objects.
+     * *data* will be filled with [ResponseSimple] objects. Loop on this objects to detect the ones with a status set on false.
