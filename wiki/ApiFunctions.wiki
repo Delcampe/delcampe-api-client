@@ -5,6 +5,8 @@ List of *API functions* you can call.
 
  * [addItemAuction]()
  * [addItemFixedPrice]()
+ * [addItemAuctionBulk]()
+ * [addItemFixedPriceBulk]()
  * [addNotificationSetting]()
  * [authenticateUser]()
  * [changeNotificationStatus]()
