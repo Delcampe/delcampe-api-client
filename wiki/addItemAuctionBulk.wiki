@@ -1,7 +1,7 @@
 #summary Details on addItemAuctionBulk() API function
 #sidebar ApiFunctions
 
-Call this function to add bulk new auction items on Delcampe website.
+Call this function to add multiple auction items on Delcampe website at once.
 
 You can send a *maximum of 1000 items at once*. 
 
