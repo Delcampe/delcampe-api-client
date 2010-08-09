@@ -1,0 +1,90 @@
+#summary Details on addItemFixedPriceBulk() API function
+#sidebar ApiFunctions
+
+Call this function to add multiple fixed price items on Delcampe website at once.
+
+You can send a *maximum of 1000 items at once*. 
+
+The new items will be placed in a queue and processed later.
+
+
+=== Call ===
+
+ * syntax : addItemFixedPriceBulk(string token, array dataBulk)
+
+ * parameter 1 : _string_ : secret token
+ * parameter 2 : _array_  : containing arrays of data needed to create the fixed price items. See [AuthorizedValues] to have details on authorized values for specific fields.
+
+=== Response ===
+
+ * ResponseSimpleBulk, giving you more information on the function call result 
+
+=== Notification === 
+ * [Notifications#Seller_Item_Add Seller_Item_Add]
+
+=== Code example (PHP) ===
+{{{
+for ($i = 0; $i < 100; $i++) {
+  // MANDATORY DATA
+  $data['id_country']                  = 0;
+  $data['id_category']                 = 80;
+  $data['fixed_price']                 = '0.01';
+  $data['currency']                    = 'EUR';
+  $data['title']                       = 'My title';
+  $data['personal_reference']          = 'My personal ref';
+
+  //OPTIONAL DATA
+  $data['price_reserve']               = '5.00';
+  $data['date_end']                    = '2010-07-01 10:00:00';
+  $data['duration']                    = 10;
+  $data['description']                 = 'My description'
+  $data['renew']                       = 2;
+  $data['option_lastminutebidding']    = true;
+  $data['option_privatebidding']       = false;
+  $data['option_subtitle']             = true;
+  $data['subtitle']                    = 'My subtitle';
+  $data['option_boldtitle']            = true;
+  $data['option_highlight']            = false;
+  $data['option_coloredborder']        = true;
+  $data['option_toplisting']           = false;
+  $data['option_topcategory']          = false;
+  $data['option_topmain']              = false;
+  $data['option_keepoptionsonrenewal'] = true;
+  $data['prefered_end_day']            = 'mon';
+  $data['prefered_end_hour']           = '15:00';
+
+  //OPTIONAL IMAGES
+  $data['images']                      = array('http://www.mypictures.com/pic1.jpg',
+                                               'http://www.mypictures.com/pic2.jpg',
+	                                       'http://www.mypictures.com/pic3.jpg'
+                                              );
+
+  $dataBulk[] = $data;
+}
+
+//FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if ($return->status === true) {
+  $return = $objSoapClient->addItemFixedPriceBulk($return->data, $dataBulk);
+
+    if (false === $return->status) {
+        //Insert KO 
+        if (!is_null($return->data)) {    
+            //To list items in error, based on the personal reference of each item
+            foreach ($return->data as $data) {
+                if (false === $data->status) {
+                    printVar($data->errorMsg . ' for Item :' . $data->persRef);
+                }                    
+            }
+        } else {
+            //General error (not authorized to call this method, too much items to insert, ...)
+            printVar($return->errorMsg);
+        }     
+    } else {
+        //Insert OK
+        printVar($return->data[0]->data);
+    }
+}
+}}}
