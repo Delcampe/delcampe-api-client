@@ -13,7 +13,7 @@ The new items will be placed in a queue and processed later.
  * syntax : addItemAuctionBulk(string token, array dataBulk)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _array_  : containing arrays of data needed to create the auction items. See [AuthorizedValues] to have details on authorized values for specific fields.
+ * parameter 2 : _array_  : array containing arrays of data needed to create the auction items. See [AuthorizedValues] to have details on authorized values for specific fields.
 
 === Response ===
 
