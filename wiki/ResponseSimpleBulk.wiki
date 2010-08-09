@@ -10,6 +10,6 @@
    * *errorMsg* will be empty
  * If *status* is _false_
    * If *data* is null
-     * *errorMsg* will be filled with relevant general information : not authorized to call this method, too much items to insert,...
+     * *errorMsg* will be filled with relevant information : not authorized to call this method, too much items to insert,...
    * If *data* is not null
      * *data* will be filled with [ResponseSimple] objects.
