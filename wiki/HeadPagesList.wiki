@@ -8,5 +8,6 @@
  * [AuthorizedValues Authorized fixed values]
  * [CommonProcess Case studies]
  * [Contact]
+ * [Changelog]
 ----
  [http://code.google.com/p/delcampe-api-client/w/list list of all pages]
