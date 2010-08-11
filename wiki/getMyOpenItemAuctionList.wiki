@@ -1,8 +1,7 @@
 #summary Details on getMyOpenItemAuctionList() API function
 #sidebar ApiFunctions
 
-Call this function to get a list of open auction items
-
+Call this function to get the ID list of open auction items
 
 === Call ===
 
