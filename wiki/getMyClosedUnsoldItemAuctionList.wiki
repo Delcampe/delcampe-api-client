@@ -30,71 +30,71 @@ Call this function to get a list of unsold closed auction items
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <SOAP-ENV:getMyClosedUnsoldItemAuctionListResponse>
-<getMyClosedUnsoldItemAuctionListReturn xsi:type="ns1:ResponseItem">
-<data SOAP-ENC:arrayType="ns1:Item[2]" xsi:type="ns1:ArrayOfItem">
-<item xsi:type="ns1:Item">
-<id_item xsi:type="xsd:int">71087507</id_item>
-<id_country xsi:nil="true"/>
-<id_category xsi:nil="true"/>
-<title xsi:nil="true"/>
-<subtitle xsi:nil="true"/>
-<personal_reference xsi:nil="true"/>
-<description xsi:nil="true"/>
-<price_starting xsi:nil="true"/>
-<fixed_price xsi:nil="true"/>
-<price_increment xsi:nil="true"/>
-<currency xsi:nil="true"/>
-<date_end xsi:nil="true"/>
-<duration xsi:nil="true"/>
-<prefered_end_day xsi:nil="true"/>
-<prefered_end_hour xsi:nil="true"/>
-<qty xsi:nil="true"/>
-<renew xsi:nil="true"/>
-<option_boldtitle xsi:nil="true"/>
-<option_coloredborder xsi:nil="true"/>
-<option_highlight xsi:nil="true"/>
-<option_keepoptionsonrenewal xsi:nil="true"/>
-<option_lastminutebidding xsi:nil="true"/>
-<option_privatebidding xsi:nil="true"/>
-<option_subtitle xsi:nil="true"/>
-<option_topcategory xsi:nil="true"/>
-<option_toplisting xsi:nil="true"/>
-<option_topmain xsi:nil="true"/>
-</item>
-<item xsi:type="ns1:Item">
-<id_item xsi:type="xsd:int">83092147</id_item>
-<id_country xsi:nil="true"/>
-<id_category xsi:nil="true"/>
-<title xsi:nil="true"/>
-<subtitle xsi:nil="true"/>
-<personal_reference xsi:nil="true"/>
-<description xsi:nil="true"/>
-<price_starting xsi:nil="true"/>
-<fixed_price xsi:nil="true"/>
-<price_increment xsi:nil="true"/>
-<currency xsi:nil="true"/>
-<date_end xsi:nil="true"/>
-<duration xsi:nil="true"/>
-<prefered_end_day xsi:nil="true"/>
-<prefered_end_hour xsi:nil="true"/>
-<qty xsi:nil="true"/>
-<renew xsi:nil="true"/>
-<option_boldtitle xsi:nil="true"/>
-<option_coloredborder xsi:nil="true"/>
-<option_highlight xsi:nil="true"/>
-<option_keepoptionsonrenewal xsi:nil="true"/>
-<option_lastminutebidding xsi:nil="true"/>
-<option_privatebidding xsi:nil="true"/>
-<option_subtitle xsi:nil="true"/>
-<option_topcategory xsi:nil="true"/>
-<option_toplisting xsi:nil="true"/>
-<option_topmain xsi:nil="true"/>
-</item>
-</data>
-<status xsi:type="xsd:boolean">true</status>
-<errorMsg xsi:nil="true"/>
-<persRef xsi:nil="true"/>
-</getMyClosedUnsoldItemAuctionListReturn>
+  <getMyClosedUnsoldItemAuctionListReturn xsi:type="ns1:ResponseItem">
+  <data SOAP-ENC:arrayType="ns1:Item[2]" xsi:type="ns1:ArrayOfItem">
+    <item xsi:type="ns1:Item">
+      <id_item xsi:type="xsd:int">71087507</id_item>
+      <id_country xsi:nil="true"/>
+      <id_category xsi:nil="true"/>
+      <title xsi:nil="true"/>
+      <subtitle xsi:nil="true"/>
+      <personal_reference xsi:nil="true"/>
+      <description xsi:nil="true"/>
+      <price_starting xsi:nil="true"/>
+      <fixed_price xsi:nil="true"/>
+      <price_increment xsi:nil="true"/>
+      <currency xsi:nil="true"/>
+      <date_end xsi:nil="true"/>
+      <duration xsi:nil="true"/>
+      <prefered_end_day xsi:nil="true"/>
+      <prefered_end_hour xsi:nil="true"/>
+      <qty xsi:nil="true"/>
+      <renew xsi:nil="true"/>
+      <option_boldtitle xsi:nil="true"/>
+      <option_coloredborder xsi:nil="true"/>
+      <option_highlight xsi:nil="true"/>
+      <option_keepoptionsonrenewal xsi:nil="true"/>
+      <option_lastminutebidding xsi:nil="true"/>
+      <option_privatebidding xsi:nil="true"/>
+      <option_subtitle xsi:nil="true"/>
+      <option_topcategory xsi:nil="true"/>
+      <option_toplisting xsi:nil="true"/>
+      <option_topmain xsi:nil="true"/>
+    </item>
+    <item xsi:type="ns1:Item">
+      <id_item xsi:type="xsd:int">83092147</id_item>
+      <id_country xsi:nil="true"/>
+      <id_category xsi:nil="true"/>
+      <title xsi:nil="true"/>
+      <subtitle xsi:nil="true"/>
+      <personal_reference xsi:nil="true"/>
+      <description xsi:nil="true"/>
+      <price_starting xsi:nil="true"/>
+      <fixed_price xsi:nil="true"/>
+      <price_increment xsi:nil="true"/>
+      <currency xsi:nil="true"/>
+      <date_end xsi:nil="true"/>
+      <duration xsi:nil="true"/>
+      <prefered_end_day xsi:nil="true"/>
+      <prefered_end_hour xsi:nil="true"/>
+      <qty xsi:nil="true"/>
+      <renew xsi:nil="true"/>
+      <option_boldtitle xsi:nil="true"/>
+      <option_coloredborder xsi:nil="true"/>
+      <option_highlight xsi:nil="true"/>
+      <option_keepoptionsonrenewal xsi:nil="true"/>
+      <option_lastminutebidding xsi:nil="true"/>
+      <option_privatebidding xsi:nil="true"/>
+      <option_subtitle xsi:nil="true"/>
+      <option_topcategory xsi:nil="true"/>
+      <option_toplisting xsi:nil="true"/>
+      <option_topmain xsi:nil="true"/>
+    </item>
+  </data>
+  <status xsi:type="xsd:boolean">true</status>
+  <errorMsg xsi:nil="true"/>
+  <persRef xsi:nil="true"/>
+  </getMyClosedUnsoldItemAuctionListReturn>
 </SOAP-ENV:getMyClosedUnsoldItemAuctionListResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
