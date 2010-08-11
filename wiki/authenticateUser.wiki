@@ -21,29 +21,29 @@ Call this function to authenticate yourself and get a personal token. When neede
 === SOAP Envelope (call) ===
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-  <SOAP-ENV:Body>
-    <SOAP-ENV:authenticateUser>
-      <apiKey xsi:type="xsd:string">
-        nUvUtHu98swUrAQuT5uaNAk5yaph89aspUr7pEmeecUHubRagaTe5HawexE
-      </apiKey>
-    </SOAP-ENV:authenticateUser>
-  </SOAP-ENV:Body>
+<SOAP-ENV:Body>
+<SOAP-ENV:authenticateUser>
+  <apiKey xsi:type="xsd:string">
+    nUvUtHu98swUrAQuT5uaNAk5yaph89aspUr7pEmeecUHubRagaTe5HawexE
+  </apiKey>
+</SOAP-ENV:authenticateUser>
+</SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
 
 === SOAP Envelope (response) ===
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-  <SOAP-ENV:Body>
-    <SOAP-ENV:authenticateUserResponse>
-      <authenticateUserReturn xsi:type="ns1:ResponseSimple">
-        <status xsi:type="xsd:boolean">true</status>
-        <errorMsg xsi:nil="true"/>
-        <data xsi:type="xsd:string">327c1a8b5111b35105d9eac5b640</data>
-        <persRef xsi:nil="true"/>
-      </authenticateUserReturn>
-    </SOAP-ENV:authenticateUserResponse>
-  </SOAP-ENV:Body>
+<SOAP-ENV:Body>
+<SOAP-ENV:authenticateUserResponse>
+  <authenticateUserReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">327c1a8b5111b35105d9eac5b640</data>
+    <persRef xsi:nil="true"/>
+  </authenticateUserReturn>
+</SOAP-ENV:authenticateUserResponse>
+</SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
 
