@@ -42,23 +42,23 @@ This new item will be placed in a queue and processed later.
     <key xsi:type="xsd:string">currency</key>
     <value xsi:type="xsd:string">EUR</value>
   </item>
-    <item>
+  <item>
     <key xsi:type="xsd:string">title</key>
-<value xsi:type="xsd:string">API TEST</value>
-</item>
-<item>
-<key xsi:type="xsd:string">personal_reference</key>
-<value xsi:type="xsd:string">MyPersRef</value>
-</item>
-<item>
-<key xsi:type="xsd:string">images</key>
-<value SOAP-ENC:arrayType="xsd:string[3]" xsi:type="SOAP-ENC:Array">
-<item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
-<item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
-<item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_3.jpg</item>
-</value>
-</item>
-</arrData>
+    <value xsi:type="xsd:string">API TEST</value>
+  </item>
+  <item>
+    <key xsi:type="xsd:string">personal_reference</key>
+    <value xsi:type="xsd:string">MyPersRef</value>
+  </item>
+  <item>
+    <key xsi:type="xsd:string">images</key>
+    <value SOAP-ENC:arrayType="xsd:string[3]" xsi:type="SOAP-ENC:Array">
+      <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
+      <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
+      <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_3.jpg</item>
+    </value>
+  </item>
+  </arrData>
 </SOAP-ENV:addItemFixedPrice>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
