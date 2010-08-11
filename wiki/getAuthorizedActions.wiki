@@ -99,7 +99,7 @@ Call this function to get a list of API functions you are authorized to call
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
   <persRef xsi:nil="true"/>
-</getAuthorizedActionsReturn>
+  </getAuthorizedActionsReturn>
 </SOAP-ENV:getAuthorizedActionsResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
