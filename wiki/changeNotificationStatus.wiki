@@ -29,6 +29,7 @@ For more informations about Delcampe's notifications, see [Notifications].
  * ResponseSimple, giving you more information on the function call result 
 
  * SOAP envelope
+{{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <SOAP-ENV:changeNotificationStatusResponse>
@@ -41,6 +42,7 @@ For more informations about Delcampe's notifications, see [Notifications].
 </SOAP-ENV:changeNotificationStatusResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
+}}}
 
 === Notification === 
  * None
