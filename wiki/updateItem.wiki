@@ -13,6 +13,28 @@ If you update the images of an item, all existing images of this item will be lo
  * parameter 2 : _int_    : id of the item you want to update 
  * parameter 3 : _array_  : containing the data you want to update
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:updateItem>
+  <token xsi:type="xsd:string">c94e7a65294996ad3915cefe7bfb0540</token>
+  <idItem xsi:type="xsd:int">99696430</idItem>
+  <arrData xsi:type="ns1:Map">
+    <item>
+      <key xsi:type="xsd:string">title</key>
+      <value xsi:type="xsd:string">My updated title</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">description</key>
+      <value xsi:type="xsd:string">My updated description</value>
+    </item>
+  </arrData>
+</SOAP-ENV:updateItem>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseSimple, giving you more information on the function call result 
 
