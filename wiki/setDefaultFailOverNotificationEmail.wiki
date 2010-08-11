@@ -26,7 +26,26 @@ For more informations about Delcampe's notifications, see [Notifications].
 }}}
 
 === Response ===
+
  * ResponseSimple, giving you more information on the function call result 
+
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:setDefaultFailOverNotificationEmailResponse>
+  <setDefaultFailOverNotificationEmailReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">
+      Your default failover notification email has been saved!
+    </data>
+    <persRef xsi:nil="true"/>
+  </setDefaultFailOverNotificationEmailReturn>
+</SOAP-ENV:setDefaultFailOverNotificationEmailResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
 
 === Notification ===
  * None
