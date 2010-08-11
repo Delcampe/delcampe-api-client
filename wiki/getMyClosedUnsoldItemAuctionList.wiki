@@ -10,6 +10,17 @@ Call this function to get a list of unsold closed auction items
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMyClosedUnsoldItemAuctionList>
+  <token xsi:type="xsd:string">3da4f19026a4e06d4edd85e55ee4a27d</token>
+</SOAP-ENV:getMyClosedUnsoldItemAuctionList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseItem, giving you a list of unsold closed auction items ID
 
