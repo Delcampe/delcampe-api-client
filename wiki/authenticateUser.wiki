@@ -29,23 +29,7 @@ Call this function to authenticate yourself and get a personal token. When neede
 
  * ResponseSimple, giving you a token
 
-=== Notification === 
- * None
-
-=== SOAP Envelope (call) ===
-{{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-<SOAP-ENV:Body>
-<SOAP-ENV:authenticateUser>
-  <apiKey xsi:type="xsd:string">
-    nUvUtHu98swUrAQuT5uaNAk5yaph89aspUr7pEmeecUHubRagaTe5HawexE
-  </apiKey>
-</SOAP-ENV:authenticateUser>
-</SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-}}}
-
-=== SOAP Envelope (response) ===
+ * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -61,6 +45,9 @@ Call this function to authenticate yourself and get a personal token. When neede
 </SOAP-ENV:Envelope>
 }}}
 
+
+=== Notification === 
+ * None
 
 === Code example (PHP) ===
 {{{
