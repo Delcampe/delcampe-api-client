@@ -10,6 +10,17 @@ Call this function to get a list of open auction items
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMyOpenItemAuctionList>
+  <token xsi:type="xsd:string">4c8cd860773354e580926c7081bdac6f</token>
+</SOAP-ENV:getMyOpenItemAuctionList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseItem, giving you a list of open auction items ID
 
