@@ -8,6 +8,17 @@ Call this function to get the list of authorized reasonsto close an item. You ha
 
  * syntax : getAuthorizedCloseItemReasons()
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getAuthorizedCloseItemReasons>
+  <param0 xsi:type="xsd:string">c668d1819038a7ad2f3135f53fd385f0</param0>
+</SOAP-ENV:getAuthorizedCloseItemReasons>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseComplex, giving you a list of authorized reasons to close an item
 
