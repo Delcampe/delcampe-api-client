@@ -12,6 +12,18 @@ For more informations about Delcampe's notifications, see [Notifications].
  * parameter 1 : _string_ : secret token
  * parameter 2 : _string_ : valid url on wich xml notifications will be send
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:setDefaultNotificationUrl>
+  <token xsi:type="xsd:string">6f842a455ac77fd1fc176794ae43a972</token>
+  <destination xsi:type="xsd:string">http://www.mysite.net/feedback_api.php?token=bob</destination>
+</SOAP-ENV:setDefaultNotificationUrl>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
 
  * ResponseSimple, giving you more information on the function call result 
