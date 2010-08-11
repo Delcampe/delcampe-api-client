@@ -31,7 +31,7 @@ Call this function to get a list of unsold closed fixed price items
 <SOAP-ENV:Body>
 <SOAP-ENV:getMyClosedUnsoldItemFixedPriceListResponse>
   <getMyClosedUnsoldItemFixedPriceListReturn xsi:type="ns1:ResponseItem">
-  <data SOAP-ENC:arrayType="ns1:Item[1456]" xsi:type="ns1:ArrayOfItem">
+  <data SOAP-ENC:arrayType="ns1:Item[2]" xsi:type="ns1:ArrayOfItem">
     <item xsi:type="ns1:Item">
       <id_item xsi:type="xsd:int">91828478</id_item>
       <id_country xsi:nil="true"/>
