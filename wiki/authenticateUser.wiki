@@ -24,6 +24,7 @@ Call this function to authenticate yourself and get a personal token. When neede
 }}}
 
 === SOAP Envelope (response) ===
+{{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 −
 <SOAP-ENV:Body>
@@ -39,6 +40,8 @@ Call this function to authenticate yourself and get a personal token. When neede
 </SOAP-ENV:authenticateUserResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
+}}}
+
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
