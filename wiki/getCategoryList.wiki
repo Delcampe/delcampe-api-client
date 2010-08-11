@@ -51,66 +51,66 @@ Call this function to get the list of Delcampe's categories you can set in [addI
       <selectable xsi:type="xsd:boolean">true</selectable>
     </item>
     <item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-7</id>
-<id_site xsi:type="xsd:int">7</id_site>
-<name xsi:type="xsd:string"> Badges</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-6</id>
-<id_site xsi:type="xsd:int">6</id_site>
-<name xsi:type="xsd:string"> Phonecards</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-5</id>
-<id_site xsi:type="xsd:int">5</id_site>
-<name xsi:type="xsd:string">Other collections</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-4</id>
-<id_site xsi:type="xsd:int">4</id_site>
-<name xsi:type="xsd:string"> Books, Magazines, Comics</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-3</id>
-<id_site xsi:type="xsd:int">3</id_site>
-<name xsi:type="xsd:string"> Coins & Banknotes</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-2</id>
-<id_site xsi:type="xsd:int">2</id_site>
-<name xsi:type="xsd:string"> Postcards</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-<item xsi:type="ns1:Category">
-<id xsi:type="xsd:int">-1</id>
-<id_site xsi:type="xsd:int">1</id_site>
-<name xsi:type="xsd:string"> Stamps</name>
-<id_parent xsi:type="xsd:int">0</id_parent>
-<child xsi:type="xsd:boolean">true</child>
-<selectable xsi:type="xsd:boolean">true</selectable>
-</item>
-</data>
-<status xsi:type="xsd:boolean">true</status>
-<errorMsg xsi:nil="true"/>
-<persRef xsi:nil="true"/>
-</getCategoryListReturn>
+      <id xsi:type="xsd:int">-7</id>
+      <id_site xsi:type="xsd:int">7</id_site>
+      <name xsi:type="xsd:string"> Badges</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-6</id>
+      <id_site xsi:type="xsd:int">6</id_site>
+      <name xsi:type="xsd:string"> Phonecards</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-5</id>
+      <id_site xsi:type="xsd:int">5</id_site>
+      <name xsi:type="xsd:string">Other collections</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-4</id>
+      <id_site xsi:type="xsd:int">4</id_site>
+      <name xsi:type="xsd:string"> Books, Magazines, Comics</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-3</id>
+      <id_site xsi:type="xsd:int">3</id_site>
+      <name xsi:type="xsd:string"> Coins & Banknotes</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-2</id>
+      <id_site xsi:type="xsd:int">2</id_site>
+      <name xsi:type="xsd:string"> Postcards</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+    <item xsi:type="ns1:Category">
+      <id xsi:type="xsd:int">-1</id>
+      <id_site xsi:type="xsd:int">1</id_site>
+      <name xsi:type="xsd:string"> Stamps</name>
+      <id_parent xsi:type="xsd:int">0</id_parent>
+      <child xsi:type="xsd:boolean">true</child>
+      <selectable xsi:type="xsd:boolean">true</selectable>
+    </item>
+  </data>
+  <status xsi:type="xsd:boolean">true</status>
+  <errorMsg xsi:nil="true"/>
+  <persRef xsi:nil="true"/>
+  </getCategoryListReturn>
 </SOAP-ENV:getCategoryListResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
