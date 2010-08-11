@@ -11,7 +11,7 @@ If you update the images of an item, all existing images of this item will be lo
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _int_    : id of the item you want to update 
- * parameter 3 : _array_  : containing the data you want to modifiy
+ * parameter 3 : _array_  : containing the data you want to update
 
 === Response ===
  * ResponseSimple, giving you more information on the function call result 
