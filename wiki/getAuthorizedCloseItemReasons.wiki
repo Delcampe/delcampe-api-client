@@ -18,7 +18,37 @@ Call this function to get the list of authorized reasonsto close an item. You ha
 }}}
 
 === Response ===
+
  * ResponseComplex, giving you a list of authorized reasons to close an item
+
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getAuthorizedCloseItemReasonsResponse>
+  <getAuthorizedCloseItemReasonsReturn xsi:type="ns1:ResponseComplex">
+  <data SOAP-ENC:arrayType="ns1:String[4]" xsi:type="ns1:ArrayOfString">
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">TestItem</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">LostOrBrokenItem</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">NotAvailableItem</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">IncorrectItem</data>
+    </item>
+  </data>
+  <status xsi:type="xsd:boolean">true</status>
+  <errorMsg xsi:nil="true"/>
+  <persRef xsi:nil="true"/>
+  </getAuthorizedCloseItemReasonsReturn>
+</SOAP-ENV:getAuthorizedCloseItemReasonsResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
 
 === Notification ===
  * None
