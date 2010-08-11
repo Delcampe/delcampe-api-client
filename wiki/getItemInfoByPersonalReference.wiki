@@ -40,7 +40,7 @@ Call this function to get data on a specified item, giving a personal reference
       <id_category xsi:type="xsd:int">13930</id_category>
       <title xsi:type="xsd:string">MyItemTitle</title>
       <subtitle xsi:type="xsd:string"/>
-      <personal_reference xsi:type="xsd:string">M29829</personal_reference>
+      <personal_reference xsi:type="xsd:string">MT229</personal_reference>
       <description xsi:type="xsd:string">MyItemDescription</description>
       <price_starting xsi:type="xsd:float">24</price_starting>
       <fixed_price xsi:nil="true"/>
