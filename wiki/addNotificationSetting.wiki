@@ -23,7 +23,7 @@ For more informations about Delcampe's notifications, see [Notifications].
 <SOAP-ENV:addNotificationSetting>
   <token xsi:type="xsd:string">9bc7332dae767049d0a8d0153651bae3</token>
   <notificationType xsi:type="xsd:string">Curl_Seller_Item_Add</notificationType>
-  <destination xsi:type="xsd:string">http://www.mysite.net/fdbck_api.php?token=bob</destination>
+  <destination xsi:type="xsd:string">http://www.mysite.net/feedback_api.php?token=bob</destination>
 </SOAP-ENV:addNotificationSetting>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
