@@ -77,6 +77,18 @@ This new item will be placed in a queue and processed later.
 
 === SOAP Envelope (response) ===
 {{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuctionResponse>
+  <addItemAuctionReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <persRef xsi:type="xsd:string">XAVTEST</persRef>
+  </addItemAuctionReturn>
+</SOAP-ENV:addItemAuctionResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 }}}
 
 === Code example (PHP) ===
