@@ -38,9 +38,9 @@ Call this function to get data on a specified item
       <id_item xsi:type="xsd:int">99664630</id_item>
       <id_country xsi:type="xsd:int">0</id_country>
       <id_category xsi:type="xsd:int">80</id_category>
-      <title xsi:type="xsd:string">API TEST  TEST</title>
+      <title xsi:type="xsd:string">API TEST </title>
       <subtitle xsi:type="xsd:string"/>
-      <personal_reference xsi:type="xsd:string">XAVTEST</personal_reference>
+      <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
       <description xsi:type="xsd:string"/>
       <price_starting xsi:type="xsd:float">10</price_starting>
       <fixed_price xsi:nil="true"/>
