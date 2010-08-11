@@ -19,6 +19,10 @@ Call this function to authenticate yourself and get a personal token. When neede
  * None
 
 === SOAP Envelope (call) ===
+{{{
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><SOAP-ENV:authenticateUser><apiKey xsi:type="xsd:string">wUnewRuhEnaZuzebePrefudr3swabrAtupaNaheBrEswekerewrEvupAs8DrUStU</apiKey></SOAP-ENV:authenticateUser></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+}}}
 === SOAP Envelope (response) ===
 
 === Code example (PHP) ===
