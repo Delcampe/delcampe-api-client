@@ -24,10 +24,21 @@ Call this function to authenticate yourself and get a personal token. When neede
 }}}
 
 === SOAP Envelope (response) ===
-{{{
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://api.delcampe.net/soap.php" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><SOAP-ENV:authenticateUserResponse><authenticateUserReturn xsi:type="ns1:ResponseSimple"><status xsi:type="xsd:boolean">true</status><errorMsg xsi:nil="true"/><data xsi:type="xsd:string">216e10de7d0a4f88654ca2ebee064db8</data><persRef xsi:nil="true"/></authenticateUserReturn></SOAP-ENV:authenticateUserResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
-}}}
-
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+−
+<SOAP-ENV:Body>
+−
+<SOAP-ENV:authenticateUserResponse>
+−
+<authenticateUserReturn xsi:type="ns1:ResponseSimple">
+<status xsi:type="xsd:boolean">true</status>
+<errorMsg xsi:nil="true"/>
+<data xsi:type="xsd:string">327c1a855b5111b351053fd9eac5b640</data>
+<persRef xsi:nil="true"/>
+</authenticateUserReturn>
+</SOAP-ENV:authenticateUserResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
