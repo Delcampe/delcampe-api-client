@@ -24,7 +24,7 @@ Call this function to authenticate yourself and get a personal token. When neede
   <SOAP-ENV:Body>
     <SOAP-ENV:authenticateUser>
       <apiKey xsi:type="xsd:string">
-        wUnewRuhEnaZuzebePrefudr3swabrAtupaNaheBrEswekerewrEvupAs8DrUStU
+        nUvUtHu98swUrAQuT5ujekaNAk5yaph89aspUr7pEmecrecUHubRagaTe5HawexE
       </apiKey>
     </SOAP-ENV:authenticateUser>
   </SOAP-ENV:Body>
