@@ -101,7 +101,7 @@ The new items will be placed in a queue and processed later.
 <SOAP-ENV:Body>
 <SOAP-ENV:addItemFixedPriceBulkResponse>
   <addItemFixedPriceBulkReturn xsi:type="ns1:ResponseSimpleBulk">
-  <data SOAP-ENC:arrayType="ns1:ResponseSimple[4]" xsi:type="ns1:ArrayOfResponseSimple">
+  <data SOAP-ENC:arrayType="ns1:ResponseSimple[2]" xsi:type="ns1:ArrayOfResponseSimple">
     <item xsi:type="ns1:ResponseSimple">
       <status xsi:type="xsd:boolean">true</status>
       <errorMsg xsi:nil="true"/>
