@@ -10,6 +10,17 @@ Call this function to get a list of API functions you are authorized to call
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getAuthorizedActions>
+  <token xsi:type="xsd:string">1c7f17c10173b1209a0457113f0cc6ff</token>
+</SOAP-ENV:getAuthorizedActions>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseComplex, giving you a list of API functions you are authorized to call
 
