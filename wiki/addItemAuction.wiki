@@ -22,6 +22,57 @@ This new item will be placed in a queue and processed later.
 
 === SOAP Envelope (call) ===
 {{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuction>
+<token xsi:type="xsd:string">a8e37758c3d2de4f420bae75a2d6c010</token>
+<arrData xsi:type="ns1:Map">
+<item>
+<key xsi:type="xsd:string">id_country</key>
+<value xsi:type="xsd:int">0</value>
+</item>
+<item>
+<key xsi:type="xsd:string">id_category</key>
+<value xsi:type="xsd:int">80</value>
+</item>
+<item>
+<key xsi:type="xsd:string">price_starting</key>
+<value xsi:type="xsd:string">10.00</value>
+</item>
+<item>
+<key xsi:type="xsd:string">price_increment</key>
+<value xsi:type="xsd:string">0.74</value>
+</item>
+<item>
+<key xsi:type="xsd:string">currency</key>
+<value xsi:type="xsd:string">EUR</value>
+</item>
+<item>
+<key xsi:type="xsd:string">title</key>
+<value xsi:type="xsd:string">API TEST ¤ TEST</value>
+</item>
+<item>
+<key xsi:type="xsd:string">personal_reference</key>
+<value xsi:type="xsd:string">XAVTEST</value>
+</item>
+<item>
+<key xsi:type="xsd:string">images</key>
+<value SOAP-ENC:arrayType="xsd:string[3]" xsi:type="SOAP-ENC:Array">
+<item xsi:type="xsd:string">
+http://www.delcampe.net/pictures/api_images/testPicsApi_1.jpg
+</item>
+<item xsi:type="xsd:string">
+http://www.delcampe.net/pictures/api_images/testPicsApi_2.jpg
+</item>
+<item xsi:type="xsd:string">
+http://www.delcampe.net/pictures/api_images/testPicsApi_3.jpg
+</item>
+</value>
+</item>
+</arrData>
+</SOAP-ENV:addItemAuction>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 }}}
 
 === SOAP Envelope (response) ===
