@@ -16,14 +16,7 @@ For more informations about Delcampe's notifications, see [Notifications].
  * parameter 2 : _string_ : notification type. Call [getAvailableNotifications]() to get a list of notification types
  * parameter 3 : _string_ : destination where we have to send the notification
 
-=== Response ===
-
- * ResponseSimple, giving you more information on the function call result
-
-=== Notification === 
- * None
-
-=== SOAP Envelope (call) ===
+ * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -35,6 +28,13 @@ For more informations about Delcampe's notifications, see [Notifications].
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
+
+=== Response ===
+
+ * ResponseSimple, giving you more information on the function call result
+
+=== Notification === 
+ * None
 
 === SOAP Envelope (response) ===
 
