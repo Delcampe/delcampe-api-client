@@ -26,16 +26,16 @@ Call this function to authenticate yourself and get a personal token. When neede
 === SOAP Envelope (response) ===
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-<SOAP-ENV:Body>
-<SOAP-ENV:authenticateUserResponse>
-<authenticateUserReturn xsi:type="ns1:ResponseSimple">
-<status xsi:type="xsd:boolean">true</status>
-<errorMsg xsi:nil="true"/>
-<data xsi:type="xsd:string">327c1a855b5111b351053fd9eac5b640</data>
-<persRef xsi:nil="true"/>
-</authenticateUserReturn>
-</SOAP-ENV:authenticateUserResponse>
-</SOAP-ENV:Body>
+  <SOAP-ENV:Body>
+    <SOAP-ENV:authenticateUserResponse>
+      <authenticateUserReturn xsi:type="ns1:ResponseSimple">
+        <status xsi:type="xsd:boolean">true</status>
+        <errorMsg xsi:nil="true"/>
+        <data xsi:type="xsd:string">327c1a855b5111b351053fd9eac5b640</data>
+        <persRef xsi:nil="true"/>
+      </authenticateUserReturn>
+    </SOAP-ENV:authenticateUserResponse>
+  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
 
