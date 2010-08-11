@@ -38,7 +38,7 @@ Call this function to get data on a specified item, giving a personal reference
       <id_item xsi:type="xsd:int">92958655</id_item>
       <id_country xsi:type="xsd:int">6</id_country>
       <id_category xsi:type="xsd:int">13930</id_category>
-      <title xsi:type="xsd:string">Penny Star (AJ) Mounted Mint Plate 43 C10</title>
+      <title xsi:type="xsd:string">MyItemTitle</title>
       <subtitle xsi:type="xsd:string"/>
       <personal_reference xsi:type="xsd:string">M29829</personal_reference>
       <description xsi:type="xsd:string">MyItemDescription</description>
