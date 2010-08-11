@@ -16,6 +16,19 @@ This function call will be placed in a queue and processed later.
  * parameter 2 : _integer_ : id of the item you want to close
  * parameter 3 : _string_  : reason why you want to close the item. Call [getAuthorizedCloseItemReasons]() to get a list of valid reasons
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:closeItem>
+  <token xsi:type="xsd:string">e6c95bd2eb4cc458710106ecae9cde90</token>
+  <idItem xsi:type="xsd:int">99664633</idItem>
+  <reason xsi:type="xsd:string">TestItem</reason>
+</SOAP-ENV:closeItem>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseSimple, giving you more information on the function call result 
 
