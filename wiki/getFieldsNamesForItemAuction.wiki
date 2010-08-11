@@ -8,6 +8,15 @@ Call this function to get a list of fields name you can use to handle an auction
 
  * syntax : getFieldsNamesForItemAuction()
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getFieldsNamesForItemAuction/>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseComplex, giving you a list of fields name you can use to handle an auction item
 
