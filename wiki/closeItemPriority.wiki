@@ -21,7 +21,7 @@ A delay of 5 seconds is applied between two calls of this function.
 <SOAP-ENV:Body>
 <SOAP-ENV:closeItemPriority>
   <token xsi:type="xsd:string">30df4259225ca44280be10978efa87f2</token>
-  <idItem xsi:type="xsd:int">99667499</idItem>
+  <idItem xsi:type="xsd:int">99664631</idItem>
 </SOAP-ENV:closeItemPriority>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
