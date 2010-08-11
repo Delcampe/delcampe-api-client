@@ -36,7 +36,12 @@ If you update the images of an item, all existing images of this item will be lo
 }}}
 
 === Response ===
+
  * ResponseSimple, giving you more information on the function call result 
+
+ * SOAP envelope
+{{{
+}}}
 
 === Notification ===
  * [Notifications#Seller_Item_Update Seller_Item_Update]
