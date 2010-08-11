@@ -20,6 +20,14 @@ This new item will be placed in a queue and processed later.
 === Notification === 
  * [Notifications#Seller_Item_Add Seller_Item_Add]
 
+=== SOAP Envelope (call) ===
+{{{
+}}}
+
+=== SOAP Envelope (response) ===
+{{{
+}}}
+
 === Code example (PHP) ===
 {{{
 // MANDATORY DATA
