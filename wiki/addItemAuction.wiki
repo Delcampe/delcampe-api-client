@@ -13,14 +13,7 @@ This new item will be placed in a queue and processed later.
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : containing the data needed to create an auction item. See [AuthorizedValues] to have details on authorized values for specific fields.
 
-=== Response ===
-
- * ResponseSimple, giving you more information on the function call result 
-
-=== Notification === 
- * [Notifications#Seller_Item_Add Seller_Item_Add]
-
-=== SOAP Envelope (call) ===
+ * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -74,6 +67,15 @@ This new item will be placed in a queue and processed later.
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
+
+=== Response ===
+
+ * ResponseSimple, giving you more information on the function call result 
+
+=== Notification === 
+ * [Notifications#Seller_Item_Add Seller_Item_Add]
+
+=== SOAP Envelope (call) ===
 
 === SOAP Envelope (response) ===
 {{{
