@@ -10,6 +10,17 @@ Call this function to get the ID of the seller linked to the given token
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMySellerId>
+  <token xsi:type="xsd:string">529ba90354737ff6e08f610768db4648</token>
+</SOAP-ENV:getMySellerId>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
 
  * ResponseSimple, giving you the ID of the seller linked to the token
