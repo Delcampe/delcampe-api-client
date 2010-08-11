@@ -23,7 +23,64 @@ For more informations about Delcampe's notifications, see [Notifications].
 }}}
 
 === Response ===
+
  * ResponseComplex, giving you a list of available notifications
+
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getAvailableNotificationsResponse>
+  <getAvailableNotificationsReturn xsi:type="ns1:ResponseComplex">
+  <data SOAP-ENC:arrayType="ns1:String[13]" xsi:type="ns1:ArrayOfString">
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Default</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_Add</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_Close_Manually</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_Close_Sold</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_Close_Unsold</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_FirstBid</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Curl_Seller_Item_Update</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Buyer_Item_Close_Unsold</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Default</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Error_LimitReached</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Seller_Item_Add</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Seller_Item_Close_Sold</data>
+    </item>
+    <item xsi:type="ns1:String">
+      <data xsi:type="xsd:string">Email_Seller_Item_Close_Unsold</data>
+    </item>
+  </data>
+  <status xsi:type="xsd:boolean">true</status>
+  <errorMsg xsi:nil="true"/>
+  <persRef xsi:nil="true"/>
+  </getAvailableNotificationsReturn>
+</SOAP-ENV:getAvailableNotificationsResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
 
 === Notification ===
  * None
