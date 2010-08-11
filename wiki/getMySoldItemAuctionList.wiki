@@ -10,6 +10,17 @@ Call this function to get a list of sold auction items
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMySoldItemAuctionList>
+  <token xsi:type="xsd:string">2070888c0b8e4db76a41c70001e12fd0</token>
+</SOAP-ENV:getMySoldItemAuctionList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseItem, giving you a list of sold auction items ID
 
