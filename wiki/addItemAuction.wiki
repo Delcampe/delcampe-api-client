@@ -25,7 +25,7 @@ This new item will be placed in a queue and processed later.
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <SOAP-ENV:addItemAuction>
-  <token xsi:type="xsd:string">a8e37758c3d2de4f420bae75a2d6c010</token>
+  <token xsi:type="xsd:string">a8e37758c3de4f420bae72d6c010</token>
   <arrData xsi:type="ns1:Map">
   <item>
     <key xsi:type="xsd:string">id_country</key>
@@ -49,23 +49,23 @@ This new item will be placed in a queue and processed later.
   </item>
   <item>
     <key xsi:type="xsd:string">title</key>
-    <value xsi:type="xsd:string">API TEST ¤ TEST</value>
+    <value xsi:type="xsd:string">API TEST</value>
   </item>
   <item>
     <key xsi:type="xsd:string">personal_reference</key>
-    <value xsi:type="xsd:string">XAVTEST</value>
+    <value xsi:type="xsd:string">MyPersRef</value>
   </item>
   <item>
     <key xsi:type="xsd:string">images</key>
     <value SOAP-ENC:arrayType="xsd:string[3]" xsi:type="SOAP-ENC:Array">
       <item xsi:type="xsd:string">
-        http://www.delcampe.net/pictures/api_images/testPicsApi_1.jpg
+        http://www.mypics.net/pictures/testPicsApi_1.jpg
       </item>
       <item xsi:type="xsd:string">
-        http://www.delcampe.net/pictures/api_images/testPicsApi_2.jpg
+        http://www.mypics.net/pictures/testPicsApi_2.jpg
       </item>
       <item xsi:type="xsd:string">
-        http://www.delcampe.net/pictures/api_images/testPicsApi_3.jpg
+        http://www.mypics.net/pictures/testPicsApi_3.jpg
       </item>
     </value>
   </item>
