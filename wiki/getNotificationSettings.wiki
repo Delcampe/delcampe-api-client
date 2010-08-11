@@ -11,6 +11,17 @@ For more informations about Delcampe's notifications, see [Notifications].
 
  * parameter 1 : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getNotificationSettings>
+  <token xsi:type="xsd:string">62a7bd57f6c94345fb5ef35b170aac9c</token>
+</SOAP-ENV:getNotificationSettings>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseComplex, giving you a list of your notifications settings
 
