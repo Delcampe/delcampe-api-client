@@ -28,6 +28,20 @@ For more informations about Delcampe's notifications, see [Notifications].
 
  * ResponseSimple, giving you more information on the function call result 
 
+ * SOAP envelope
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:changeNotificationStatusResponse>
+  <changeNotificationStatusReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">The status of the notification is now: Active</data>
+    <persRef xsi:nil="true"/>
+  </changeNotificationStatusReturn>
+</SOAP-ENV:changeNotificationStatusResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
 === Notification === 
  * None
 
