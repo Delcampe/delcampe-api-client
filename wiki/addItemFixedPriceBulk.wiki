@@ -15,14 +15,7 @@ The new items will be placed in a queue and processed later.
  * parameter 1 : _string_ : secret token
  * parameter 2 : _array_  : array containing arrays of data needed to create the fixed price items. See [AuthorizedValues] to have details on authorized values for specific fields.
 
-=== Response ===
-
- * ResponseSimpleBulk, giving you more information on the function call result 
-
-=== Notification === 
- * [Notifications#Seller_Item_Add Seller_Item_Add]
-
-=== SOAP Envelope (call) ===
+ * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -95,7 +88,11 @@ The new items will be placed in a queue and processed later.
 </SOAP-ENV:Envelope>
 }}}
 
-=== SOAP Envelope (response) ===
+=== Response ===
+
+ * ResponseSimpleBulk, giving you more information on the function call result 
+
+ * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -123,6 +120,9 @@ The new items will be placed in a queue and processed later.
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
+
+=== Notification === 
+ * [Notifications#Seller_Item_Add Seller_Item_Add]
 
 === Code example (PHP) ===
 {{{
