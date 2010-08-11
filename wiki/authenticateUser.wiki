@@ -18,6 +18,9 @@ Call this function to authenticate yourself and get a personal token. When neede
 === Notification === 
  * None
 
+=== SOAP Envelope (call) ===
+=== SOAP Envelope (response) ===
+
 === Code example (PHP) ===
 {{{
 //FUNCTION CALL
