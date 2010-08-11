@@ -25,6 +25,22 @@ Call this function to get the ID of the seller linked to the given token
 
  * ResponseSimple, giving you the ID of the seller linked to the token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMySellerIdResponse>
+  <getMySellerIdReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">2820642</data>
+    <persRef xsi:nil="true"/>
+  </getMySellerIdReturn>
+</SOAP-ENV:getMySellerIdResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Notification ===
  * None
 
