@@ -32,6 +32,22 @@ This function call will be placed in a queue and processed later.
 === Response ===
  * ResponseSimple, giving you more information on the function call result 
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:closeItemResponse>
+  <closeItemReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <persRef xsi:nil="true"/>
+  </closeItemReturn>
+</SOAP-ENV:closeItemResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Notification ===
  * [Notifications#Seller_Item_Close_Manually Seller_Item_Close_Manually]
 
