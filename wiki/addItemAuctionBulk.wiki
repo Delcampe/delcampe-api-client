@@ -105,6 +105,31 @@ The new items will be placed in a queue and processed later.
 
 === SOAP Envelope (response) ===
 {{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuctionBulkResponse>
+  <addItemAuctionBulkReturn xsi:type="ns1:ResponseSimpleBulk">
+  <data SOAP-ENC:arrayType="ns1:ResponseSimple[2]" xsi:type="ns1:ArrayOfResponseSimple">
+  <item xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <persRef xsi:type="xsd:string">MyPersRef</persRef>
+  </item>
+<item xsi:type="ns1:ResponseSimple">
+<status xsi:type="xsd:boolean">true</status>
+<errorMsg xsi:nil="true"/>
+<data xsi:type="xsd:string">Your request was taken into account!</data>
+<persRef xsi:type="xsd:string">MyPersRef</persRef>
+</item>
+</data>
+<status xsi:type="xsd:boolean">true</status>
+<errorMsg xsi:nil="true"/>
+<persRef xsi:nil="true"/>
+</addItemAuctionBulkReturn>
+</SOAP-ENV:addItemAuctionBulkResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 }}}
 
 === Code example (PHP) ===
