@@ -9,6 +9,17 @@ Call this function to get the ID list of sold fixed price items
 
  * parameter : _string_ : secret token
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getMySoldItemFixedPriceList>
+  <token xsi:type="xsd:string">307a4cf0f655a6f302d8225e28f4fecc</token>
+</SOAP-ENV:getMySoldItemFixedPriceList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseItem, giving you a list of sold fixed price items ID
 
