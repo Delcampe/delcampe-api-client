@@ -70,10 +70,10 @@ This new item will be placed in a queue and processed later.
 <SOAP-ENV:Body>
 <SOAP-ENV:addItemFixedPriceResponse>
   <addItemFixedPriceReturn xsi:type="ns1:ResponseSimple">
-  <status xsi:type="xsd:boolean">true</status>
-  <errorMsg xsi:nil="true"/>
-  <data xsi:type="xsd:string">Your request was taken into account!</data>
-  <persRef xsi:type="xsd:string">MyPersRef</persRef>
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <persRef xsi:type="xsd:string">MyPersRef</persRef>
   </addItemFixedPriceReturn>
 </SOAP-ENV:addItemFixedPriceResponse>
 </SOAP-ENV:Body>
