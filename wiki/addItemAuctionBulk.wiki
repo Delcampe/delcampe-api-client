@@ -22,6 +22,91 @@ The new items will be placed in a queue and processed later.
 === Notification === 
  * [Notifications#Seller_Item_Add Seller_Item_Add]
 
+=== SOAP Envelope (call) ===
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuctionBulk>
+  <token xsi:type="xsd:string">9028a83fbac1233914fbb4932dd19575</token>
+  <arrDataBulk SOAP-ENC:arrayType="ns1:Map[2]" xsi:type="SOAP-ENC:Array">
+  <item xsi:type="ns1:Map">
+    <item>
+      <key xsi:type="xsd:string">id_country</key>
+      <value xsi:type="xsd:int">0</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">id_category</key>
+      <value xsi:type="xsd:int">80</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">price_starting</key>
+      <value xsi:type="xsd:string">13.00</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">price_increment</key>
+      <value xsi:type="xsd:string">0.68</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">currency</key>
+      <value xsi:type="xsd:string">EUR</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">title</key>
+      <value xsi:type="xsd:string">API TEST</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">personal_reference</key>
+      <value xsi:type="xsd:string">MyPersRef</value>
+    </item>
+    <item>
+      <key xsi:type="xsd:string">images</key>
+      <value xsi:type="xsd:string">http://www.mypics.net/testPicsApi_1.jpg</value>
+    </item>
+  </item>
+  <item xsi:type="ns1:Map">
+    <item>
+<key xsi:type="xsd:string">id_country</key>
+<value xsi:type="xsd:int">0</value>
+</item>
+<item>
+<key xsi:type="xsd:string">id_category</key>
+<value xsi:type="xsd:int">80</value>
+</item>
+<item>
+<key xsi:type="xsd:string">price_starting</key>
+<value xsi:type="xsd:string">13.00</value>
+</item>
+<item>
+<key xsi:type="xsd:string">price_increment</key>
+<value xsi:type="xsd:string">0.87</value>
+</item>
+<item>
+<key xsi:type="xsd:string">currency</key>
+<value xsi:type="xsd:string">EUR</value>
+</item>
+<item>
+<key xsi:type="xsd:string">title</key>
+<value xsi:type="xsd:string">API TEST</value>
+</item>
+<item>
+<key xsi:type="xsd:string">personal_reference</key>
+<value xsi:type="xsd:string">MyPersRef</value>
+</item>
+<item>
+<key xsi:type="xsd:string">images</key>
+<value xsi:type="xsd:string">http://www.mypics.net/testPicsApi_1.jpg</value>
+</item>
+</item>
+</arrDataBulk>
+</SOAP-ENV:addItemAuctionBulk>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
+=== SOAP Envelope (response) ===
+{{{
+}}}
+
 === Code example (PHP) ===
 {{{
 for ($i = 0; $i < 100; $i++) {
