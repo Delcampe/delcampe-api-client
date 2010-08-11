@@ -11,7 +11,7 @@ Call this function to authenticate yourself and get a personal token. When neede
 
  * parameter : _string_ : your personal API key received from Delcampe
 
-=== SOAP Envelope (call) ===
+ * SOAP Envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
