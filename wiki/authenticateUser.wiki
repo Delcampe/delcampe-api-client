@@ -11,6 +11,22 @@ Call this function to authenticate yourself and get a personal token. When neede
 
  * parameter : _string_ : your personal API key received from Delcampe
 
+=== SOAP Envelope (response) ===
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:authenticateUserResponse>
+  <authenticateUserReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">327c1a8b5111b35105d9eac5b640</data>
+    <persRef xsi:nil="true"/>
+  </authenticateUserReturn>
+</SOAP-ENV:authenticateUserResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
 
  * ResponseSimple, giving you a token
@@ -31,21 +47,6 @@ Call this function to authenticate yourself and get a personal token. When neede
 </SOAP-ENV:Envelope>
 }}}
 
-=== SOAP Envelope (response) ===
-{{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-<SOAP-ENV:Body>
-<SOAP-ENV:authenticateUserResponse>
-  <authenticateUserReturn xsi:type="ns1:ResponseSimple">
-    <status xsi:type="xsd:boolean">true</status>
-    <errorMsg xsi:nil="true"/>
-    <data xsi:type="xsd:string">327c1a8b5111b35105d9eac5b640</data>
-    <persRef xsi:nil="true"/>
-  </authenticateUserReturn>
-</SOAP-ENV:authenticateUserResponse>
-</SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-}}}
 
 === Code example (PHP) ===
 {{{
