@@ -18,6 +18,19 @@ Call this function to get the list of Delcampe's categories you can set in [addI
   * 'N' : nederlands
  * parameter 3 : _integer_ : Optional parameter. The parent category ID. If you don't specify a parent category ID, it returns all Delcampe's category tree (more than 18.000 categories). Pay attention to your server performance.
 
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getCategoryList>
+   <token xsi:type="xsd:string">677558862ece442dfbe81b295441f72b</token>
+   <lang xsi:type="xsd:string">E</lang>
+   <idParent xsi:type="xsd:int">0</idParent>
+</SOAP-ENV:getCategoryList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
 === Response ===
  * ResponseCategory, giving you a list of Delcampe's categories (regarding parent ID set)
 
