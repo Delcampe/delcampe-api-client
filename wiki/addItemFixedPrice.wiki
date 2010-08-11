@@ -64,6 +64,8 @@ This new item will be placed in a queue and processed later.
 </SOAP-ENV:Envelope>
 }}}
 
+=== SOAP Envelope (return) ===
+
 === Code example (PHP) ===
 {{{
 // MANDATORY DATA
