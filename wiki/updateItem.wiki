@@ -41,6 +41,18 @@ If you update the images of an item, all existing images of this item will be lo
 
  * SOAP envelope
 {{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:updateItemResponse>
+  <updateItemReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <persRef xsi:nil="true"/>
+  </updateItemReturn>
+</SOAP-ENV:updateItemResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 }}}
 
 === Notification ===
