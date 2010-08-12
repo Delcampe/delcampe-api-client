@@ -9,4 +9,4 @@ Here is the [http://code.google.com/p/delcampe-api-client/updates/list full log 
 = 2010-08-09 =
  * 2 new functions : addItemAuctionBulk() and addItemFixedPriceBulk(), to easily add multiple items at once. 
 = 2010-07-09 =
- * First release with a set of usual function to create new items.
+ * First release with a set of usual functions to create new items.
