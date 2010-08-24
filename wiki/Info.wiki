@@ -69,7 +69,7 @@ response = dsoap.connection.get_server_time
 puts response.to_hash[:get_server_time_response][:get_server_time_return]
 }}}
 
- * For more info on Ruby and SOAP : http://broadcast.oreilly.com/2008/12/creating-custom-soap-requests.html
+ * For more info on Ruby and SOAP : http://savon.rubiii.com
 
 == Java ==
 
