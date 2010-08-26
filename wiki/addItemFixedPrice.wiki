@@ -14,6 +14,7 @@ This new item will be placed in a queue and processed later.
  * parameter 2 : _array_  : containing the data needed to create a fixed price item. See [AuthorizedValues] to have details on authorized values for specific fields.
 
  * SOAP envelope
+
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -82,6 +83,7 @@ This new item will be placed in a queue and processed later.
  * [Notifications#Seller_Item_Add Seller_Item_Add]
 
 === Code example (PHP) ===
+
 {{{
 // MANDATORY DATA
 $data['id_country']                  = 0;
@@ -130,4 +132,5 @@ if ($return->status === true) {
     var_export($return->errorMsg, 1);
   } 
 }
+
 }}}
