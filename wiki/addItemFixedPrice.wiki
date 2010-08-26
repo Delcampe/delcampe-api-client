@@ -85,6 +85,7 @@ This new item will be placed in a queue and processed later.
 === Code example (PHP) ===
 
 {{{
+<?php
 // MANDATORY DATA
 $data['id_country']                  = 0;
 $data['id_category']                 = 80;
@@ -132,5 +133,5 @@ if ($return->status === true) {
     var_export($return->errorMsg, 1);
   } 
 }
-
+?>
 }}}
