@@ -85,14 +85,16 @@ This new item will be placed in a queue and processed later.
 === Code example (PHP) ===
 
 {{{
-<?php
+
+
 // MANDATORY DATA
-$data['id_country']                  = 0;
-$data['id_category']                 = 80;
-$data['fixed_price']                 = '1.00';
-$data['currency']                    = 'EUR';
-$data['title']                       = 'My title';
-$data['personal_reference']          = 'My personal ref';
+
+ $data['id_country']                  = 0;
+ $data['id_category']                 = 80;
+ $data['fixed_price']                 = '1.00';
+ $data['currency']                    = 'EUR';
+ $data['title']                       = 'My title';
+ $data['personal_reference']          = 'My personal ref';
 
 //OPTIONAL DATA
 $data['qty']                         = 3;
@@ -132,6 +134,6 @@ if ($return->status === true) {
   } else {
     var_export($return->errorMsg, 1);
   } 
-}
-?>
+} 
+
 }}}
