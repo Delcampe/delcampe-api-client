@@ -92,3 +92,6 @@ if ($return->status === true) {
   } 
 }
 }}}
+
+=== Notes ===
+Use [getItemInfo getItemInfo()] to get data for each returned ID.
