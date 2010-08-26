@@ -137,3 +137,15 @@ if ($return->status === true) {
   } 
 }
 }}}
+
+=== Notes ===
+You can use the following links to get ready-to-use printable lists:
+ * [http://www.delcampe.net/categories_print.php?language=E&site=0 ALL Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=1 Stamps Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=2 Postcards Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=3 Coins Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=4 Books Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=5 Other Collections Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=6 Phonecards Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=7 Pins Categories]
+ * [http://www.delcampe.net/categories_print.php?language=E&site=8 Old Paper Categories]
