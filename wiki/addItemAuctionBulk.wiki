@@ -10,7 +10,7 @@ The new items will be placed in a queue and processed later.
 
 === Call ===
 
- * syntax : addItemAuctionBulk(string token, array dataBulk)
+ * syntax : addItemAuctionBulk(string token, object ItemAuctionParamBulk)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemAuctionParamBulk  : containing several ItemAuctionParam objects
