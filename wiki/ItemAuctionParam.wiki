@@ -1,20 +1,20 @@
 #summary Details on object ItemAuctionParam
 
  * !ItemAuctionParam is an object with 25 datafields, containing the data needed to create an !ItemAuction item :
-  * *id_country* : _integer_ : id of the country related to the item
-  * *id_category* : *integer* : id of the category related to the item
+  * *id_country* : _integer_ : id of the country related to the item. See [AuthorizedValues] to have details on values for this field
+  * *id_category* : *integer* : id of the category related to the item. See [AuthorizedValues] to have details on values for this field
   * *title* : _string_ : title of the item
   * *subtitle* : _string_ : subtitle of the item
   * *personal_reference* : _string_ : your personal reference for this item
   * *description* : _string_ : description of the item
   * *price_starting* : _float_ : starting price of the item
   * *price_increment* : _float_ : minimum increment of the auction
-  * *currency* : _string_ : currency set for the item
+  * *currency* : _string_ : currency set for the item. See [AuthorizedValues] to have details on values for this field
   * *date_end* : _string_ : end date of the item
-  * *duration* : _integer_ : sale duration of the item
-  * *prefered_end_day* : _string_ : prefered end day for the sale of the item
+  * *duration* : _integer_ : sale duration of the item. See [AuthorizedValues] to have details on values for this field
+  * *prefered_end_day* : _string_ : prefered end day for the sale of the item. See [AuthorizedValues] to have details on values for this field
   * *prefered_end_hour* : _string_ : prefered end hour for the sale of the item
-  * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold
+  * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold. See [AuthorizedValues] to have details on values for this field
   * *option_boldtitle* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_coloredborder* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_highlight* : _boolean_ : option chosen (true) or not (false) for the item
