@@ -1,0 +1,3 @@
+#summary Details on object ItemAuctionParamBulk
+
+ * !ItemAuctionParamBulk is an array of [ItemAuctionParam] objects
