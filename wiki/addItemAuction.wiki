@@ -11,7 +11,9 @@ This new item will be placed in a queue and processed later.
  * syntax : addItemAuction(string token, object ItemAuctionParam)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item. 
+ * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item 
+
+ * note : for parameter 2, php users can give an array in place of an object. See code example 
 
  * SOAP envelope
 {{{
