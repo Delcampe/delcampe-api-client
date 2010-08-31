@@ -1,4 +1,4 @@
-#summary Details on ResponseCategory object
+#summary Details on object ResponseCategory
 
  * !ResponseCategory is an object, returned by some API functions, with 3 datafields :
   * *status* : _boolean_ : true (if call ok) or false (if call not ok)
