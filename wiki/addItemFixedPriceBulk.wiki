@@ -13,7 +13,9 @@ The new items will be placed in a queue and processed later.
  * syntax : addItemFixedPriceBulk(string token, object ItemFixedPriceParamBulk)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _array_  : array containing arrays of data needed to create the fixed price items. See [AuthorizedValues] to have details on authorized values for specific fields.
+ * parameter 2 : _object_ ItemFixedPriceParamBulk  : containing several ItemFixedPriceParam objects
+
+ * note : for parameter 2, php developers can use an array in place of an object. See [addItemFixedPriceBulk#Code_example_(PHP) PHP code example]
 
  * SOAP envelope
 {{{
