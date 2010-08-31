@@ -11,7 +11,7 @@ This new item will be placed in a queue and processed later.
  * syntax : addItemAuction(string token, array data)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _array_  : containing the data needed to create an auction item. See [AuthorizedValues] to have details on authorized values for specific fields.
+ * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item. 
 
  * SOAP envelope
 {{{
