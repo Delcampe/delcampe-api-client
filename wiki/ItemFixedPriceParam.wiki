@@ -1,6 +1,6 @@
 #summary Details on object ItemFixedPriceParam
 
- * !ItemFixedPriceParam is an object with x datafields :
+ * !ItemFixedPriceParam is an object with 25 datafields, containing the data needed to create an ItemFixedPrice item :
   * *id_country* : _integer_ : id of the country related to the item
   * *id_category* : *integer* : id of the category related to the item
   * *title* : _string_ : title of the item
