@@ -8,7 +8,7 @@ This new item will be placed in a queue and processed later.
 
 === Call ===
 
- * syntax : addItemAuction(string token, array data)
+ * syntax : addItemAuction(string token, object ItemAuctionParam)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item. 
