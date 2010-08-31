@@ -13,7 +13,7 @@ This new item will be placed in a queue and processed later.
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemFixedPriceParam  : containing the data needed to create a fixed price item.
 
-* note : for parameter 2, php developers can use an array in place of an object. See [addItemFixedPrice#Code_example_(PHP) PHP code example]
+ * note : for parameter 2, php developers can use an array in place of an object. See [addItemFixedPrice#Code_example_(PHP) PHP code example]
 
  * SOAP envelope
 
