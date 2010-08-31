@@ -13,7 +13,7 @@ This new item will be placed in a queue and processed later.
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item 
 
- * note : for parameter 2, php users can give an array in place of an object. See php code example  [addItemAuction#Code_example_(PHP) Seller_Item_Close_Manually]
+ * note : for parameter 2, php users can give an array in place of an object. See [addItemAuction#Code_example_(PHP) PHP code example] for more info
 
  * SOAP envelope
 {{{
