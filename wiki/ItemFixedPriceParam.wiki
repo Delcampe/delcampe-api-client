@@ -8,13 +8,13 @@
   * *personal_reference* : _string_ : (mandatory) your personal reference for this item
   * *description* : _string_ : description of the item
   * *fixed_price* : _float_ : (mandatory) price of a fixed price item
-  * *currency* : _string_ : (mandatory) currency set for the item
+  * *currency* : _string_ : (mandatory) currency set for the item. See [AuthorizedValues] to have details on values for this field
   * *date_end* : _string_ : end date of the item
-  * *duration* : _integer_ : sale duration of the item
-  * *prefered_end_day* : _string_ : prefered end day for the sale of the item
+  * *duration* : _integer_ : sale duration of the item. See [AuthorizedValues] to have details on values for this field
+  * *prefered_end_day* : _string_ : prefered end day for the sale of the item. See [AuthorizedValues] to have details on values for this field
   * *prefered_end_hour* : _string_ : prefered end hour for the sale of the item
   * *qty* : _integer_ : quantity of the item to sell
-  * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold
+  * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold. See [AuthorizedValues] to have details on values for this field
   * *option_boldtitle* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_coloredborder* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_highlight* : _boolean_ : option chosen (true) or not (false) for the item
