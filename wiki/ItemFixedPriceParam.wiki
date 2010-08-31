@@ -25,4 +25,4 @@
   * *option_topcategory* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_toplisting* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_topmain* : _boolean_ : option chosen (true) or not (false) for the item
-  * *images* : _array_ : url of the images
+  * *images* : _array_ of [String] objects : url of the images
