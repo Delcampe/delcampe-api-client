@@ -8,7 +8,7 @@ This new item will be placed in a queue and processed later.
 
 === Call ===
 
- * syntax : addItemFixedPrice(string token, array data)
+ * syntax : addItemFixedPrice(string token, object ItemFixedPriceParam)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemFixedPriceParam  : containing the data needed to create a fixed price item.
