@@ -16,7 +16,6 @@ This new item will be placed in a queue and processed later.
  * note : for parameter 2, php developers can use an array in place of an object. See [addItemFixedPrice#Code_example_(PHP) PHP code example]
 
  * SOAP envelope
-
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
