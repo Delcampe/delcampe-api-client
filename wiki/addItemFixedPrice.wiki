@@ -28,6 +28,7 @@ This new item will be placed in a queue and processed later.
     <title xsi:type="xsd:string">MyTitle</title>
     <subtitle xsi:nil="true"/>
     <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+    <description xsi:type="xsd:string">My description</description>
     <description xsi:nil="true"/>
     <fixed_price xsi:type="xsd:float">1.2</fixed_price>
     <currency xsi:type="xsd:string">EUR</currency>
