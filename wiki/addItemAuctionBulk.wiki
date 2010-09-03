@@ -89,7 +89,8 @@ The new items will be placed in a queue and processed later.
   </data>
 </SOAP-ENV:addItemAuctionBulk>
 </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>}}}
+</SOAP-ENV:Envelope>
+}}}
 
 === Response ===
 
