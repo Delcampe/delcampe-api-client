@@ -30,7 +30,7 @@ The new items will be placed in a queue and processed later.
         <id_category xsi:type="xsd:int">80</id_category>
         <title xsi:type="xsd:string">MyTitle</title>
         <subtitle xsi:nil="true"/>
-        <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+        <personal_reference xsi:type="xsd:string">MyPersRef1</personal_reference>
         <description xsi:type="xsd:string">My description</description>
         <fixed_price xsi:type="xsd:float">1.2</fixed_price>
         <currency xsi:type="xsd:string">EUR</currency>
@@ -60,7 +60,7 @@ The new items will be placed in a queue and processed later.
         <id_category xsi:type="xsd:int">80</id_category>
         <title xsi:type="xsd:string">MyTitle</title>
         <subtitle xsi:nil="true"/>
-        <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+        <personal_reference xsi:type="xsd:string">MyPersRef2</personal_reference>
         <description xsi:type="xsd:string">My description</description>
         <fixed_price xsi:type="xsd:float">1.2</fixed_price>
         <currency xsi:type="xsd:string">EUR</currency>
