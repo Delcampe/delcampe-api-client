@@ -171,7 +171,7 @@ Concretely, after a call of an API function, you will often receive a notificati
 === !Seller_Item_Move ===
 
  * When is it send ?
-  * when a moderator move one of your item from a category to another one  
+  * when a moderator moves one of your item from a category to another one  
 
 ==== Example ====
 {{{
