@@ -107,13 +107,13 @@ The new items will be placed in a queue and processed later.
       <status xsi:type="xsd:boolean">true</status>
       <errorMsg xsi:nil="true"/>
       <data xsi:type="xsd:string">Your request was taken into account!</data>
-      <persRef xsi:type="xsd:string">MyPersRef</persRef>
+      <persRef xsi:type="xsd:string">MyPersRef1</persRef>
     </item>
     <item xsi:type="ns1:ResponseSimple">
       <status xsi:type="xsd:boolean">true</status>
       <errorMsg xsi:nil="true"/>
       <data xsi:type="xsd:string">Your request was taken into account!</data>
-      <persRef xsi:type="xsd:string">MyPersRef</persRef>
+      <persRef xsi:type="xsd:string">MyPersRef2</persRef>
     </item>
   </data>
   <status xsi:type="xsd:boolean">true</status>
