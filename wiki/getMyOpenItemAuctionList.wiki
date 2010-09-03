@@ -37,8 +37,8 @@ Call this function to get the ID list of open auction items
       <id_category xsi:type="xsd:int">80</id_category>
       <title xsi:type="xsd:string">ApiBulkImgObject</title>
       <subtitle xsi:type="xsd:string"/>
-      <personal_reference xsi:type="xsd:string">VendrediBBQ</personal_reference>
-      <description xsi:type="xsd:string">My updated description</description>
+      <personal_reference xsi:type="xsd:string">MyPersonalRef</personal_reference>
+      <description xsi:type="xsd:string">My description</description>
       <price_starting xsi:type="xsd:float">0.01</price_starting>
       <fixed_price xsi:nil="true"/>
       <price_present xsi:type="xsd:float">0.01</price_present>
