@@ -36,7 +36,7 @@ Call this function to get the list of sold fixed price items
       <id_country xsi:type="xsd:int">0</id_country>
       <id_category xsi:type="xsd:int">80</id_category>
       <title xsi:type="xsd:string">MyTitle</title>
-      <subtitle xsi:type="xsd:string">Test de sous-titre</subtitle>
+      <subtitle xsi:type="xsd:string">MySub</subtitle>
       <personal_reference xsi:type="xsd:string">PersRef</personal_reference>
       <description xsi:type="xsd:string">My description</description>
       <price_starting xsi:nil="true"/>
