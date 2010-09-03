@@ -21,71 +21,73 @@ The new items will be placed in a queue and processed later.
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:addItemFixedPriceBulk>
-  <token xsi:type="xsd:string">13cf373dbf519c1295fb051422eb41fb</token>
-  <arrDataBulk SOAP-ENC:arrayType="ns1:Map[2]" xsi:type="SOAP-ENC:Array">
-  <item xsi:type="ns1:Map">
-    <item>
-      <key xsi:type="xsd:string">id_country</key>
-      <value xsi:type="xsd:int">0</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">id_category</key>
-      <value xsi:type="xsd:int">80</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">fixed_price</key>
-      <value xsi:type="xsd:string">0.01</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">currency</key>
-      <value xsi:type="xsd:string">EUR</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">title</key>
-      <value xsi:type="xsd:string">API TEST Item 1</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">personal_reference</key>
-      <value xsi:type="xsd:string">MyPersRef</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">images</key>
-      <value xsi:type="xsd:string">http://www.mypics.net/testPicsApi_1.jpg</value>
-    </item>
-  </item>
-  <item xsi:type="ns1:Map">
-    <item>
-      <key xsi:type="xsd:string">id_country</key>
-      <value xsi:type="xsd:int">0</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">id_category</key>
-      <value xsi:type="xsd:int">80</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">fixed_price</key>
-      <value xsi:type="xsd:string">0.01</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">currency</key>
-      <value xsi:type="xsd:string">EUR</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">title</key>
-      <value xsi:type="xsd:string">API TEST Item 2</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">personal_reference</key>
-      <value xsi:type="xsd:string">MyPersRef</value>
-    </item>
-    <item>
-      <key xsi:type="xsd:string">images</key>
-      <value xsi:type="xsd:string">http://www.mypics.net/testPicsApi_2.jpg</value>
-    </item>
-  </item>
-  </arrDataBulk>
-</SOAP-ENV:addItemFixedPriceBulk>
+<SOAP-ENV:addItemAuctionBulk>
+  <token xsi:type="xsd:string">da1cd7015880673bed658b8e3f6ef7e8</token>
+  <data xsi:type="ns1:ItemAuctionParamBulk">
+    <data SOAP-ENC:arrayType="ns1:ItemAuctionParam[2]" xsi:type="ns1:ArrayOfItemAuctionParam">
+      <item xsi:type="ns1:ItemAuctionParam">
+        <id_country xsi:type="xsd:int">0</id_country>
+        <id_category xsi:type="xsd:int">80</id_category>
+        <title xsi:type="xsd:string">MyTitle</title>
+        <subtitle xsi:nil="true"/>
+        <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+        <description xsi:type="xsd:string">My description</description>
+        <price_starting xsi:nil="true"/>
+        <price_increment xsi:nil="true"/>
+        <currency xsi:type="xsd:string">EUR</currency>
+        <date_end xsi:nil="true"/>
+        <duration xsi:nil="true"/>
+        <prefered_end_day xsi:nil="true"/>
+        <prefered_end_hour xsi:nil="true"/>
+        <renew xsi:nil="true"/>
+        <option_boldtitle xsi:nil="true"/>
+        <option_coloredborder xsi:nil="true"/>
+        <option_highlight xsi:nil="true"/>
+        <option_keepoptionsonrenewal xsi:nil="true"/>
+        <option_lastminutebidding xsi:nil="true"/>
+        <option_privatebidding xsi:nil="true"/>
+        <option_subtitle xsi:nil="true"/>
+        <option_topcategory xsi:nil="true"/>
+        <option_toplisting xsi:nil="true"/>
+        <option_topmain xsi:nil="true"/>
+        <images SOAP-ENC:arrayType="xsd:string[2]" xsi:type="ns1:String[]">
+          <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
+          <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
+        </images>
+      </item>
+      <item xsi:type="ns1:ItemAuctionParam">
+        <id_country xsi:type="xsd:int">0</id_country>
+        <id_category xsi:type="xsd:int">80</id_category>
+        <title xsi:type="xsd:string">MyTitle</title>
+        <subtitle xsi:nil="true"/>
+        <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+        <description xsi:type="xsd:string">My description</description>
+        <price_starting xsi:nil="true"/>
+        <price_increment xsi:nil="true"/>
+        <currency xsi:type="xsd:string">EUR</currency>
+        <date_end xsi:nil="true"/>
+        <duration xsi:nil="true"/>
+        <prefered_end_day xsi:nil="true"/>
+        <prefered_end_hour xsi:nil="true"/>
+        <renew xsi:nil="true"/>
+        <option_boldtitle xsi:nil="true"/>
+        <option_coloredborder xsi:nil="true"/>
+        <option_highlight xsi:nil="true"/>
+        <option_keepoptionsonrenewal xsi:nil="true"/>
+        <option_lastminutebidding xsi:nil="true"/>
+        <option_privatebidding xsi:nil="true"/>
+        <option_subtitle xsi:nil="true"/>
+        <option_topcategory xsi:nil="true"/>
+        <option_toplisting xsi:nil="true"/>
+        <option_topmain xsi:nil="true"/>
+        <images SOAP-ENC:arrayType="xsd:string[2]" xsi:type="ns1:String[]">
+          <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
+          <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
+        </images>
+      </item>
+    </data>
+  </data>
+</SOAP-ENV:addItemAuctionBulk>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
