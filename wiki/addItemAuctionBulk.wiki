@@ -166,7 +166,7 @@ for ($i = 0; $i < 100; $i++) {
 	                                       'http://www.mypictures.com/pic3.jpg'
                                               );
 
-  $dataBulk['data'][] = $data;
+  $dataBulk['data'][] = $data; //New syntax here !
 }
 
 //FUNCTION CALL
