@@ -1,7 +1,7 @@
 #summary Details on getMyClosedUnsoldItemFixedPriceList() API function
 #sidebar ApiFunctions
 
-Call this function to get the ID list of unsold closed fixed price items
+Call this function to get the list of unsold closed fixed price items
 
 === Call ===
 
@@ -22,7 +22,7 @@ Call this function to get the ID list of unsold closed fixed price items
 
 === Response ===
 
- * ResponseItem, giving you a list of unsold closed fixed price items ID
+ * ResponseItem, giving you a list of unsold closed fixed price items
 
  * SOAP envelope
 {{{
