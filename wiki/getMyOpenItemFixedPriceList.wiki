@@ -95,7 +95,7 @@ Call this function to get the list of open fixed price items
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
-  <persRef xsi:nil="true"/>
+  <personal_reference xsi:nil="true"/>
   </getMyOpenItemFixedPriceListReturn>
 </SOAP-ENV:getMyOpenItemFixedPriceListResponse>
 </SOAP-ENV:Body>
