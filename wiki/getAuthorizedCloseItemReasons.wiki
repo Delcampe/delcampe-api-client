@@ -43,7 +43,7 @@ Call this function to get the list of authorized reasonsto close an item. You ha
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
-  <persRef xsi:nil="true"/>
+  <personal_reference xsi:nil="true"/>
   </getAuthorizedCloseItemReasonsReturn>
 </SOAP-ENV:getAuthorizedCloseItemReasonsResponse>
 </SOAP-ENV:Body>
