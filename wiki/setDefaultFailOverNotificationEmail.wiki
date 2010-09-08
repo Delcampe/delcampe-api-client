@@ -40,7 +40,7 @@ For more informations about Delcampe's notifications, see [Notifications].
     <data xsi:type="xsd:string">
       Your default failover notification email has been saved!
     </data>
-    <persRef xsi:nil="true"/>
+    <personal_reference xsi:nil="true"/>
   </setDefaultFailOverNotificationEmailReturn>
 </SOAP-ENV:setDefaultFailOverNotificationEmailResponse>
 </SOAP-ENV:Body>
