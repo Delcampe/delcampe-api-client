@@ -66,7 +66,7 @@ Call this function to get data on a specified item, giving a personal reference
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
-  <persRef xsi:nil="true"/>
+  <personal_reference xsi:nil="true"/>
   </getItemInfoByPersonalReferenceReturn>
 </SOAP-ENV:getItemInfoByPersonalReferenceResponse>
 </SOAP-ENV:Body>
