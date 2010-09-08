@@ -19,7 +19,7 @@ If you update the images of an item, all existing images of this item will be lo
 <SOAP-ENV:Body>
 <SOAP-ENV:updateItem>
   <token xsi:type="xsd:string">c94e7a65294996ad3915cefe7bfb0540</token>
-  <idItem xsi:type="xsd:int">99696430</idItem>
+  <id_item xsi:type="xsd:int">99696430</id_item>
   <arrData xsi:type="ns1:Map">
     <item>
       <key xsi:type="xsd:string">title</key>
