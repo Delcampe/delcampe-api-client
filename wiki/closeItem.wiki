@@ -22,7 +22,7 @@ This function call will be placed in a queue and processed later.
 <SOAP-ENV:Body>
 <SOAP-ENV:closeItem>
   <token xsi:type="xsd:string">e6c95bd2eb4cc458710106ecae9cde90</token>
-  <idItem xsi:type="xsd:int">99664633</idItem>
+  <id_item xsi:type="xsd:int">99664633</id_item>
   <reason xsi:type="xsd:string">TestItem</reason>
 </SOAP-ENV:closeItem>
 </SOAP-ENV:Body>
