@@ -39,7 +39,7 @@ A delay of 5 seconds is applied between two calls of this function.
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
     <data xsi:type="xsd:string">Your item #99664631 has been closed!</data>
-    <persRef xsi:nil="true"/>
+    <personal_reference xsi:nil="true"/>
   </closeItemPriorityReturn>
 </SOAP-ENV:closeItemPriorityResponse>
 </SOAP-ENV:Body>
