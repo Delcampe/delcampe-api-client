@@ -17,7 +17,7 @@ Call this function to get data on a specified item
 <SOAP-ENV:Body>
 <SOAP-ENV:getItemInfo>
   <token xsi:type="xsd:string">0b829004b44c206d44b43f1976fcd667</token>
-  <idItem xsi:type="xsd:int">99664630</idItem>
+  <id_item xsi:type="xsd:int">99664630</idItem>
 </SOAP-ENV:getItemInfo>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
