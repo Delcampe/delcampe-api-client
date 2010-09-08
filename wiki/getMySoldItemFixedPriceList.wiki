@@ -94,7 +94,7 @@ Call this function to get the list of sold fixed price items
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
-  <persRef xsi:nil="true"/>
+  <personal_reference xsi:nil="true"/>
   </getMySoldItemFixedPriceListReturn>
 </SOAP-ENV:getMySoldItemFixedPriceListResponse>
 </SOAP-ENV:Body>
