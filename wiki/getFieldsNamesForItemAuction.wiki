@@ -109,7 +109,7 @@ Call this function to get a list of fields name you can use to handle an auction
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
-  <persRef xsi:nil="true"/>
+  <personal_reference xsi:nil="true"/>
   </getFieldsNamesForItemAuctionReturn>
 </SOAP-ENV:getFieldsNamesForItemAuctionResponse>
 </SOAP-ENV:Body>
