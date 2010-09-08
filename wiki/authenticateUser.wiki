@@ -38,7 +38,7 @@ Call this function to authenticate yourself and get a personal token. When neede
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
     <data xsi:type="xsd:string">327c1a8b5111b35105d9eac5b640</data>
-    <persRef xsi:nil="true"/>
+    <personal_reference xsi:nil="true"/>
   </authenticateUserReturn>
 </SOAP-ENV:authenticateUserResponse>
 </SOAP-ENV:Body>
