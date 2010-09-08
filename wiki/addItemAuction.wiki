@@ -53,7 +53,8 @@ This new item will be placed in a queue and processed later.
   </data>
 </SOAP-ENV:addItemAuction>
 </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>}}}
+</SOAP-ENV:Envelope>
+}}}
 
 === Response ===
 
