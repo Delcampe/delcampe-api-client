@@ -34,7 +34,7 @@ Call this function to get the ID of the seller linked to the given token
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
     <data xsi:type="xsd:string">2820642</data>
-    <persRef xsi:nil="true"/>
+    <personal_reference xsi:nil="true"/>
   </getMySellerIdReturn>
 </SOAP-ENV:getMySellerIdResponse>
 </SOAP-ENV:Body>
