@@ -69,7 +69,7 @@ This new item will be placed in a queue and processed later.
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
     <data xsi:type="xsd:string">Your request was taken into account!</data>
-    <persRef xsi:type="xsd:string">MyPersRef</persRef>
+    <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
   </addItemAuctionReturn>
 </SOAP-ENV:addItemAuctionResponse>
 </SOAP-ENV:Body>
