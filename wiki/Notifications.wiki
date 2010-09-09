@@ -20,7 +20,7 @@ Concretely, after a call of an API function, you will often receive a notificati
  * These notifications are encoded in UTF-8
  * The different notifications are recognized by their type
 
-== List of XML Notifications type you could receive from Delcampe on your feedback URL ==
+== List of XML Notifications types you could receive from Delcampe on your feedback URL ==
 
 === !Seller_Item_Add ===
 
