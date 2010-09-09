@@ -19,15 +19,15 @@ Concretely, after a call of an API function, you will often receive a notificati
  * The notifications sent by call on your server are in XML format
  * The notifications are encoded in UTF-8
  * The different notifications are recognized by their type
- * You will receive the notifications in {{{$_REQUEST['delcampeNotification']}}}
+ * You will receive the notifications in POST {{{$_REQUEST['delcampeNotification']}}}
 
 === Code example (PHP) showing you how to handle XML notifications you receive ===
 This example shows you how to catch the xml in {{{$_REQUEST}}} and log the notification.
 {{{
 $logfileName = './log/feedbackFromDelcampeApi' . date('Ymd') . '.log';
 
-if (isset($_REQUEST['delcampeNotification'])) {
-  $dataWrite = $_REQUEST['delcampeNotification'];
+if (isset($_POST['delcampeNotification'])) {
+  $dataWrite = $_POST['delcampeNotification'];
 }    
        
 $logFileHandler = fopen($logfileName, 'a');
