@@ -20,6 +20,20 @@ Concretely, after a call of an API function, you will often receive a notificati
  * These notifications are encoded in UTF-8
  * The different notifications are recognized by their type
 
+=== Code example (PHP) showing you how to handle XML notifications you receive ===
+{{{
+$logfileName = './log/feedbackFromDelcampeApi' . date('Ymd') . '.log';
+
+if (isset($_REQUEST['delcampeNotification'])) {
+  $dataWrite = $_REQUEST['delcampeNotification'];
+}    
+       
+$logFileHandler = fopen($logfileName, 'a');
+chmod ($logFileHandler, 0666);
+fwrite($logFileHandler, date('H:i:s') . ' | ' . $dataWrite . "\n");
+fclose($logFileHandler);
+}}}
+
 == List of XML Notifications types you could receive from Delcampe on your feedback URL ==
 
 === !Seller_Item_Add ===
