@@ -22,6 +22,7 @@ Concretely, after a call of an API function, you will often receive a notificati
  * You will receive the notifications in {{{$_REQUEST['delcampeNotification']}}}
 
 === Code example (PHP) showing you how to handle XML notifications you receive ===
+This example shows you how to catch the xml in $_REQUEST and log the notification.
 {{{
 $logfileName = './log/feedbackFromDelcampeApi' . date('Ymd') . '.log';
 
