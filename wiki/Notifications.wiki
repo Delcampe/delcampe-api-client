@@ -44,7 +44,7 @@ fclose($logFileHandler);
   * after a call of [addItemAuction](), when the request is processed 
   * after a call of [addItemFixedPrice](), when the request is processed
 
- * This notification can be tested by calling [testNotification]()
+ * The reception of this notification can be tested by calling [testNotification]()
 
 ==== Example ====
 {{{
