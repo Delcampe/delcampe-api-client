@@ -3,10 +3,7 @@
 
 This is a *test function*.<br>
 Call this function to test the reception of a specific XML notification type.<br>
-The returned notification contains dummy item's data.<br>
-
- * Email notifications begins with 'Email'
- * XML notifications begins with 'Curl'
+The returned notification contains data of a dummy item.<br>
 
 For more informations about Delcampe's notifications, see [Notifications].
 
