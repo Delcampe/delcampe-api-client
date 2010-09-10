@@ -11,7 +11,7 @@ For more informations about Delcampe's notifications, see [Notifications].
  * syntax : testNotification(string token, string type)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : notification type. Call [getAvailableNotifications]() to get a list of notification types
+ * parameter 2 : _string_ : notification type. Call [getAvailableNotifications]() to get a list of notification types. Only XML notification can be tested with this function.
 
  * SOAP envelope
 {{{
