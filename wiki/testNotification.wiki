@@ -34,14 +34,16 @@ For more informations about Delcampe's notifications, see [Notifications].
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:addNotificationSettingResponse>
-  <addNotificationSettingReturn xsi:type="ns1:ResponseSimple">
-    <status xsi:type="xsd:boolean">true</status>
-    <errorMsg xsi:nil="true"/>
-    <data xsi:type="xsd:string">Your new notification setting has been saved!</data>
-    <persRef xsi:nil="true"/>
-  </addNotificationSettingReturn>
-</SOAP-ENV:addNotificationSettingResponse>
+<SOAP-ENV:testNotificationResponse>
+<testNotificationReturn xsi:type="ns1:ResponseSimple">
+<status xsi:type="xsd:boolean">true</status>
+<errorMsg xsi:nil="true"/>
+<data xsi:type="xsd:string">
+A test notification of type Curl_Seller_Item_Close_Sold has been sent!
+</data>
+<personal_reference xsi:nil="true"/>
+</testNotificationReturn>
+</SOAP-ENV:testNotificationResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
