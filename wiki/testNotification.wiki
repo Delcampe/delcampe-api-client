@@ -9,11 +9,10 @@ For more informations about Delcampe's notifications, see [Notifications].
 
 === Call ===
 
- * syntax : addNotificationSetting(string token, string type, string destination)
+ * syntax : testNotification(string token, string type)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _string_ : notification type. Call [getAvailableNotifications]() to get a list of notification types
- * parameter 3 : _string_ : destination where we have to send the notification
 
  * SOAP envelope
 {{{
