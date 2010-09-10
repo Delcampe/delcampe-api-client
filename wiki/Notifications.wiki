@@ -66,6 +66,8 @@ fclose($logFileHandler);
  * When is it send ?
   * after a call of [updateItem](), when the request is processed 
 
+ * The reception of this notification can be tested by calling [testNotification]()
+
 ==== Example ====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -87,6 +89,8 @@ fclose($logFileHandler);
  * When is it send ?
   * immediately when there is a first bid on an item
 
+ * The reception of this notification can be tested by calling [testNotification]()
+
 ==== Example ====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -106,6 +110,8 @@ fclose($logFileHandler);
 
  * When is it send ?
   * when an item is sold on the website
+
+ * The reception of this notification can be tested by calling [testNotification]()
 
 ==== Example ====
 {{{
@@ -151,6 +157,8 @@ fclose($logFileHandler);
  * When is it send ?
   * when the end time of an unsold item is reached
 
+ * The reception of this notification can be tested by calling [testNotification]()
+
 ==== Example ====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -170,6 +178,8 @@ fclose($logFileHandler);
 
  * When is it send ?
   * after a call of [closeItem]()
+
+ * The reception of this notification can be tested by calling [testNotification]()
 
 ==== Example ====
 {{{
