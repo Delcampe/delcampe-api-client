@@ -1,9 +1,9 @@
 #summary Details on testNotification() API function
 #sidebar ApiFunctions
 
-This is a test function.
-Call this function to test the reception of a specific XML notification type.
-The returned notification contains dummy item's data.
+This is a test function.<br>
+Call this function to test the reception of a specific XML notification type.<br>
+The returned notification contains dummy item's data.<br>
 
  * Email notifications begins with 'Email'
  * XML notifications begins with 'Curl'
