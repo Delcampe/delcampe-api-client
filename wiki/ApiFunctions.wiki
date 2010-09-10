@@ -32,4 +32,5 @@ List of *API functions* you can call.
  * [setDefaultFailOverNotificationEmail]()
  * [setDefaultNotificationEmail]()
  * [setDefaultNotificationUrl]()
+ * [testNotification]()
  * [updateItem]() 
