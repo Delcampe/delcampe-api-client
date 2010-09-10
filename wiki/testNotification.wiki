@@ -1,7 +1,7 @@
 #summary Details on testNotification() API function
 #sidebar ApiFunctions
 
-Call this function to *test* the reception of a specific XML notification type.<br>
+Call this function to test the reception of a specific XML notification type.<br>
 The returned notification contains data of a dummy item.<br>
 
 For more informations about Delcampe's notifications, see [Notifications].
