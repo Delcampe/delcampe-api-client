@@ -113,7 +113,7 @@ fclose($logFileHandler);
 
  * The reception of this notification can be tested by calling [testNotification]()
 
- * The field <url_to_rating> is url encoded.
+ * The fields {{{<url_to_item>}}} and {{{<url_to_rating>}}} are URL-encoded according to RFC 1738
 
 ==== Example ====
 {{{
