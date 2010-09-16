@@ -113,6 +113,8 @@ fclose($logFileHandler);
 
  * The reception of this notification can be tested by calling [testNotification]()
 
+ * The field <url_to_rating> is url encoded.
+
 ==== Example ====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
