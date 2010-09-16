@@ -146,7 +146,7 @@ fclose($logFileHandler);
       <buyer_phone></buyer_phone>
       <buyer_rating_nbr>20</buyer_rating_nbr>
       <buyer_rating_percentage>98</buyer_rating_percentage>
-      <url_to_rating>http://www.delcampe.net/item.php?language=F&id=55943975#rating</url_to_rating>
+      <url_to_rating>http%3A%2F%2Fwww.delcampe.net%2Fitem.php%3Flanguage%3DF%26id%3D96798976%23rating</url_to_rating>
     </Notification_Data>
   </Delcampe_Notification>
 }}}
