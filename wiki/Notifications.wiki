@@ -130,7 +130,7 @@ fclose($logFileHandler);
       <best_bid_currency>Eur</best_bid_currency>
       <qty>1</qty>
       <personal_reference>MyPersonalReference</personal_reference>
-      <url_to_item>http://www.delcampe.net/item.php?language=E&id=55943975</url_to_item>
+      <url_to_item>http%3A%2F%2Fwww.delcampe.net%2Fitem.php%3Flanguage%3DF%26id%3D96798976</url_to_item>
       <bids_qty>1</bids_qty>
       <visits_counter>2</visits_counter>
       <buyer_id>57252065</buyer_id>
