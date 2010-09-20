@@ -36,6 +36,14 @@ fwrite($logFileHandler, date('H:i:s') . ' | ' . $dataWrite . "\n");
 fclose($logFileHandler);
 }}}
 
+To handle the XML notification as an object
+{{{
+if (isset($_POST['delcampeNotification'])) {
+  $dataWrite = $_POST['delcampeNotification'];
+  $parsedXml = simplexml_load_string($dataWrite);
+}    
+}}}
+
 == List of XML Notifications types you could receive from Delcampe on your feedback URL ==
 
 === !Seller_Item_Add ===
