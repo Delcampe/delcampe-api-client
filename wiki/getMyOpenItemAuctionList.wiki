@@ -9,8 +9,6 @@ Examples :
  * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
  * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
 
-
-
 === Call ===
 
  * syntax : getMyOpenItemAuctionList(string token, int startingItem, int numberOfItems)
