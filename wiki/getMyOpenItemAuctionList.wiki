@@ -1,7 +1,9 @@
 #summary Details on getMyOpenItemAuctionList() API function
 #sidebar ApiFunctions
 
-Call this function to get the list of open auction items
+Call this function to get the list of open auction items.
+
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement.
 
 === Call ===
 
