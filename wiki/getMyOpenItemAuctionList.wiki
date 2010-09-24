@@ -26,7 +26,7 @@ Examples :
 <SOAP-ENV:getMyOpenItemAuctionList>
   <token xsi:type="xsd:string">4c8cd860773354e580926c7081bdac6f</token>
   <startingItem xsi:type="xsd:int">0</startingItem>
-  <numberOfItems xsi:type="xsd:int">10</numberOfItems>
+  <numberOfItems xsi:type="xsd:int">2</numberOfItems>
 </SOAP-ENV:getMyOpenItemAuctionList>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
