@@ -11,6 +11,12 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
  * syntax : getMySoldItemFixedPriceList(string token)
 
  * parameter : _string_ : secret token
+ * parameter : _int_ : (optional) the starting item you want to be returned 
+ * parameter : _int_ : (optional) the number of items you want to be returned
+
+ * examples : 
+   * getMySoldItemFixedPriceList(yourToken, 0, 100) : returns the first 100 items.
+   * getMySoldItemFixedPriceList(yourToken, 100, 500) : returns 500 items, beginning at the hundredth item.
 
  * SOAP envelope
 {{{
