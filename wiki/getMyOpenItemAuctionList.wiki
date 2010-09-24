@@ -3,7 +3,7 @@
 
 Call this function to get the list of open auction items.
 
-If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement.
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. For example, if you pass 0 as first parameter and 100 as second parameter, the function will return your first 100 open items.
 
 === Call ===
 
