@@ -6,8 +6,8 @@ Call this function to get the list of open auction items.
 If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. 
 
 Examples : 
- * if you pass 0 as first parameter and 100 as second parameter, the function will return your first 100 open items.
- * if you pass 100 as first parameter and 500 as second parameter, the function will return 500 open items, beginning at the hundredth item.
+ * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
+ * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
 
 
 
