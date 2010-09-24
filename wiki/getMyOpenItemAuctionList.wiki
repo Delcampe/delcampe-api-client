@@ -13,9 +13,9 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
  * parameter : _int_ : (optional) the starting item you want to be returned 
  * parameter : _int_ : (optional) the number of items you want to be returned
 
-Examples : 
- * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
- * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
+ * Examples : 
+   * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
+   * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
 
  * SOAP envelope
 {{{
