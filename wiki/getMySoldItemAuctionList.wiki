@@ -3,11 +3,19 @@
 
 Call this function to get the list of sold auction items
 
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. 
+
 === Call ===
 
  * syntax : getMySoldItemAuctionList(string token)
 
  * parameter : _string_ : secret token
+ * parameter : _int_ : (optional) the starting item you want to be returned 
+ * parameter : _int_ : (optional) the number of items you want to be returned
+
+ * examples : 
+   * getMySoldItemAuctionList(yourToken, 0, 100) : returns the first 100 items.
+   * getMySoldItemAuctionList(yourToken, 100, 500) : returns 500 items, beginning at the hundredth item.
 
  * SOAP envelope
 {{{
