@@ -23,6 +23,8 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
 <SOAP-ENV:Body>
 <SOAP-ENV:getMySoldItemAuctionList>
   <token xsi:type="xsd:string">2070888c0b8e4db76a41c70001e12fd0</token>
+  <startingItem xsi:type="xsd:int">0</startingItem>
+  <numberOfItems xsi:type="xsd:int">2</numberOfItems>
 </SOAP-ENV:getMySoldItemAuctionList>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
