@@ -5,10 +5,6 @@ Call this function to get the list of open auction items.
 
 If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. 
 
-Examples : 
- * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
- * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
-
 === Call ===
 
  * syntax : getMyOpenItemAuctionList(string token, int startingItem, int numberOfItems)
@@ -16,6 +12,10 @@ Examples :
  * parameter : _string_ : secret token
  * parameter : _int_ : (optional) the starting item you want to be returned 
  * parameter : _int_ : (optional) the number of items you want to be returned
+
+Examples : 
+ * getMyOpenItemAuctionList(yourToken, 0, 100) : returns your first 100 open items.
+ * getMyOpenItemAuctionList(yourToken, 100, 500) : returns 500 open items, beginning at the hundredth item.
 
  * SOAP envelope
 {{{
