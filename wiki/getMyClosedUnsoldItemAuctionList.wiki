@@ -1,14 +1,21 @@
 #summary Details on getMyClosedUnsoldItemAuctionList() API function
 #sidebar ApiFunctions
 
-Call this function to get the list of unsold closed auction items
+Call this function to get the list of unsold closed auction items.
 
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement.
 
 === Call ===
 
  * syntax : getMyClosedUnsoldItemAuctionList(string token)
 
  * parameter : _string_ : secret token
+ * parameter : _int_ : (optional) the starting item you want to be returned 
+ * parameter : _int_ : (optional) the number of items you want to be returned
+
+ * examples : 
+   * getMyClosedUnsoldItemAuctionList(yourToken, 0, 100) : returns your first 100 unsold and closed auction items.
+   * getMyClosedUnsoldItemAuctionList(yourToken, 100, 500) : returns 500 unsold and closed auction items, beginning at the hundredth auction item.
 
  * SOAP envelope
 {{{
