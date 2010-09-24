@@ -14,8 +14,8 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
  * parameter : _int_ : (optional) the number of items you want to be returned
 
  * examples : 
-   * getMyClosedUnsoldItemAuctionList(yourToken, 0, 100) : returns your first 100 unsold and closed auction items.
-   * getMyClosedUnsoldItemAuctionList(yourToken, 100, 500) : returns 500 unsold and closed auction items, beginning at the hundredth auction item.
+   * getMyClosedUnsoldItemAuctionList(yourToken, 0, 100) : returns the first 100 items.
+   * getMyClosedUnsoldItemAuctionList(yourToken, 100, 500) : returns 500 items, beginning at the hundredth item.
 
  * SOAP envelope
 {{{
