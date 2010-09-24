@@ -23,6 +23,8 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
 <SOAP-ENV:Body>
 <SOAP-ENV:getMyOpenItemFixedPriceList>
   <token xsi:type="xsd:string">8922d39fbc6f9754049a6e8c831247ad</token>
+  <startingItem xsi:type="xsd:int">0</startingItem>
+  <numberOfItems xsi:type="xsd:int">2</numberOfItems>
 </SOAP-ENV:getMyOpenItemFixedPriceList>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
