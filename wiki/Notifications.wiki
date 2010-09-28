@@ -1,8 +1,8 @@
 #summary Informations on Delcampe's Notifications
 
-Notifications are the way that Delcampe gives you feedback on your API actions.
+Notifications is the mean used by Delcampe to update you about your API actions.
 
-For common website members, notifications are sent by mail and in Internal Delcampe Messagery. For Delcampe's API users, notifications in XML format have been added. This format will allow users to interact with feedback. Those notifications are sent by a _simple http call_ on a URL of your choice (_feedback url_) with the xml in the _POST data_.
+For common website members, notifications are sent via email and through the Internal website's messaging system. For Delcampe's API users, notifications in XML format have been added. This format will allow users to interact with feedback. Those notifications are sent by a _simple http call_ on a URL of your choice (_feedback url_) with the xml in the _POST data_.
 
 To set the URL of your choice, you have two possibilities :
  * If you want to set one URL for all your XML notifications, call [setDefaultNotificationUrl]()
@@ -10,12 +10,12 @@ To set the URL of your choice, you have two possibilities :
 
 After 5 unsuccessful xml notification sending on your feedback url, the xml notification will be sent on an email address. Call [setDefaultFailOverNotificationEmail]() to set this email address.
 
-For more security, you can add, at the end of your URL, a token value of your choice. If you do so, this token will be set in each XML notification you'll receive from Delcampe,  assuring you that the notification is sent by Delcampe and no other one.
+For more security, you can add, at the end of your URL, a token value of your choice. If you do so, this token will be set in each XML notification you'll receive from Delcampe,  ensuring you that the notification is sent by Delcampe and no other one.
  * Example of URL with a token : {{{http://www.mysite.net/feedback_api.php?token=bob}}}
  * This token is set in the notifications you'll receive : {{{<Notification_Token>Bob</Notification_Token>}}}
 
 
-Concretely, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more informations. 
+In concrete terms, after a call of an API function, you will often receive a notification when your request is actually processed by Delcampe. For example, when you call addItemAuction(), your request will first be put in a queue. Later, when your request is processed, you will automatically receive a notification giving you more information. 
  * The notifications sent by call on your server are in *XML format*
  * The notifications are *encoded in UTF-8*
  * The different notifications are recognized by their type
@@ -71,7 +71,7 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_Update ===
 
- * When is it send ?
+ * When is it sent ?
   * after a call of [updateItem](), when the request is processed 
 
  * The reception of this notification can be tested by calling [testNotification]()
@@ -94,7 +94,7 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_FirstBid ===
 
- * When is it send ?
+ * When is it sent ?
   * immediately when there is a first bid on an item
 
  * The reception of this notification can be tested by calling [testNotification]()
@@ -116,7 +116,7 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_Close_Sold ===
 
- * When is it send ?
+ * When is it sent ?
   * when an item is sold on the website
 
  * The reception of this notification can be tested by calling [testNotification]()
@@ -164,7 +164,7 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_Close_Unsold ===
 
- * When is it send ?
+ * When is it sent ?
   * when the end time of an unsold item is reached
 
  * The reception of this notification can be tested by calling [testNotification]()
@@ -186,7 +186,7 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_Close_Manually ===
 
- * When is it send ?
+ * When is it sent ?
   * after a call of [closeItem]()
 
  * The reception of this notification can be tested by calling [testNotification]()
@@ -208,8 +208,8 @@ if (isset($_POST['delcampeNotification'])) {
 
 === !Seller_Item_Move ===
 
- * When is it send ?
-  * when a moderator moves one of your item from a category to another one  
+ * When is it sent ?
+  * when a moderator moves one of your items from a category to another one  
 
 ==== Example ====
 {{{
