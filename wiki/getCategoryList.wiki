@@ -9,7 +9,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
  * syntax : getCategoryList(string token, string language, integer parentCategoryID)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _character_ : Optional parameter. The language in wich you want the categories. Default value : 'E'. You can specify one of the following values :
+ * parameter 2 : _character_ : Optional parameter. The language in which you want the categories to appear. Default value : 'E'. You can specify one of the following values :
   * 'E' : english
   * 'F' : français
   * 'I' : italiano
