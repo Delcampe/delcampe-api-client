@@ -81,4 +81,4 @@ puts response.to_hash[:get_server_time_response][:get_server_time_return]
 
 == .net ==
 
-If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, we've only got it working in WSDL mode. If anyone have made it work in non-WSDL-mode, we'd be interested to get some info, so we can inform here. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
+If you intend to call a PHP SOAP server from a .NET Client, there are a couple of things to be aware of. First of all, we've only got it working in WSDL mode. If anyone has made it worked in non-WSDL-mode, we'd be interested to get some info, so that we can inform you even more here. In WSDL-mode it works, but both input and output-parameters are wrapped from .NET. 
