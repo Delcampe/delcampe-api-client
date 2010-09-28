@@ -1,12 +1,12 @@
 #summary Authorized values for item fields
 
-On this page, you'll find informations on values you can set on different fields when adding a new Auction item ([addItemAuction]()) or a new Fixed price item ([addItemFixedPrice]()). 
+On this page, you'll find information on values you can set on different fields when adding a new Auction item ([addItemAuction]()) or a new Fixed price item ([addItemFixedPrice]()). 
 
 Here is a list of fields name with their authorized fixed values.
 
 ==== id_country ====
 
- * Country where to put the sale
+ * Country where to add the sale
  * Data type : integer
  * Accepted values and their meaning
   * *0* : .net
@@ -18,23 +18,23 @@ Here is a list of fields name with their authorized fixed values.
   * *6* : .co.uk
   * *7* : .com
   * *8* : .ch
-  * *9*: .be
+  * *9* : .be
   * *10* : .at
   * *11* : .ca 
 
 
 ==== id_category ====
 
- * Delcampe's category where to put the item
+ * This is the matching category on Delcampe Marketplace Website
  * Data type : integer
  * Accepted values and their meaning : call [getCategoryList]() 
 
 
 ==== currency ====
 
- * Currency of the item
+ * Currency of the price
  * Data type : string
- * Accepted values and their meaning
+ * Accepted values and their meanings
   * *EUR* : Euro
   * *USD* : United States dollar
   * *GBP* : Pound sterling
@@ -46,8 +46,8 @@ Here is a list of fields name with their authorized fixed values.
 
  * Duration of the sale
  * Data type : integer
- * Accepted values and their meaning
-  * *7* : sale duration of 7 days
+ * Accepted values and their meanings
+  * *7* :  sale duration of 7 days
   * *10* : sale duration of 10 days
   * *14* : sale duration of 14 days
   * *21* : sale duration of 21 days
@@ -58,7 +58,7 @@ Here is a list of fields name with their authorized fixed values.
 
  * Number of times the sale should be renewed if the item is not sold
  * Data type : integer
- * Accepted values and their meaning
+ * Accepted values and their meanings
   * *0* : the sale will not be renewed
   * *1* : renew the sale 1 time
   * *2* : renew the sale 2 times
@@ -73,11 +73,11 @@ Here is a list of fields name with their authorized fixed values.
 
  * The day you want the sale to be closed
  * Data type : string
- * Accepted values and their meaning
-  * *mon* : monday
-  * *tue* : tuesday
-  * *wed* : wednesday
-  * *thu* : thursday
-  * *fri* : friday
-  * *sat* : saterday
-  * *sun* : sunday
+ * Accepted values and their meanings
+  * *mon* : Monday
+  * *tue* : Tuesday
+  * *wed* : Wednesday
+  * *thu* : Thursday
+  * *fri* : Friday
+  * *sat* : Saterday
+  * *sun* : Sunday
