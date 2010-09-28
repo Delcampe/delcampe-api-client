@@ -10,5 +10,5 @@ To *request your API key* or simply get more info about the API:
 _If you need to contact the team of this project (the api client)_
  * you can give [http://spreadsheets.google.com/viewform?formkey=dFFzOFljLTJxMS1sQnVyQThUb1d4Zmc6MQ your Feedback]
  * you can add a comment on matching wikipage 
- * in source browser you can annotate each line of code
- * if  you found an issue or if you want to propose some changes (in the client), you can submit a new [http://code.google.com/p/delcampe-api-client/issues/list ticket], but please make a little check in the existing listing before to create a new entry.
+ * in source browser you can annotate each line of the code
+ * if  you find an issue or if you want to propose some changes (in the client), you can submit a new [http://code.google.com/p/delcampe-api-client/issues/list ticket], but before doing this, please make sure your new entry is not already in the existing listings.
