@@ -15,7 +15,7 @@ The new items will be placed in a queue and processed later.
  * parameter 1 : _string_ : secret token
  * parameter 2 : _object_ ItemFixedPriceParamBulk  : containing several ItemFixedPriceParam objects
 
- * note : for parameter 2, php developers can use an array in place of an object. See [addItemFixedPriceBulk#Code_example_(PHP) PHP code example]
+ * note : for parameter 2, php developers can use an array instead of an object. See [addItemFixedPriceBulk#Code_example_(PHP) PHP code example]
 
  * SOAP envelope
 {{{
