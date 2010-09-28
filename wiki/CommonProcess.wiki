@@ -16,29 +16,29 @@ You will be informed by the Delcampe service when your item will be processed an
   * [Notifications#Seller_Item_Add Notifications Seller_Item_Add]
 So, check how to [#Manage_my_notifications_parameters Manage the notifications parameters]
 
-= How to retrieve an item previously added on website =
+= How to retrieve an item previously added on the website =
   With [addItemAuction]() and [addItemFixedPrice]() you can provide a _personal_reference_.
-  This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can merge info at this time.
+  This reference is provided in the Notification [Notifications#Seller_Item_Add Seller_Item_Add]. As the id of the item is also provided, you can now merge this info.
 
-If you miss it, you can search it with [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
+If you miss it, you can search for it with [getMyClosedUnsoldItemAuctionList](), [getMyClosedUnsoldItemFixedPriceList](), [getMyOpenItemAuctionList](), [getMyOpenItemFixedPriceList]() 
 
 = My item is online but I want to make a change on it =
- * Call [updateItem]() to modify some fields. Be carefull : some fields cannot be changed when auction has his first bid.
+ * Call [updateItem]() to modify some fields. Be carefull : some fields cannot be changed if a first bid has been made .
 
 = There is a bid on my auction =
-When it happens, a notification "[Notifications#Seller_Item_FirstBid Seller_Item_FirstBid]" is sent to you by the Delcampe Service. It's important for you to catch it and process it on your side if you propose your item on sale on another place than Delcampe Website.
-Indeed, as you have a bidder, you have a potential winner, and you cannot retract your item.
+When it happens, a notification "[Notifications#Seller_Item_FirstBid Seller_Item_FirstBid]" is sent to you by the Delcampe Service. It's important for you to catch it and process it on your side if you have your item on sale on another place than the Delcampe Website.
+Indeed, as you have a bidder, you have a potential winner, and you cannot withdraw your item.
 
 If you cannot manage this feedback you must leave the exclusive sale of that object to Delcampe.
 
 = End of a fixed price sale =
 
-It the most easy case, a member of Delcampe website has accept your price, the service send you a notification [Notifications#Seller_Item_Close_Sold Seller_Item_Close_Sold]
+It is the easiest situation, a member of Delcampe website has accepted your price, the service sends you a notification [Notifications#Seller_Item_Close_Sold Seller_Item_Close_Sold]
 
 You can use the API to retrieve the list of all your sold items [getMySoldItemFixedPriceList]()
 
 = Manage my notifications parameters =
-There is many notification types. You can retrieve the full list with [getAvailableNotifications]().
+There are many notification types. You can retrieve the full list with [getAvailableNotifications]().
 
 These notifications are sent by email and/or by curl.
 
@@ -56,5 +56,5 @@ As email is a preconfigured target, for each item sent ie, the owner would reciv
 
 Like on the website, items are proposed by seller for category.
 In your item data for sending you need to provide a  valid [AuthorizedValues#id_category category id].
-To know the list you can call [getCategoryList]() wich return a list of [ResponseCategory]
+To know the list you can call [getCategoryList]() which return a list of [ResponseCategory]
  
