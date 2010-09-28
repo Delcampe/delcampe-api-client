@@ -44,17 +44,17 @@ These notifications are sent by email and/or by curl.
 
 If you decide to use the API to manage your sales, the curl notification is the best way to handle feedbacks.
 
-The most easy and common usage is to set the URL where the Service should send these notifications. Do it using [setDefaultNotificationUrl]().
+The most common and easiest use is to set the URL where the Service should send these notifications. You can do it by using [setDefaultNotificationUrl]().
  
-If you want to also receive notifications by mail, [setDefaultNotificationEmail]() let you choose a different email than the account email of the seller.
+If you want to also receive notifications by mail, [setDefaultNotificationEmail]() please choose a different email address than the one used in your seller's account.
 
-Note also : the recipent is defined by the notification settings of the *owner* of items, not of the *sender*
+Note also : the recipent is defined by the notification settings of the *owner* of the items, not of the *sender*
 
-As email is a preconfigured target, for each item sent ie, the owner would recive an email.
+As email is a preconfigured target, for each item sent ie, the owner would receive an email.
 
-= How choose a Delcampe Category for my items =
+= How to choose a Delcampe Category for my items =
 
-Like on the website, items are proposed by seller for category.
+Like on the website, items should be linked to a category.
 In your item data for sending you need to provide a  valid [AuthorizedValues#id_category category id].
 To know the list you can call [getCategoryList]() which return a list of [ResponseCategory]
  
