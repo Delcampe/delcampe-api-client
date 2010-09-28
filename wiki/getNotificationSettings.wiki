@@ -3,7 +3,7 @@
 
 Call this function to get your notifications settings.
 
-For more informations about Delcampe's notifications, see [Notifications].
+For more information about Delcampe's notifications, see [Notifications].
 
 === Call ===
 
