@@ -169,6 +169,8 @@ for ($i = 0; $i < 100; $i++) {
 }
 
 //FUNCTION CALL
+ini_set('default_socket_timeout', '100'); //to avoid timeout problems
+
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
