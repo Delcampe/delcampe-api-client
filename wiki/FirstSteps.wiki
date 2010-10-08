@@ -10,6 +10,6 @@
 
  * To have more information on the different *notification* types and how to handle it, click [Notifications here]. 
 
- * [CommonProcess Common Process] : some use cases presenting the content of the 2 previous lists but in common workflows.
+ * [CommonProcess Common Process] : some use cases in common workflows.
 
  * To see the API functions working, go [http://www.validwsdl.com/ here], copy the WSDL url ({{{http://api.delcampe.net/soap.php?wsdl}}}) in the right field and click on 'Fetch and Analyze'.
