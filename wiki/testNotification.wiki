@@ -48,7 +48,7 @@ For more information about Delcampe's notifications, see [Notifications].
 }}}
 
 === Notification === 
- * None
+ * The notification you want to test
 
 === Code example (PHP) ===
 {{{
