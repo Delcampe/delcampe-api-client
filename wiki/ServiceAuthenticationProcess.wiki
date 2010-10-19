@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#Find here how to set up a third party service
 
 = Introduction =
 
@@ -12,4 +12,4 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-[https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=990&h=1010.png]
+https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536
