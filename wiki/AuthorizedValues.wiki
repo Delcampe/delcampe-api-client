@@ -9,18 +9,18 @@ Here is a list of fields name with their authorized fixed values.
  * Country where to add the sale
  * Data type : integer
  * Accepted values and their meaning
-  * *0* : .net
-  * *1* : .fr
-  * *2* : .de
-  * *3* : .nl
-  * *4* : .it
-  * *5* : .es
-  * *6* : .co.uk
-  * *7* : .com
-  * *8* : .ch
-  * *9* : .be
-  * *10* : .at
-  * *11* : .ca 
+  * *0* : .net only
+  * *1* : .fr & .net
+  * *2* : .de & .net
+  * *3* : .nl & .net
+  * *4* : .it & .net
+  * *5* : .es & .net
+  * *6* : .co.uk & .net
+  * *7* : .com & .net
+  * *8* : .ch & .net
+  * *9* : .be & .net
+  * *10* : .at & .net
+  * *11* : .ca  & .net
 
 
 ==== id_category ====
