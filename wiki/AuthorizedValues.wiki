@@ -28,6 +28,7 @@ Here is a list of fields name with their authorized fixed values.
  * This is the matching category on Delcampe Marketplace Website
  * Data type : integer
  * Accepted values and their meaning : call [getCategoryList]() 
+ * You can use the following links to get ready-to-use printable list: [http://www.delcampe.net/categories_print.php?language=E&site=0 ALL Categories]
 
 
 ==== currency ====
