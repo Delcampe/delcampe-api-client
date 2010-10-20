@@ -13,8 +13,7 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 = Schema =
- * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536 See last version]
- * https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536.png
- * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536.png]
- * [schema https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536.png]
- * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=505&h=536.png schema]
+ * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073 See last version]
+ * https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073.png
+ * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073.png]
+ * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073.png schema]
