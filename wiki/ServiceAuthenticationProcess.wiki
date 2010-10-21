@@ -33,9 +33,45 @@ You can now build a display on your application pointing on D*, on the  page to 
 The  page  redirect user from your application to the D* website
 the linker Token is in a hidden field
 
+= Step 4 = 
+== step  4.1 Authenticated ? ==
+Coming on D* first check is  
+is consumer authenticated ?
+if not, D* redirect your to login form. (5)
+There, user can also "create" his account.
+when  user is sign in, they back to the confirmation process.
+== step  4.2 Prepare Api Key and Confirmation ==
+D* prepare a webpage from the linker Token to display to D* member the list of right they delegate to the application  
+
+In this step the "ApiKey is already created but disabled. 
+Indeed on 4.2 D* Know "the D* Member and the Third Party id" 
+
+The linker Token is rebuild and became authorizeToken (for security reason, otherwise  the  application has all information to "activate" the link without  consumer confirmation) 
+
+= Step 5 =
+
+D* display The page of right 
+It's a simple form
+With a I confirm button and the authorizeToken
+
+The form point here on D* to store the authorisation.
+
+= Step 6 =
+On D* the authorizeToken with the "Accept" from  D* member  give the  status active to the  ApiKey,
+
+a Last web page for D* is build  to redirect the user to the application with the linker Token
+
+= Step 7 =
+The  page  is  displayed and  the user back to the application
+
+The url is the url return provided in step 2.1
 
 
+= Step 8 =
 
+Your application can now make a new call on APID* with the  linker token to keep back the  apiKey of member
+
+Note : the  APID* need the application key here  to be sure only  application know this  api key and not the consumer.
 
 = Schema =
  * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073 See last version]
