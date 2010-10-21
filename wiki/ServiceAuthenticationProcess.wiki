@@ -21,9 +21,17 @@ Your website  propose to your user to make a link  with API
 Your website make a call api to D* Service to prepare a linking
 
 You need to provide 
- * your ApplicationKey (aka ApiKey of your application)
+ * your Application Key (aka Api Key of your application)
  * the  list of right/method of api you need to use in your application
  * the url to return consumer on end of process
+== Step 2.2 ==
+The APID*  store your request and return a linker Token
+== Step 2.3 ==
+You can now build a display on your application pointing on D*, on the  page to let user accept your request
+
+= Step 3 =
+The  page  redirect user from your application to the D* website
+the linker Token is in a hidden field
 
 
 
