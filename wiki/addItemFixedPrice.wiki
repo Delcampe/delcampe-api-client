@@ -5,6 +5,7 @@ Call this function to add a new fixed price item on Delcampe website.
 
 This new item will be placed in a queue and processed later.
 
+Note : There is no need to put the description, even with HTML tags, in a CDATA. 
 
 === Call ===
 
