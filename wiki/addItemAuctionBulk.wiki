@@ -7,6 +7,8 @@ You can send a *maximum of 1000 items at once*.
 
 The new items will be placed in a queue and processed later.
 
+Note : There is no need to put the description, even with HTML tags, in a CDATA. 
+
 
 === Call ===
 
