@@ -34,9 +34,6 @@ Call this function to get an access key, used only for third-party applications.
 	<data xsi:type="xsd:string">getItemInfo</data>
       </item>
       <item xsi:type="ns1:String">
-	<data xsi:type="xsd:string">getMyClosedUnsoldItemAuctionList</data>
-      </item>
-      <item xsi:type="ns1:String">
 	<data xsi:type="xsd:string">getMyOpenItemAuctionList</data>
       </item>
       <item xsi:type="ns1:String">
