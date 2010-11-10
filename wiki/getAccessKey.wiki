@@ -5,17 +5,13 @@ To check if you have access to this function, call [getAuthorizedActions].
 
 Call this function to get an access key, used only for third-party applications.
 
-This new item will be placed in a queue and processed later.
-
-Note : There is no need to put the description, even with HTML tags, in a CDATA.
-
-
 === Call ===
 
- * syntax : addItemAuction(string token, object ItemAuctionParam)
+ * syntax : getAccessKey(string token, object WantedActions, string callbackUrl)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item 
+ * parameter 2 : _object_ WantedActions : containing the data needed to create an auction item
+ * parameter 3 : _string_ :  
 
  * note : for parameter 2, php developers can use an array in place of an object. See [addItemAuction#Code_example_(PHP) PHP code example]
 
