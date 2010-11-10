@@ -10,7 +10,7 @@ Call this function to get an api key. This function is used only for third-party
  * syntax : getApiKey(string token, string accessKey)
 
  * parameter 1 : _string_ : secret token
- * parameter 2 : _string_ : application key received by calling [getApplicationKey]() 
+ * parameter 2 : _string_ : access key received by calling [getAccessKey]() 
 
  * SOAP envelope
 {{{
