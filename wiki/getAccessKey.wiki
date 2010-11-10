@@ -13,8 +13,6 @@ Call this function to get an access key, used only for third-party applications.
  * parameter 2 : _object_ WantedActions : contains the API functions you want to have access on the member account
  * parameter 3 : _string_ :  
 
- * note : for parameter 2, php developers can use an array in place of an object. See [addItemAuction#Code_example_(PHP) PHP code example]
-
  * SOAP envelope
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
