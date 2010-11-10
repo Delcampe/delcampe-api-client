@@ -1,6 +1,8 @@
 #summary Details on addItemFixedPrice() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call getAuthorizedActions.
+
 Call this function to add a new fixed price item on Delcampe website.
 
 This new item will be placed in a queue and processed later.
