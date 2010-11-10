@@ -26,10 +26,9 @@ Call this function to get an api key. This function is used only for third-party
 
 === Response ===
 
- * ResponseAccessKey, giving you the wanted data
+ * ResponseApiKey, giving you the API key
 
  * SOAP envelope
-
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
