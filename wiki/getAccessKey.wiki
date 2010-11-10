@@ -70,24 +70,23 @@ Call this function to get an access key, used only for third-party applications.
 
 === Response ===
 
- * ResponseSimple, giving you more information on the function call result 
+ * ResponseAccessKey, giving you the wanted data
 
  * SOAP envelope
 
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:addItemAuctionResponse>
-  <addItemAuctionReturn xsi:type="ns1:ResponseSimple">
+<SOAP-ENV:getAccessKeyResponse>
+  <getAccessKeyReturn xsi:type="ns1:ResponseAccessKey">
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
-    <data xsi:type="xsd:string">Your request was taken into account!</data>
-    <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
-  </addItemAuctionReturn>
-</SOAP-ENV:addItemAuctionResponse>
+    <accessKey xsi:type="xsd:string">e1dd99ffe20eaba41c08dd29780532ac</accessKey>
+    <acceptanceUrl xsi:type="xsd:string">http://www.delcampe.net/status.php?page=accounts_external_validation&language=F&accessKey=xxx</acceptanceUrl>
+  </getAccessKeyReturn>
+</SOAP-ENV:getAccessKeyResponse>
 </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-}}}
+</SOAP-ENV:Envelope>}}}
 
 === Notification === 
  * [Notifications#Seller_Item_Add Seller_Item_Add]
