@@ -86,7 +86,8 @@ Call this function to get an access key, used only for third-party applications.
   </getAccessKeyReturn>
 </SOAP-ENV:getAccessKeyResponse>
 </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>}}}
+</SOAP-ENV:Envelope>
+}}}
 
 === Notification === 
  * [Notifications#Seller_Item_Add Seller_Item_Add]
