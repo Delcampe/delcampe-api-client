@@ -90,7 +90,7 @@ Call this function to get an access key, used only for third-party applications.
 }}}
 
 === Notification === 
- * [Notifications#Seller_Item_Add Seller_Item_Add]
+ * None
 
 === Code example (PHP) ===
 {{{
