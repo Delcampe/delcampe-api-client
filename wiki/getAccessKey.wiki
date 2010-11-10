@@ -90,7 +90,7 @@ if ($return->status === true) {
   $return = $objSoapClient->getAccessKey($return->data, $objWantedActions, 'http://www.thirdpartysite.com');
 
   if ($return->status === true) {
-    var_export($return->data, 1);
+    var_export('Acceptance URL : ' . $return->acceptanceUrl, 1);
   } else {
     var_export($return->errorMsg, 1);
   } 
