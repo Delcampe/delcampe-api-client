@@ -73,40 +73,14 @@ Call this function to get an access key, used only for third-party applications.
 
 === Code example (PHP) ===
 {{{
-// MANDATORY DATA
-$data['id_country']                  = 0;
-$data['id_category']                 = 80;
-$data['price_starting']              = '1.00';
-$data['price_increment']             = '0.01';
-$data['currency']                    = 'EUR';
-$data['title']                       = 'My title';
-$data['personal_reference']          = 'My personal ref';
+$objWantedAction1->data = 'addItemAuction';
+$objWantedAction2->data = 'closeItem';
+$objWantedAction3->data = 'getCategoryList';
+$objWantedAction4->data = 'getItemInfo';
+$objWantedAction5->data = 'getMyOpenItemAuctionList';
+$objWantedAction6->data = 'getMySoldItemAuctionList';
 
-//OPTIONAL DATA
-$data['price_reserve']               = '5.00';
-$data['date_end']                    = '2010-07-01 10:00:00';
-$data['duration']                    = 10;
-$data['description']                 = 'My description'
-$data['renew']                       = 2;
-$data['option_lastminutebidding']    = true;
-$data['option_privatebidding']       = false;
-$data['option_subtitle']             = true;
-$data['subtitle']                    = 'My subtitle';
-$data['option_boldtitle']            = true;
-$data['option_highlight']            = false;
-$data['option_coloredborder']        = true;
-$data['option_toplisting']           = false;
-$data['option_topcategory']          = false;
-$data['option_topmain']              = false;
-$data['option_keepoptionsonrenewal'] = true;
-$data['prefered_end_day']            = 'mon';
-$data['prefered_end_hour']           = '15:00';
-
-//OPTIONAL IMAGES
-$data['images']                      = array('http://www.mypictures.com/pic1.jpg',
-                                             'http://www.mypictures.com/pic2.jpg',
-	                                     'http://www.mypictures.com/pic3.jpg'
-                                            );
+$objWantedActions->data = array($objWantedAction1, $objWantedAction2, $objWantedAction3, $objWantedAction4, $objWantedAction5, $objWantedAction6);
 
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
