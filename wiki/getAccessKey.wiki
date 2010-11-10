@@ -20,47 +20,29 @@ Call this function to get an access key, used only for third-party applications.
 <SOAP-ENV:getAccessKey>
   <token xsi:type="xsd:string">c7826778389069fe13845b085f1ac141</token>
   <wantedActions xsi:type="ns1:WantedActions">
-	  <data SOAP-ENC:arrayType="ns1:String[25]" xsi:type="ns1:ArrayOfString">
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">addItemAuction</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">addItemFixedPrice</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">addNotificationSetting</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">closeItem</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">closeItemPriority</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getCategoryList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getItemInfo</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMyClosedUnsoldItemAuctionList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMyClosedUnsoldItemFixedPriceList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMyOpenItemAuctionList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMyOpenItemFixedPriceList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMySoldItemAuctionList</data>
-		</item>
-		<item xsi:type="ns1:String">
-		  <data xsi:type="xsd:string">getMySoldItemFixedPriceList</data>
-		</item>
-	  </data>
+    <data SOAP-ENC:arrayType="ns1:String[25]" xsi:type="ns1:ArrayOfString">
+      <item xsi:type="ns1:String">
+        <data xsi:type="xsd:string">addItemAuction</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">closeItem</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">getCategoryList</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">getItemInfo</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">getMyClosedUnsoldItemAuctionList</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">getMyOpenItemAuctionList</data>
+      </item>
+      <item xsi:type="ns1:String">
+	<data xsi:type="xsd:string">getMySoldItemAuctionList</data>
+      </item>
+    </data>
   </wantedActions>
   <callbackUrl xsi:type="xsd:string">http://www.thirdpartysite.com</callbackUrl>
 </SOAP-ENV:getAccessKey>
