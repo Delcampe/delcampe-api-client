@@ -1,6 +1,8 @@
 #summary Details on addNotificationSetting() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call getAuthorizedActions.
+
 Call this function to add a new notification destination for a specific notification type.
 
  * Email notifications begins with 'Email'
