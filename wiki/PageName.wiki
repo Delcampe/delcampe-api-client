@@ -1,0 +1,135 @@
+#summary Details on getAccessToken() API function
+#sidebar ApiFunctions
+
+Call this function to add a new auction item on Delcampe website. 
+
+This new item will be placed in a queue and processed later.
+
+Note : There is no need to put the description, even with HTML tags, in a CDATA.
+
+
+=== Call ===
+
+ * syntax : addItemAuction(string token, object ItemAuctionParam)
+
+ * parameter 1 : _string_ : secret token
+ * parameter 2 : _object_ ItemAuctionParam  : containing the data needed to create an auction item 
+
+ * note : for parameter 2, php developers can use an array in place of an object. See [addItemAuction#Code_example_(PHP) PHP code example]
+
+ * SOAP envelope
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuction>
+  <token xsi:type="xsd:string">f4cb687c225fd87ff9b204615ec802ad</token>
+  <data xsi:type="ns1:ItemAuctionParam">
+    <id_country xsi:type="xsd:int">0</id_country>
+    <id_category xsi:type="xsd:int">80</id_category>
+    <title xsi:type="xsd:string">MyTitle</title>
+    <subtitle xsi:nil="true"/>
+    <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+    <description xsi:type="xsd:string">My description</description>
+    <price_starting xsi:type="xsd:float">11</price_starting>
+    <price_increment xsi:type="xsd:float">0.19</price_increment>
+    <currency xsi:type="xsd:string">EUR</currency>
+    <date_end xsi:nil="true"/>
+    <duration xsi:nil="true"/>
+    <prefered_end_day xsi:nil="true"/>
+    <prefered_end_hour xsi:nil="true"/>
+    <renew xsi:nil="true"/>
+    <option_boldtitle xsi:nil="true"/>
+    <option_coloredborder xsi:nil="true"/>
+    <option_highlight xsi:nil="true"/>
+    <option_keepoptionsonrenewal xsi:nil="true"/>
+    <option_lastminutebidding xsi:nil="true"/>
+    <option_privatebidding xsi:nil="true"/>
+    <option_subtitle xsi:nil="true"/>
+    <option_topcategory xsi:nil="true"/>
+    <option_toplisting xsi:nil="true"/>
+    <option_topmain xsi:nil="true"/>
+    <images SOAP-ENC:arrayType="xsd:string[2]" xsi:type="ns1:String[]">
+    <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
+    <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
+    </images>
+  </data>
+</SOAP-ENV:addItemAuction>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
+=== Response ===
+
+ * ResponseSimple, giving you more information on the function call result 
+
+ * SOAP envelope
+
+{{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:addItemAuctionResponse>
+  <addItemAuctionReturn xsi:type="ns1:ResponseSimple">
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <data xsi:type="xsd:string">Your request was taken into account!</data>
+    <personal_reference xsi:type="xsd:string">MyPersRef</personal_reference>
+  </addItemAuctionReturn>
+</SOAP-ENV:addItemAuctionResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
+
+=== Notification === 
+ * [Notifications#Seller_Item_Add Seller_Item_Add]
+
+=== Code example (PHP) ===
+{{{
+// MANDATORY DATA
+$data['id_country']                  = 0;
+$data['id_category']                 = 80;
+$data['price_starting']              = '1.00';
+$data['price_increment']             = '0.01';
+$data['currency']                    = 'EUR';
+$data['title']                       = 'My title';
+$data['personal_reference']          = 'My personal ref';
+
+//OPTIONAL DATA
+$data['price_reserve']               = '5.00';
+$data['date_end']                    = '2010-07-01 10:00:00';
+$data['duration']                    = 10;
+$data['description']                 = 'My description'
+$data['renew']                       = 2;
+$data['option_lastminutebidding']    = true;
+$data['option_privatebidding']       = false;
+$data['option_subtitle']             = true;
+$data['subtitle']                    = 'My subtitle';
+$data['option_boldtitle']            = true;
+$data['option_highlight']            = false;
+$data['option_coloredborder']        = true;
+$data['option_toplisting']           = false;
+$data['option_topcategory']          = false;
+$data['option_topmain']              = false;
+$data['option_keepoptionsonrenewal'] = true;
+$data['prefered_end_day']            = 'mon';
+$data['prefered_end_hour']           = '15:00';
+
+//OPTIONAL IMAGES
+$data['images']                      = array('http://www.mypictures.com/pic1.jpg',
+                                             'http://www.mypictures.com/pic2.jpg',
+	                                     'http://www.mypictures.com/pic3.jpg'
+                                            );
+
+//FUNCTION CALL
+$objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
+$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
+
+if ($return->status === true) {
+  $return = $objSoapClient->addItemAuction($return->data, $data);
+
+  if ($return->status === true) {
+    var_export($return->data, 1);
+  } else {
+    var_export($return->errorMsg, 1);
+  } 
+}
+}}}
