@@ -87,7 +87,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->addItemAuction($return->data, $data);
+  $return = $objSoapClient->getAccessKey($return->data, $objWantedActions, 'http://www.thirdpartysite.com');
 
   if ($return->status === true) {
     var_export($return->data, 1);
