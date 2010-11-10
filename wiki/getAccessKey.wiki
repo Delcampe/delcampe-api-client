@@ -61,7 +61,7 @@ Call this function to get an access key, used only for third-party applications.
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
     <accessKey xsi:type="xsd:string">e1dd99ffe20eaba41c08dd29780532ac</accessKey>
-    <acceptanceUrl xsi:type="xsd:string">http://www.delcampe.net/status.php?page=accounts_external_validation&language=F&accessKey=c7826778389069fe13845b085f1ac141</acceptanceUrl>
+    <acceptanceUrl xsi:type="xsd:string">http://www.delcampe.net/status.php?page=accounts_external_validation&language=F&accessKey=e1dd99ffe20eaba41c08dd29780532ac</acceptanceUrl>
   </getAccessKeyReturn>
 </SOAP-ENV:getAccessKeyResponse>
 </SOAP-ENV:Body>
