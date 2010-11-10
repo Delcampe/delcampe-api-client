@@ -1,9 +1,9 @@
 #summary Details on getAccessKey() API function
 #sidebar ApiFunctions
 
-To check if you have access to this function, call [getAuthorizedActions]
+To check if you have access to this function, call [getAuthorizedActions].
 
-Call this function to add a new auction item on Delcampe website. 
+Call this function to get an access key, used only for third-party applications.
 
 This new item will be placed in a queue and processed later.
 
