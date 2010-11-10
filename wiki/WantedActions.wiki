@@ -1,28 +1,3 @@
 #summary Details on object WantedActions
 
- * !WantedActions is an object with 25 datafields, containing the data needed to create an !ItemFixedPrice item :
-  * *id_country* : _integer_ : (mandatory) id of the country related to the item. See [AuthorizedValues] to have details on values for this field
-  * *id_category* : _integer_ : (mandatory) id of the category related to the item. See [AuthorizedValues] to have details on values for this field
-  * *title* : _string_ : (mandatory) title of the item
-  * *subtitle* : _string_ : subtitle of the item
-  * *personal_reference* : _string_ : (mandatory) your personal reference for this item
-  * *description* : _string_ : description of the item
-  * *fixed_price* : _float_ : (mandatory) price of a fixed price item
-  * *currency* : _string_ : (mandatory) currency set for the item. See [AuthorizedValues] to have details on values for this field
-  * *date_end* : _string_ : end date of the item
-  * *duration* : _integer_ : sale duration of the item. See [AuthorizedValues] to have details on values for this field
-  * *prefered_end_day* : _string_ : prefered end day for the sale of the item. See [AuthorizedValues] to have details on values for this field
-  * *prefered_end_hour* : _string_ : prefered end hour for the sale of the item
-  * *qty* : _integer_ : quantity of the item to sell
-  * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold. See [AuthorizedValues] to have details on values for this field
-  * *option_boldtitle* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_coloredborder* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_highlight* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_keepoptionsonrenewal* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_lastminutebidding* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_privatebidding* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_subtitle* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_topcategory* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_toplisting* : _boolean_ : option chosen (true) or not (false) for the item
-  * *option_topmain* : _boolean_ : option chosen (true) or not (false) for the item
-  * *images* : _array_ of [String] objects : url of the images
+ * !WantedActions is an array of [String] objects
