@@ -12,8 +12,7 @@
      * *errorMsg* will be empty
    * If *accepted* is _false_
      * *apiKey* will be empty
-     * *errorMsg* will be empty
-   
+     * *errorMsg* will be empty   
  * If *status* is _false_
    * *data* will be empty
    * *errorMsg* will be filled with relevant information
