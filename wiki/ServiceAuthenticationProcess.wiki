@@ -12,8 +12,8 @@ It's not a standardized oAuth. But it's a simplified model like oAuth.
 === Step 1 ====
 Your website proposes to the customer to manage his Delcampe account, and so, to make a link with our API. 
 
-= Step 2 =
-== Step 2.1 ==
+=== Step 2 ===
+==== Step 2.1 ====
 Your website calls the follwing API function : [getAccessKey]
 
 You need to provide 
