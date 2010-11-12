@@ -7,9 +7,9 @@
   * *accepted* : _boolean_ : tells you if the user accepted to give you access on his account (true) or not (false). 
 
  * If *status* is _true_
-   * *accessKey* will be filled with relevant information
-   * *acceptanceUrl* will be filled with relevant information
-   * *errorMsg* will be empty
+   * If *accepted* is _true_
+    * *apiKey* will be filled with relevant information
+    * *errorMsg* will be empty
  * If *status* is _false_
    * *data* will be empty
    * *errorMsg* will be filled with relevant information
