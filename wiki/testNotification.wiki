@@ -1,6 +1,8 @@
 #summary Details on testNotification() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function to test the reception of a specific XML notification type.<br>
 The returned notification contains data of a dummy item.<br>
 
