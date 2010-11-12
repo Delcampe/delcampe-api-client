@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The target of the thirdparty authentication is to provide  to an application (your application) an api key to represent on D* a user of this application, wich have also an account on D* without need to store the D* credential of this user on the application.
+The purpose of the thirdparty authentication is to provide, to an application (your application), an api key to represent a member on Delcampe, without need to store the Delcampe credential of this member on the application.
 
 = Details =
 It's not a standardissed  oAuth. But it's a simplified model like oAuth.
