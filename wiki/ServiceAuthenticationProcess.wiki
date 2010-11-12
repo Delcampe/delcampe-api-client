@@ -18,7 +18,7 @@ You need to provide
  * the  list of API methods/rights you need to use in your application
  * the url where to return the customer, on your website, at the end of the process
 
-This function will return an ResponseAccessKey object, containing an Access key (a temporary linker Token needed for the next step), and an URL pointing on Delcampe website so the customer can accept or reject your resquest. 
+This function will return a ResponseAccessKey object, containing an Access key (a temporary linker Token needed for the next step), and an URL pointing on Delcampe website so the customer can accept or reject your resquest. 
 
 === Step 3 ===
 Your application redirects the customer to the Delcampe website using the URL received above.
@@ -27,7 +27,7 @@ Your application redirects the customer to the Delcampe website using the URL re
 Delcampe displays a page of rights you need to manage the customer account. The customer accepts or rejects your request, and is then redirected to your application (using the URL you provided in step 2).
 
 === Step 5 ===
-Your application can now call [getApiKey] with the Access key. Depending the decision of the customer, you'll receive the API key or not.
+Your application can now call [getApiKey] with the Access key. Depending the decision of the customer, you'll receive the API key or not : see ResponseApiKey for more details.
 
 = Schema =
  * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073 See last version]
