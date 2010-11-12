@@ -17,7 +17,7 @@ Call this function to get an api key. This function is used only for third-party
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <SOAP-ENV:getApiKey>
-  <token xsi:type="xsd:string">5204038adeab61e144cf2dd90afa4c2c</token>
+  <token xsi:type="xsd:string">5204038adeab61e144cf2dd90af</token>
   <accessKey xsi:type="xsd:string">e541fee822f9e1c2bb7408bd0345</accessKey>
 </SOAP-ENV:getApiKey>
 </SOAP-ENV:Body>
@@ -51,7 +51,7 @@ Call this function to get an api key. This function is used only for third-party
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
-$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
+$return = $objSoapClient->authenticateUser('5204038adeab61e144cf2dd90af');
 
 if ($return->status === true) {
   $return = $objSoapClient->getApiKey($return->data, 'e541fee822f9e1c2bb7408bd0345');
