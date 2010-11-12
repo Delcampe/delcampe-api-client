@@ -27,7 +27,7 @@ Your application redirects the customer to the Delcampe website using the URL re
 Delcampe displays a page of rights you need to manage the customer account. The customer accepts or rejects your request, and is then redirected to your application (using the URL you provided in step 2).
 
 === Step 5 ===
-Your application can now call [getApiKey] with the Access key. Depending the decision of the customer, you'll receive the API key or not : see ResponseApiKey for more details.
+Your application can now call [getApiKey] with the Access key. Depending on the decision of the customer, you'll receive the API key or not : see ResponseApiKey for more details.
 <wiki:comment>
 === Schema ===
  * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073 See last version]
