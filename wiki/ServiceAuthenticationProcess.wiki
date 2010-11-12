@@ -1,4 +1,4 @@
-#Find here how to set up a third party service
+#summary Find here how to set up a third party service
 
 = Introduction =
 
