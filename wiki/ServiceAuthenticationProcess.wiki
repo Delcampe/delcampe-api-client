@@ -17,52 +17,19 @@ Your website calls the follwing API function : [getAccessKey]
 
 You need to provide 
  * your Application Key (aka Api Key of your application)
- * the  list of right/method of api you need to use in your application
+ * the  list of API methods/rights you need to use in your application
  * the url where to return the customer, on your website, at the end of the process
 
 This function will return an ResponseAccessKey object, containing an Access key (a temporary linker Token needed for the next step), and an URL pointing on Delcampe website so the customer can accept or reject your resquest. 
 
-= Step 3 =
-The  page  redirect user from your application to the D* website
-the linker Token is in a hidden field
+=== Step 3 ===
+Your application redirects the customer to the Delcampe website using the URL received above.
 
-= Step 4 = 
-== step  4.1 Authenticated ? ==
-Coming on D* first check is  
-is consumer authenticated ?
-if not, D* redirect your to login form. (5)
-There, user can also "create" his account.
-when  user is sign in, they back to the confirmation process.
-== step  4.2 Prepare Api Key and Confirmation ==
-D* prepare a webpage from the linker Token to display to D* member the list of right they delegate to the application  
+=== Step 4 === 
+Delcampe displays a page of rights you need to manage the customer account. The customer accepts or rejects your request, and is then redirected to your application (using the URL you provided in step 2).
 
-In this step the "ApiKey is already created but disabled. 
-Indeed on 4.2 D* Know "the D* Member and the Third Party id" 
-
-The linker Token is rebuild and became authorizeToken (for security reason, otherwise  the  application has all information to "activate" the link without  consumer confirmation) 
-
-= Step 5 =
-
-D* display The page of right 
-It's a simple form
-With a I confirm button and the authorizeToken
-
-The form point here on D* to store the authorisation.
-
-= Step 6 =
-On D* the authorizeToken with the "Accept" from  D* member  give the  status active to the  ApiKey,
-
-a Last web page for D* is build  to redirect the user to the application with the linker Token
-
-= Step 7 =
-The  page  is  displayed and  the user back to the application
-
-The url is the url return provided in step 2.1
-
-
-= Step 8 =
-
-Your application can now make a new call on APID* with the  linker token to keep back the  apiKey of member
+=== Step 5 ===
+Your application can now call getApiKey on with the  linker token to keep back the  apiKey of member
 
 Note : the  APID* need the application key here  to be sure only  application know this  api key and not the consumer.
 
