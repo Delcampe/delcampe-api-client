@@ -1,6 +1,8 @@
 #summary Details on changeNotificationStatus() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function to change the status (on/off) of a specific notification. Calling this function switches the status of the notification from _on_ to _off_ or from _off_ to _on_, depending on the current status. You will no longerreceive the specified notification if it is set to _off_.
 
 For more informations about Delcampe's notifications, see [Notifications].
