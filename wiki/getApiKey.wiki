@@ -36,7 +36,7 @@ Call this function to get an api key. This function is used only for third-party
   <getApiKeyReturn xsi:type="ns1:ResponseApiKey">
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
-    <apiKey xsi:type="xsd:string">5J68YPGuA7cfQAWFucUiRwxJKChwfAQAbcgaRPcicfXTFT8aViSK6XmZAudxUBYW</apiKey>
+    <apiKey xsi:type="xsd:string">5J68YPGuA7cfQAWFucUiRwxJKChwfAQAbcgaRPcicfXTFT8aViSK6XmZAu</apiKey>
     <accepted xsi:type="xsd:boolean">true</accepted>
   </getApiKeyReturn>
 </SOAP-ENV:getApiKeyResponse>
