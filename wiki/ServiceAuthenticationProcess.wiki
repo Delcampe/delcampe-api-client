@@ -13,7 +13,7 @@ It's not a standardized oAuth. But it's a simplified model like oAuth.
 Your website proposes to the customer to manage his Delcampe account, and so, to make a link with our API. 
 
 === Step 2 ===
-Your website calls the follwing API function : [getAccessKey]
+Your website calls the following API function : [getAccessKey]
 
 You need to provide 
  * your Application Key (aka Api Key of your application)
@@ -29,9 +29,7 @@ Your application redirects the customer to the Delcampe website using the URL re
 Delcampe displays a page of rights you need to manage the customer account. The customer accepts or rejects your request, and is then redirected to your application (using the URL you provided in step 2).
 
 === Step 5 ===
-Your application can now call getApiKey on with the  linker token to keep back the  apiKey of member
-
-Note : the  APID* need the application key here  to be sure only  application know this  api key and not the consumer.
+Your application can now call [getApiKey] with the Access key. Depending the decision of the customer, you'll receive the API key or not.
 
 = Schema =
  * [https://docs.google.com/drawings/pub?id=1m1q_mze1xZqOkzgwZ5eSFK0f9bm3yCfCr0OB5dBcqb8&w=1010&h=1073 See last version]
