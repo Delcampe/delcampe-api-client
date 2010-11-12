@@ -49,24 +49,15 @@ Call this function to get an api key. This function is used only for third-party
 
 === Code example (PHP) ===
 {{{
-$objWantedAction1->data = 'addItemAuction';
-$objWantedAction2->data = 'closeItem';
-$objWantedAction3->data = 'getCategoryList';
-$objWantedAction4->data = 'getItemInfo';
-$objWantedAction5->data = 'getMyOpenItemAuctionList';
-$objWantedAction6->data = 'getMySoldItemAuctionList';
-
-$objWantedActions->data = array($objWantedAction1, $objWantedAction2, $objWantedAction3, $objWantedAction4, $objWantedAction5, $objWantedAction6);
-
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getAccessKey($return->data, $objWantedActions, 'http://www.thirdpartysite.com');
+  $return = $objSoapClient->getApiKey($return->data, '5J68YPGuA7cfQAWFucUiRwxJKChwfAQAbcgaRPcicfXTFT8aViSK6XmZAudxUBYW');
 
   if ($return->status === true) {
-    var_export('Acceptance URL : ' . $return->acceptanceUrl, 1);
+    var_export('Api key : ' . $return->apiKey, 1);
   } else {
     var_export($return->errorMsg, 1);
   } 
