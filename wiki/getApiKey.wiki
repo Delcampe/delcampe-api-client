@@ -32,14 +32,14 @@ Call this function to get an api key. This function is used only for third-party
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:getAccessKeyResponse>
-  <getAccessKeyReturn xsi:type="ns1:ResponseAccessKey">
+<SOAP-ENV:getApiKeyResponse>
+  <getApiKeyReturn xsi:type="ns1:ResponseApiKey">
     <status xsi:type="xsd:boolean">true</status>
     <errorMsg xsi:nil="true"/>
-    <accessKey xsi:type="xsd:string">e1dd99ffe20eaba41c08dd29780532ac</accessKey>
-    <acceptanceUrl xsi:type="xsd:string">http://www.delcampe.net/status.php?page=accounts_external_validation&language=F&accessKey=e1dd99ffe20eaba41c08dd29780532ac</acceptanceUrl>
-  </getAccessKeyReturn>
-</SOAP-ENV:getAccessKeyResponse>
+    <apiKey xsi:type="xsd:string">5J68YPGuA7cfQAWFucUiRwxJKChwfAQAbcgaRPcicfXTFT8aViSK6XmZAudxUBYW</apiKey>
+    <accepted xsi:type="xsd:boolean">true</accepted>
+  </getApiKeyReturn>
+</SOAP-ENV:getApiKeyResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
