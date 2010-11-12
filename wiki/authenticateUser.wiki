@@ -1,8 +1,6 @@
 #summary Details on authenticateUser() API function
 #sidebar ApiFunctions
 
-To check if you have access to this function, call [getAuthorizedActions].
-
 Call this function to authenticate yourself and get a personal token. When needed, you'll have to pass this token as first parameter when calling API functions. See detail of each API function to have more informations.
 
 *Call authenticateUser() only once per session*. Your token will be available during 30 minutes.
