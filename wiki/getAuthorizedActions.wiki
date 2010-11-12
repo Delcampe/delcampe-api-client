@@ -1,8 +1,6 @@
 #summary Details on getAuthorizedActions() API function
 #sidebar ApiFunctions
 
-To check if you have access to this function, call [getAuthorizedActions].
-
 Call this function to get a list of API functions you are authorized to call
 
 
