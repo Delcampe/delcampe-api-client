@@ -51,7 +51,7 @@ Call this function to get an api key. This function is used only for third-party
 {{{
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
-$return = $objSoapClient->authenticateUser('5204038adeab61e144cf2dd90af');
+$return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
   $return = $objSoapClient->getApiKey($return->data, 'e541fee822f9e1c2bb7408bd0345');
