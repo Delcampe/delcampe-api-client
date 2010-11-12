@@ -1,6 +1,8 @@
 #summary Details on setDefaultFailOverNotificationEmail() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function to set a failover email address. This address will be used after
 5 unsuccessfull sending trials of your notifications (xml or email) on the set destination.
 
