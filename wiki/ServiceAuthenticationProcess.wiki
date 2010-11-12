@@ -18,7 +18,7 @@ You need to provide
  * the  list of API methods/rights you need to use in your application
  * the url where to return the customer, on your website, at the end of the process
 
-This function will return a ResponseAccessKey object, containing an Access key (a temporary linker Token needed for the next step), and an URL pointing on Delcampe website so the customer can accept or reject your resquest. 
+This function will return a ResponseAccessKey object, containing an Access key (a temporary linker Token needed for the step 5), and an URL pointing on Delcampe website so the customer can accept or reject your resquest. 
 
 === Step 3 ===
 Your application redirects the customer to the Delcampe website using the URL received above.
