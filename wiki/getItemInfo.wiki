@@ -1,6 +1,8 @@
 #summary Details on getItemInfo() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function to get data on a specified item
 
 
