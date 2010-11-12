@@ -1,6 +1,8 @@
 #summary Details on closeItemPriority() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function if you need to close *immediately* an item on Delcampe website.<br>
 This closing method must *only* be used to close an item sold on another website.<br>
 However, note that you cannot close a Delcampe auction item if there's a bid on it.<br>
