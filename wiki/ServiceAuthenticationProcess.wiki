@@ -4,9 +4,7 @@ The purpose of the thirdparty authentication is to provide, to an application (y
 It's not a standardized oAuth. But it's a simplified model like oAuth.
 
 === Legend ===
- * D* : Delcampe Website
- * APID* : Delcampe Web Service 
- * application : the third party tools wich  implement the api client
+ * application : the third party tool wich implement the api client
  * customer : the user having an account on Delcampe and an account on your application
 
 === Step 1 ====
