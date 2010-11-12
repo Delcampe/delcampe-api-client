@@ -1,7 +1,7 @@
 #summary Details on addItemAuctionBulk() API function
 #sidebar ApiFunctions
 
-To check if you have access to this function, call getAuthorizedActions.
+To check if you have access to this function, call [getAuthorizedActions].
 
 Call this function to add multiple auction items on Delcampe website at once.
 
