@@ -1,6 +1,8 @@
 #summary Details on updateItem() API function
 #sidebar ApiFunctions
 
+To check if you have access to this function, call [getAuthorizedActions].
+
 Call this function to update an existing item. 
 If you update the images of an item, all existing images of this item will be lost and replaced by the new ones.
 
