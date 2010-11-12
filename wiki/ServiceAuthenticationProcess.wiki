@@ -11,7 +11,7 @@ It's not a standardized oAuth. But it's a simplified model like oAuth.
  * application : the third party tools wich  implement the api client
  * consummer : the user  having both account on the application and on the D*
 
-= Step 1 =
+=== Step 1 ====
 Your website  propose to your user to make a link  with API 
 
 = Step 2 =
