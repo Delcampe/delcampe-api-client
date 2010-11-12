@@ -1,7 +1,7 @@
 #summary Details on getAuthorizedCloseItemReasons() API function
 #sidebar ApiFunctions
 
-Call this function to get the list of authorized reasonsto close an item. You have to set such a reason when calling ([closeItem](). 
+Call this function to get the list of authorized reasons to close an item, used when calling [closeItem]. 
 
 
 === Call ===
