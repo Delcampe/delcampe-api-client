@@ -24,6 +24,10 @@ If you update the images of an item, all existing images of this item will be lo
   <id_item xsi:type="xsd:int">99696430</id_item>
   <arrData xsi:type="ns1:Map">
     <item>
+      <key xsi:type="xsd:string">personal_reference</key>
+      <value xsi:type="xsd:string">MyPersRef</value>
+    </item>
+    <item>
       <key xsi:type="xsd:string">title</key>
       <value xsi:type="xsd:string">My updated title</value>
     </item>
