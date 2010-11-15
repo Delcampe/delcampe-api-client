@@ -63,8 +63,9 @@ If you update the images of an item, all existing images of this item will be lo
 === Code example (PHP) ===
 {{{
 //DATA TO UPDATE
-$data['title']       = 'My updated title';
-$data['description'] = 'My updated description'
+$data['personal_reference'] = 'MyPersRef';
+$data['title']              = 'My updated title';
+$data['description']        = 'My updated description'
 
 //FUNCTION CALL
 $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
