@@ -30,6 +30,35 @@ For more information about Delcampe's notifications, see [Notifications].
 
  * SOAP envelope
 {{{
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENV:getNotificationSettingsResponse>
+  <getNotificationSettingsReturn xsi:type="ns1:ResponseNotificationSetting">
+    <data SOAP-ENC:arrayType="ns1:NotificationSetting[2]" xsi:type="ns1:ArrayOfNotificationSetting">
+      <item xsi:type="ns1:NotificationSetting">
+        <id_notification xsi:type="xsd:int">69</id_notification>
+        <id_user xsi:type="xsd:int">252064</id_user>
+        <channel xsi:type="xsd:string">Email</channel>
+        <type xsi:type="xsd:string">Default</type>
+        <destination xsi:type="xsd:string">info@mymail.com</destination>
+        <active xsi:type="xsd:boolean">true</active>
+      </item>
+      <item xsi:type="ns1:NotificationSetting">
+        <id_notification xsi:type="xsd:int">70</id_notification>
+        <id_user xsi:type="xsd:int">252064</id_user>
+        <channel xsi:type="xsd:string">Curl</channel>
+        <type xsi:type="xsd:string">Default</type>
+        <destination xsi:type="xsd:string">http://www.delcampe.net/feedback_get.php</destination>
+        <active xsi:type="xsd:boolean">true</active>
+      </item>
+    </data>
+    <status xsi:type="xsd:boolean">true</status>
+    <errorMsg xsi:nil="true"/>
+    <personal_reference xsi:nil="true"/>
+  </getNotificationSettingsReturn>
+</SOAP-ENV:getNotificationSettingsResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
 }}}
 
 === Notification ===
