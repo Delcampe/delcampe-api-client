@@ -74,8 +74,8 @@ if ($return->status === true) {
   $return = $objSoapClient->getNotificationSettings($return->data);
 
   if ($return->status === true) {
-    foreach ($return->data as $objValue) {     
-      var_export($objValue->data, 1);
+    foreach ($return->data as $objNotificationSetting) {     
+      var_dump($objNotificationSetting);
     }
   } else {
     var_export($return->errorMsg, 1);
