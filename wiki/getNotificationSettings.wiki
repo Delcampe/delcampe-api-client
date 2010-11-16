@@ -26,7 +26,7 @@ For more information about Delcampe's notifications, see [Notifications].
 
 === Response ===
 
- * ResponseComplex, giving you a list of your notifications settings
+ * ResponseNotificationSetting, giving you a list of your notifications settings
 
  * SOAP envelope
 {{{
