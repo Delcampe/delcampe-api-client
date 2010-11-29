@@ -62,6 +62,7 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
       <prefered_end_hour xsi:nil="true"/>
       <qty xsi:nil="true"/>
       <renew xsi:type="xsd:int">0</renew>
+      <bids xsi:type="xsd:int">0</bids>
       <option_boldtitle xsi:type="xsd:boolean">false</option_boldtitle>
       <option_coloredborder xsi:type="xsd:boolean">false</option_coloredborder>
       <option_highlight xsi:type="xsd:boolean">false</option_highlight>
