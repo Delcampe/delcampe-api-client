@@ -18,6 +18,7 @@
   * *prefered_end_hour* : _string_ : prefered end hour for the sale of the item
   * *qty* : _integer_ : quantity of the item to sell
   * *renew* : _integer_ : number of times the sale will be renewed if the item is not sold
+  * *bids* : _integer_ : number of bids placed on this item
   * *option_boldtitle* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_coloredborder* : _boolean_ : option chosen (true) or not (false) for the item
   * *option_highlight* : _boolean_ : option chosen (true) or not (false) for the item
