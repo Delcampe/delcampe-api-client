@@ -88,8 +88,8 @@ if ($return->status === true) {
   $return = $objSoapClient->getItemInfoByPersonalReference($return->data, 'UT5120');
 
   if ($return->status === true) {
-    $objItem = $return->data[0]
-    var_export($objItem, 1);
+    var_export(count($return->data));
+    var_export($return->data[0]);
   } else {
     var_export($return->errorMsg, 1);
   } 
