@@ -82,3 +82,7 @@ Here is a list of fields name with their authorized fixed values.
   * *fri* : Friday
   * *sat* : Saterday
   * *sun* : Sunday
+
+
+==== images ====
+ * Until 99 images can be added.
