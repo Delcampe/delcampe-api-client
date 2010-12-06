@@ -7,6 +7,8 @@ Call this function to add a new fixed price item on Delcampe website.
 
 This new item will be placed in a queue and processed later.
 
+You can place a maximum of 99 pictures for each item.
+
 Note : There is no need to put the description, even with HTML tags, in a CDATA. 
 
 === Call ===
