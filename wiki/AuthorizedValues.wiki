@@ -85,4 +85,4 @@ Here is a list of fields name with their authorized fixed values.
 
 
 ==== images ====
- * Until 99 images can be added.
+ * Until 99 images can be added. So 99 <item> in <images>
