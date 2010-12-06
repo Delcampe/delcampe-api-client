@@ -5,6 +5,8 @@ To check if you have access to this function, call [getAuthorizedActions].
 
 Call this function to add multiple auction items on Delcampe website at once.
 
+You can place a maximum of 99 pictures for each item.
+
 You can send a *maximum of 1000 items at once*. 
 
 The new items will be placed in a queue and processed later.
