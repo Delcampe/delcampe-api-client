@@ -19,7 +19,7 @@ Call this function to get data on a specified item, giving a personal reference
 <SOAP-ENV:Body>
 <SOAP-ENV:getItemInfoByPersonalReference>
   <token xsi:type="xsd:string">993bdac61da1a9da43543930d45cdcc3</token>
-  <persRef xsi:type="xsd:string">MT229</persRef>
+  <personal_reference xsi:type="xsd:string">MT229</personal_reference>
 </SOAP-ENV:getItemInfoByPersonalReference>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
