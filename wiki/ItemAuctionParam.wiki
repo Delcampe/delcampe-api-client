@@ -3,7 +3,7 @@
  * !ItemAuctionParam is an object with 25 datafields, containing the data needed to create an !ItemAuction item :
   * *id_country* : _integer_ : (mandatory) id of the country related to the item. See [AuthorizedValues] to have details on values for this field
   * *id_category* : *integer* : (mandatory) id of the category related to the item. See [AuthorizedValues] to have details on values for this field
-  * *title* : _string_ : (mandatory) title of the item
+  * *title* : _string_ : (mandatory) title of the item. Maximum 120 characters long
   * *subtitle* : _string_ : subtitle of the item
   * *personal_reference* : _string_ : (mandatory) your personal reference for this item
   * *description* : _string_ : description of the item
