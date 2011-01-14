@@ -4,8 +4,8 @@
   * *id_country* : _integer_ : (mandatory) id of the country related to the item. See [AuthorizedValues] to have details on values for this field
   * *id_category* : *integer* : (mandatory) id of the category related to the item. See [AuthorizedValues] to have details on values for this field
   * *title* : _string_ : (mandatory) title of the item. Maximum 120 characters long
-  * *subtitle* : _string_ : subtitle of the item
-  * *personal_reference* : _string_ : (mandatory) your personal reference for this item
+  * *subtitle* : _string_ : subtitle of the item. Maximum 120 characters long
+  * *personal_reference* : _string_ : (mandatory) your personal reference for this item. Maximum 20 characters long
   * *description* : _string_ : description of the item
   * *price_starting* : _float_ : (mandatory) starting price of the item
   * *price_increment* : _float_ : minimum increment of the auction
