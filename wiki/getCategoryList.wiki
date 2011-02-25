@@ -3,7 +3,6 @@
 
 Call this function to get the list of Delcampe's categories you can set in [addItemAuction]() or [addItemFixedPrice]().
 
-
 === Call ===
 
  * syntax : getCategoryList(string token, string language, integer parentCategoryID, integer showOnlyLeaves)
@@ -17,7 +16,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
   * 'G' : german
   * 'N' : nederlands
  * parameter 3 : _integer_ : Optional parameter. The parent category ID. If you don't specify a parent category ID, it returns all Delcampe's category tree (more than 18.000 categories). Pay attention to your server performance.
- * parameter 4 : _integer_ : Optional parameter. Default value : 0. Possible values : 0 or 1. If set to 1, this function returns only the categories in wich you can post items. If set to 0, it returns all the categories. 
+ * parameter 4 : _integer_ : Optional parameter. Default value : 0. Possible values : 0 or 1. If set to 1, this function returns only the categories in wich you can post items (leaves-categories, without child category under it). If set to 0, it returns all the categories. 
 
  * SOAP envelope
 {{{
