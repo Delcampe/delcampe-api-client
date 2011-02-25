@@ -6,7 +6,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
 
 === Call ===
 
- * syntax : getCategoryList(string token, string language, integer parentCategoryID)
+ * syntax : getCategoryList(string token, string language, integer parentCategoryID, integer showOnlyLeaves)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _character_ : Optional parameter. The language in which you want the categories to appear. Default value : 'E'. You can specify one of the following values :
@@ -17,6 +17,7 @@ Call this function to get the list of Delcampe's categories you can set in [addI
   * 'G' : german
   * 'N' : nederlands
  * parameter 3 : _integer_ : Optional parameter. The parent category ID. If you don't specify a parent category ID, it returns all Delcampe's category tree (more than 18.000 categories). Pay attention to your server performance.
+ * paraeter 4 : _integer_ : Optional parameter. Possible values : 0 or 1. If set to 1, this function returns only the categories in wich you can post items. If set to 0, it returns all the categories. Default value : 0.
 
  * SOAP envelope
 {{{
