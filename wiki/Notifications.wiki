@@ -75,8 +75,6 @@ if (isset($_POST['delcampeNotification'])) {
   * after a call of [addItemAuction](), when the request is processed and there was an error in the processing of your images 
   * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of your images 
 
- * The reception of this notification can be tested by calling [testNotification]()
-
 ==== Example ====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
