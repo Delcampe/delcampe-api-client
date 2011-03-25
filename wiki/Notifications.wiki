@@ -69,6 +69,29 @@ if (isset($_POST['delcampeNotification'])) {
 }}}
 
 
+=== !Seller_Item_Add_Error_Image ===
+
+ * When is it send ?
+  * after a call of [addItemAuction](), when the request is processed and there was an error in the processing of your images 
+  * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of your images 
+
+ * The reception of this notification can be tested by calling [testNotification]()
+
+==== Example ====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
+    <Notification_Type>Seller_Item_Add</Notification_Type>
+    <Notification_Data>
+      <id_item>8594429382</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
+
+
 === !Seller_Item_Update ===
 
  * When is it sent ?
