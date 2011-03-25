@@ -81,9 +81,8 @@ if (isset($_POST['delcampeNotification'])) {
   <Delcampe_Notification>
     <Notification_Token>MyNotificationToken</Notification_Token>
     <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
-    <Notification_Type>Seller_Item_Add</Notification_Type>
+    <Notification_Type>Seller_Item_Add_Error_Image</Notification_Type>
     <Notification_Data>
-      <id_item>8594429382</id_item>
       <personal_reference>MyPersonalReference</personal_reference>
     </Notification_Data>
   </Delcampe_Notification>
