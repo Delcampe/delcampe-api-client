@@ -72,8 +72,14 @@ if (isset($_POST['delcampeNotification'])) {
 === !Seller_Item_Add_Error_Image ===
 
  * When is it send ?
-  * after a call of [addItemAuction](), when the request is processed and there was an error in the processing of your images 
-  * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of your images 
+  * after a call of [addItemAuction](), when the request is processed and there was an error in the processing of all the images of the item 
+  * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of all your images of the item 
+
+ * There can be an error in the processing of your images when, for example, the url of the image is not correct
+
+ * This notification is only sent when there is an error on ALL the images of the item. This item will never be published. You will have to re-send this item with the correct images
+
+ * If you send an item with 3 images, and there is an error on one or two images, you will not receive the notification because your item will be published on the website with the non-error image(s)
 
 ==== Example ====
 {{{
