@@ -73,7 +73,7 @@ if (isset($_POST['delcampeNotification'])) {
 
  * When is it send ?
   * after a call of [addItemAuction](), when the request is processed and there was an error in the processing of all the images of the item 
-  * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of all your images of the item 
+  * after a call of [addItemFixedPrice](), when the request is processed and there was an error in the processing of all the images of the item 
 
  * There can be an error in the processing of your images when, for example, the url of the image is not correct
 
