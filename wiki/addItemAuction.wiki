@@ -84,7 +84,7 @@ Note : There is no need to put the description, even with HTML tags, in a CDATA.
 }}}
 
 === Notification === 
- * [Notifications#Seller_Item_Add Seller_Item_Add] or [Notifications#Seller_Item_Add Seller_Item_Add_Error_Image]
+ * [Notifications#Seller_Item_Add Seller_Item_Add] or [Notifications#Seller_Item_Add_Error_Image Seller_Item_Add_Error_Image]
 
 === Code example (PHP) ===
 {{{
