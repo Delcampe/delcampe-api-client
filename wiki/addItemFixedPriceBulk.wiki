@@ -188,16 +188,16 @@ if ($return->status === true) {
             //To list items in error, based on the personal reference of each item
             foreach ($return->data as $data) {
                 if (false === $data->status) {
-                    printVar($data->errorMsg . ' for Item :' . $data->persRef);
+                    var_export($data->errorMsg . ' for Item :' . $data->persRef, 1);
                 }                    
             }
         } else {
             //General error (not authorized to call this method, too much items to insert, ...)
-            printVar($return->errorMsg);
+            var_export($return->errorMsg, 1);
         }     
     } else {
         //Insert OK
-        printVar($return->data[0]->data);
+        var_export($return->data[0]->data, 1);
     }
 }
 }}}
