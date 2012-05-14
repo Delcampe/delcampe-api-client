@@ -11,7 +11,8 @@ You can place a maximum of 99 pictures for each item.
 
 Note : There is no need to put the description, even with HTML tags, in a CDATA.
 
-Attention: there's no sandbox to make your tests. The items you'll send will be seen by every Delcampe member. We encourage you thus to send your Test items in small quantity and to immediately close them when your test is done.
+*Attention: there's no sandbox to make your tests*. The items you'll send will be seen by every Delcampe member. 
+We encourage you thus to send your Test items in small quantity and to immediately close them when your test is done.
 
 
 === Call ===
