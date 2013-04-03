@@ -21,6 +21,7 @@ Here is a list of fields name with their authorized fixed values.
   * *9* : .be & .net
   * *10* : .at & .net
   * *11* : .ca  & .net
+  * *12* : .com.au & .net
 
 
 ==== id_category ====
