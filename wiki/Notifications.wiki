@@ -51,7 +51,7 @@ if (isset($_POST['delcampeNotification'])) {
  * When is it send ?
   * after a call of [addItemAuction](), when the request is processed 
   * after a call of [addItemFixedPrice](), when the request is processed
-  * when a FixedPrice item with quantity > 1 is sold
+  * when a [FixedPrice] item with quantity > 1 is sold
 
  * The reception of this notification can be tested by calling [testNotification]()
 
