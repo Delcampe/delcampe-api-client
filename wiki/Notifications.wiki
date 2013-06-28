@@ -71,7 +71,7 @@ if (isset($_POST['delcampeNotification'])) {
   </Delcampe_Notification>
 }}}
 
-==== Example (new version)====
+==== Example (new version, with {{{<id_parent>}}})====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
