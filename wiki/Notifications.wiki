@@ -20,7 +20,7 @@ In concrete terms, after a call of an API function, you will often receive a not
  * The notifications are *encoded in UTF-8*
  * The different notifications are recognized by their type
  * You will receive the notifications in POST under the keyname *delcampeNotification*
- * To update a notification to the last version, you have to disable the older one (by calling changeNotificationSetting) and set the new one (by calling addNotificationSetting)
+ * To update a notification to the last version, you have to disable the older one (by calling changeNotificationSetting) and set the new one (by calling addNotificationSetting). Doing so, you will have the newest version automatically set.
 
 === Code example (PHP) showing you how to handle XML notifications ===
 To log the notification
