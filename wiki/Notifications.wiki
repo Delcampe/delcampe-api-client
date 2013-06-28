@@ -55,7 +55,7 @@ if (isset($_POST['delcampeNotification'])) {
 
  * The reception of this notification can be tested by calling [testNotification]()
 
-==== Example ====
+==== Example (version 2)====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
@@ -65,6 +65,21 @@ if (isset($_POST['delcampeNotification'])) {
     <Notification_Data>
       <id_item>8594429382</id_item>
       <personal_reference>MyPersonalReference</personal_reference>
+    </Notification_Data>
+  </Delcampe_Notification>
+}}}
+
+==== Example (version 3)====
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+  <Delcampe_Notification>
+    <Notification_Token>MyNotificationToken</Notification_Token>
+    <Notification_Datetime>2010-06-15T15:19:21+02:00</Notification_Datetime>
+    <Notification_Type>Seller_Item_Add</Notification_Type>
+    <Notification_Data>
+      <id_item>8594429382</id_item>
+      <personal_reference>MyPersonalReference</personal_reference>
+      <id_parent>5624142948</id_parent>
     </Notification_Data>
   </Delcampe_Notification>
 }}}
