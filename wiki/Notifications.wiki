@@ -79,7 +79,7 @@ if (isset($_POST['delcampeNotification'])) {
     <Notification_Data>
       <id_item>8594429382</id_item>
       <personal_reference>MyPersonalReference</personal_reference>
-      <id_parent>5624142948</id_parent>
+      *<id_parent>5624142948</id_parent>*
     </Notification_Data>
   </Delcampe_Notification>
 }}}
