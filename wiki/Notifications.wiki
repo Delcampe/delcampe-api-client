@@ -57,7 +57,7 @@ if (isset($_POST['delcampeNotification'])) {
 
  * When a fixed price item with quantity > 1 is sold, a new item (with a new id_item) is created, with Quantity = quantity - quantity sold. The version 3 of this notification includes the tag {{{<id_parent>}}}, giving you the id_item of the initial item.
 
-==== Example (version 2)====
+==== Example (old version)====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
@@ -71,7 +71,7 @@ if (isset($_POST['delcampeNotification'])) {
   </Delcampe_Notification>
 }}}
 
-==== Example (version 3)====
+==== Example (new version)====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
   <Delcampe_Notification>
