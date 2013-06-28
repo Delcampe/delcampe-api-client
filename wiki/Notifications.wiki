@@ -55,6 +55,8 @@ if (isset($_POST['delcampeNotification'])) {
 
  * The reception of this notification can be tested by calling [testNotification]()
 
+ * When a fixed price item with quantity > 1 is sold, a new item (with a new id_item) is created, with Quantity = quantity - quantity sold. The version 3 of this notification includes the tag <id_parent>, giving you the id_item of the initial object.
+
 ==== Example (version 2)====
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
