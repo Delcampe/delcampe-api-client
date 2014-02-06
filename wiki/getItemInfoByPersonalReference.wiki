@@ -8,7 +8,7 @@ Call this function to get data on a specified item, giving a personal reference
 
 === Call ===
 
- * syntax : getItemInfoByPersonalReference(string token, string personalReference, boolean closed)
+ * syntax : getItemInfoByPersonalReference(string token, string personalReference, _boolean closed_)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _string_ : personal reference of the item
