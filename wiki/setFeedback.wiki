@@ -62,8 +62,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getMySoldItemBuyerInfo($return->data, 249706669);
-
+  $return = $objSoapClient->setFeedback($return->data, 249333034 , 100, 'My comment');
   if ($return->status === true) {
     echo "<pre>".print_r($return->data, true)."</pre>";
   } 
