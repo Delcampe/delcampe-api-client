@@ -29,6 +29,7 @@ List of *API functions* you can call.
  * [getMySellerId]()
  * [getMySoldItemAuctionList]()
  * [getMySoldItemFixedPriceList]()
+ * [getMySoldItemBuyerInfo]()
  * [getNotificationSettings]()
  * [getServerTime]()
  * [setDefaultFailOverNotificationEmail]()
