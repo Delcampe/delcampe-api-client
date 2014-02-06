@@ -20,11 +20,9 @@ Call this function to get the data of one of your buyers.
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:getMySoldItemFixedPriceList>
-  <token xsi:type="xsd:string">307a4cf0f655a6f302d8225e28f4fecc</token>
-  <startingItem xsi:type="xsd:int">0</startingItem>
-  <numberOfItems xsi:type="xsd:int">2</numberOfItems>
-</SOAP-ENV:getMySoldItemFixedPriceList>
+<SOAP-ENV:getMySoldItemBuyerInfo>
+<token xsi:type="xsd:string">d9b28fbc5c3a24bf6ee7bee6f6f11090</token>
+<id_item xsi:type="xsd:int">110981143</id_item></SOAP-ENV:getMySoldItemBuyerInfo>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
