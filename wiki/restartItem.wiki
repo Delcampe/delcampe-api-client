@@ -27,7 +27,7 @@ Call this function to restart a closed item
 
 === Response ===
 
- * ResponseItem, giving you complete data of the specified item
+ * ResponseSimple, giving you more information on the function call result 
 
  * SOAP envelope
 {{{
