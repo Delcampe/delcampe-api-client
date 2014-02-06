@@ -22,7 +22,8 @@ Call this function to get the data of one of your buyers.
 <SOAP-ENV:Body>
 <SOAP-ENV:getMySoldItemBuyerInfo>
   <token xsi:type="xsd:string">d9b28fbc5c3a24bf6ee7bee6f6f11090</token>
-  <id_item xsi:type="xsd:int">110981143</id_item></SOAP-ENV:getMySoldItemBuyerInfo>
+  <id_item xsi:type="xsd:int">110981143</id_item>
+</SOAP-ENV:getMySoldItemBuyerInfo>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
