@@ -86,7 +86,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getItemInfoByPersonalReference($return->data, 'UT5120');
+  $return = $objSoapClient->getItemInfoByPersonalReference($return->data, 'UT5120', false);
 
   if ($return->status === true) {
     var_export(count($return->data));
