@@ -76,11 +76,7 @@ if ($return->status === true) {
   $return = $objSoapClient->getMySoldItemBuyerInfo($return->data, 249706669);
 
   if ($return->status === true) {
-    foreach ($return->data as $objItem) {     
-      var_export($objItem->id_item, 1);
-    }
-  } else {
-    var_export($return->errorMsg, 1);
+    echo "<pre>".print_r($return->data, true)."</pre>";
   } 
 }
 }}}
