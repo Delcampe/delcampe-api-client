@@ -8,7 +8,7 @@ Call this function to set a feedback to one of your buyers.
 
 === Call ===
 
- * syntax : getMySoldItemBuyerInfo(string token, integer idItem)
+ * syntax : setFeedback(string token, integer idItem, integer rating, string comment)
 
  * parameter : _string_ : secret token
  * parameter : _int_ : id of the item you want buyer's infos
