@@ -8,13 +8,15 @@ Call this function to set a feedback to one of your buyers.
 
 === Call ===
 
- * syntax : setFeedback(string token, integer idItem, integer rating, string comment)
+ * syntax : setFeedback(string token, integer idItem, integer feedback, string comment)
 
  * parameter : _string_ : secret token
- * parameter : _int_ : id of the item you want buyer's infos
+ * parameter : _integer_ : id of the item you want to rate the buyer
+ * parameter : _integer_ : feedback you want to give to your buyer
+ * comment : _string_ : comment you want to add to your feedback
 
  * example : 
-   * getMySoldItemBuyerInfo(yourToken, 123456789) : returns the buyer's data for item 123456789
+   * setFeedBack(yourToken, 123456789, 100, 'Your comment') : gives a feedback of 100 on the buyer of the item with id 123456789
 
  * SOAP envelope
 {{{
