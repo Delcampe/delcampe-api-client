@@ -5,7 +5,7 @@ To check if you have access to this function, call [getAuthorizedActions].
 
 Call this function to get the list of unsold closed auction items.
 
-If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. The third optional parameter is used to change the order of the returned items
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. The third optional parameter is used to change the order of the returned items.
 
 === Call ===
 
