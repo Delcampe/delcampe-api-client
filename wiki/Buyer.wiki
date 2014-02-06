@@ -1,11 +1,16 @@
 #summary Details on object Buyer
 
  * Buyer is an object with 14 datafields :
-  * *id* : _integer_ : id of the buyer 
-  * *nickname* : _string_ : buyer nickname
-  * *name* : _string_ : name of the category
-  * *id_parent* : _integer_ : id of the parent category
-  * *child* : _boolean_ : this category has childs categories (true) or not (false)
-  * *selectable* : _boolean_ : this category can be used (true) or not (false)
-  * *parent_path* : _string_ : the parent path of the category (IDs)
-  * *parent_path_verbose* : _string_ : the parent path of the category (labels)
+  * *buyer_id* : _integer_
+  * *buyer_nickname* : _string_
+  * *buyer_email* : _string_
+  * *buyer_language* : _string_ : language spoken by the buyer
+  * *buyer_firstname* : _string_
+  * *buyer_surname* : _string_
+  * *buyer_address* : _string_
+  * *buyer_zipcode* : _string_
+  * *buyer_city* : _string_
+  * *buyer_country* : _string_
+  * *buyer_phone* : _string_ : phone number of the buyer
+  * *buyer_rating_nbr* : _integer_ : number of ratings of the buyer on the website
+  * *buyer_rating_percentage* : _float_ : rating percentage of the buyer on the website
