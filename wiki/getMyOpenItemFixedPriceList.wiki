@@ -5,7 +5,7 @@ To check if you have access to this function, call [getAuthorizedActions].
 
 Call this function to get the list of open fixed price items
 
-If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. 
+If you want, you can pass, after your token, two more parameters. Those 2 parameters will be used, on our side, in a {{{LIMIT x,y}}} SQL statement. The third optional parameter is used to change the order of the returned items.
 
 === Call ===
 
@@ -14,6 +14,7 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
  * parameter : _string_ : secret token
  * parameter : _int_ : (optional) the starting item you want to be returned 
  * parameter : _int_ : (optional) the number of items you want to be returned
+ * parameter : _string_ : (optional) 'ASC' : returns the items in ascending order; 'DESC' : returns the items in descending order
 
  * examples : 
    * getMyOpenItemFixedPriceList(yourToken, 0, 100) : returns the first 100 items.
