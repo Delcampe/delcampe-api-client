@@ -36,75 +36,29 @@ Call this function to get the data of one of your buyers.
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:getMySoldItemFixedPriceListResponse>
-  <getMySoldItemFixedPriceListReturn xsi:type="ns1:ResponseItem">
-  <data SOAP-ENC:arrayType="ns1:Item[2]" xsi:type="ns1:ArrayOfItem">
-    <item xsi:type="ns1:Item">
-      <id_item xsi:type="xsd:int">91828785</id_item>
-      <id_country xsi:type="xsd:int">0</id_country>
-      <id_category xsi:type="xsd:int">80</id_category>
-      <title xsi:type="xsd:string">MyTitle</title>
-      <subtitle xsi:type="xsd:string">MySub</subtitle>
-      <personal_reference xsi:type="xsd:string">PersRef</personal_reference>
-      <description xsi:type="xsd:string">My description</description>
-      <price_starting xsi:nil="true"/>
-      <fixed_price xsi:type="xsd:float">10</fixed_price>
-      <price_present xsi:nil="true"/>
-      <price_increment xsi:nil="true"/>
-      <currency xsi:type="xsd:string">EUR</currency>
-      <date_end xsi:type="xsd:string">2010-05-20 16:13:58</date_end>
-      <duration xsi:type="xsd:int">10</duration>
-      <prefered_end_day xsi:nil="true"/>
-      <prefered_end_hour xsi:nil="true"/>
-      <qty xsi:type="xsd:int">3</qty>
-      <renew xsi:type="xsd:int">0</renew>
-      <option_boldtitle xsi:type="xsd:boolean">false</option_boldtitle>
-      <option_coloredborder xsi:type="xsd:boolean">false</option_coloredborder>
-      <option_highlight xsi:type="xsd:boolean">false</option_highlight>
-      <option_keepoptionsonrenewal xsi:type="xsd:boolean">false</option_keepoptionsonrenewal>
-      <option_lastminutebidding xsi:type="xsd:boolean">false</option_lastminutebidding>
-      <option_privatebidding xsi:type="xsd:boolean">false</option_privatebidding>
-      <option_subtitle xsi:type="xsd:boolean">true</option_subtitle>
-      <option_topcategory xsi:type="xsd:boolean">false</option_topcategory>
-      <option_toplisting xsi:type="xsd:boolean">false</option_toplisting>
-      <option_topmain xsi:type="xsd:boolean">false</option_topmain>    
-    </item>
-    <item xsi:type="ns1:Item">
-      <id_item xsi:type="xsd:int">91828545</id_item>
-      <id_country xsi:type="xsd:int">0</id_country>
-      <id_category xsi:type="xsd:int">80</id_category>
-      <title xsi:type="xsd:string">MyTitle2</title>
-      <subtitle xsi:type="xsd:string">MySubtitle</subtitle>
-      <personal_reference xsi:type="xsd:string">PersRef2</personal_reference>
-      <description xsi:type="xsd:string">My description2</description>
-      <price_starting xsi:nil="true"/>
-      <fixed_price xsi:type="xsd:float">10</fixed_price>
-      <price_present xsi:nil="true"/>
-      <price_increment xsi:nil="true"/>
-      <currency xsi:type="xsd:string">EUR</currency>
-      <date_end xsi:type="xsd:string">2010-05-20 16:13:58</date_end>
-      <duration xsi:type="xsd:int">10</duration>
-      <prefered_end_day xsi:nil="true"/>
-      <prefered_end_hour xsi:nil="true"/>
-      <qty xsi:type="xsd:int">3</qty>
-      <renew xsi:type="xsd:int">0</renew>
-      <option_boldtitle xsi:type="xsd:boolean">false</option_boldtitle>
-      <option_coloredborder xsi:type="xsd:boolean">false</option_coloredborder>
-      <option_highlight xsi:type="xsd:boolean">false</option_highlight>
-      <option_keepoptionsonrenewal xsi:type="xsd:boolean">false</option_keepoptionsonrenewal>
-      <option_lastminutebidding xsi:type="xsd:boolean">false</option_lastminutebidding>
-      <option_privatebidding xsi:type="xsd:boolean">false</option_privatebidding>
-      <option_subtitle xsi:type="xsd:boolean">true</option_subtitle>
-      <option_topcategory xsi:type="xsd:boolean">false</option_topcategory>
-      <option_toplisting xsi:type="xsd:boolean">false</option_toplisting>
-      <option_topmain xsi:type="xsd:boolean">false</option_topmain>    
-    </item>
+<SOAP-ENV:getMySoldItemBuyerInfoResponse>
+  <getMySoldItemBuyerInfoReturn xsi:type="ns1:ResponseBuyer">
+  <data xsi:type="ns1:Buyer">
+    <buyer_id xsi:type="xsd:int">445523</buyer_id>
+	<buyer_nickname xsi:type="xsd:string">Test_member</buyer_nickname>
+	<buyer_email xsi:type="xsd:string">member@test.com</buyer_email>
+	<buyer_spoken_languages xsi:type="xsd:string"/>
+	<buyer_language xsi:type="xsd:string">French</buyer_language>
+	<buyer_firstname xsi:type="xsd:string">Delcampe</buyer_firstname>
+	<buyer_surname xsi:type="xsd:string">Team</buyer_surname>
+	<buyer_address xsi:type="xsd:string">Sesame street</buyer_address>
+	<buyer_zipcode xsi:type="xsd:string">5554</buyer_zipcode>
+	<buyer_city xsi:type="xsd:string">Paris</buyer_city>
+	<buyer_country xsi:type="xsd:string">FR</buyer_country>
+	<buyer_phone xsi:type="xsd:string">02/555.22.67</buyer_phone>
+	<buyer_rating_nbr xsi:type="xsd:int">192</buyer_rating_nbr>
+	<buyer_rating_percentage xsi:type="xsd:float">92</buyer_rating_percentage>
   </data>
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
   <personal_reference xsi:nil="true"/>
-  </getMySoldItemFixedPriceListReturn>
-</SOAP-ENV:getMySoldItemFixedPriceListResponse>
+  </getMySoldItemBuyerInfoReturn>
+</SOAP-ENV:getMySoldItemBuyerInfoResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
