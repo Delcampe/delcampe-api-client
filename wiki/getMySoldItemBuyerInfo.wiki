@@ -11,7 +11,7 @@ Call this function to get the data of one of your buyers.
  * syntax : getMySoldItemBuyerInfo(string token, integer idItem)
 
  * parameter : _string_ : secret token
- * parameter : _int_ : the item for wich you want buyer's infos
+ * parameter : _int_ : id of the item you want buyer's infos
 
  * examples : 
    * getMySoldItemFixedPriceList(yourToken, 0, 100) : returns the first 100 items.
