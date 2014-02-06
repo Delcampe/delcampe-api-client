@@ -17,10 +17,10 @@ Call this function to restart a closed item
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:getItemInfo>
-  <token xsi:type="xsd:string">0b829004b44c206d44b43f1976fcd667</token>
-  <id_item xsi:type="xsd:int">99664630</id_item>
-</SOAP-ENV:getItemInfo>
+<SOAP-ENV:restartItem>
+  <token xsi:type="xsd:string">12128f93649dc6c35cdea35f9b64809b</token>
+  <id_item xsi:type="xsd:int">249603902</id_item>
+</SOAP-ENV:restartItem>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
