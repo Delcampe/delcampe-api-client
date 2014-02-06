@@ -55,7 +55,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getItemInfo($return->data, 85846154);
+  $return = $objSoapClient->restartItem($return->data, 249604504);
 
   if ($return->status === true) {
     $objItem = $return->data[0]
