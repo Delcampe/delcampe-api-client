@@ -40,29 +40,14 @@ Call this function to set a feedback to one of your buyers.
 {{{
 <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENV:getMySoldItemBuyerInfoResponse>
-  <getMySoldItemBuyerInfoReturn xsi:type="ns1:ResponseBuyer">
-  <data xsi:type="ns1:Buyer">
-    <buyer_id xsi:type="xsd:int">445523</buyer_id>
-	<buyer_nickname xsi:type="xsd:string">Test_member</buyer_nickname>
-	<buyer_email xsi:type="xsd:string">member@test.com</buyer_email>
-	<buyer_spoken_languages xsi:type="xsd:string"/>
-	<buyer_language xsi:type="xsd:string">French</buyer_language>
-	<buyer_firstname xsi:type="xsd:string">Delcampe</buyer_firstname>
-	<buyer_surname xsi:type="xsd:string">Team</buyer_surname>
-	<buyer_address xsi:type="xsd:string">Sesame street</buyer_address>
-	<buyer_zipcode xsi:type="xsd:string">5554</buyer_zipcode>
-	<buyer_city xsi:type="xsd:string">Paris</buyer_city>
-	<buyer_country xsi:type="xsd:string">FR</buyer_country>
-	<buyer_phone xsi:type="xsd:string">02/555.22.67</buyer_phone>
-	<buyer_rating_nbr xsi:type="xsd:int">192</buyer_rating_nbr>
-	<buyer_rating_percentage xsi:type="xsd:float">92</buyer_rating_percentage>
-  </data>
+<SOAP-ENV:setFeedbackResponse>
+<setFeedbackReturn xsi:type="ns1:ResponseSimple">
   <status xsi:type="xsd:boolean">true</status>
   <errorMsg xsi:nil="true"/>
+  <data xsi:type="xsd:string">Your request was taken into account!</data>
   <personal_reference xsi:nil="true"/>
-  </getMySoldItemBuyerInfoReturn>
-</SOAP-ENV:getMySoldItemBuyerInfoResponse>
+</setFeedbackReturn>
+</SOAP-ENV:setFeedbackResponse>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
