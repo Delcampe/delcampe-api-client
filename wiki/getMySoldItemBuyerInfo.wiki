@@ -73,7 +73,7 @@ $objSoapClient = new SoapClient('http://api.delcampe.net/soap.php?wsdl');
 $return = $objSoapClient->authenticateUser('MyPersonalApiKey');
 
 if ($return->status === true) {
-  $return = $objSoapClient->getMySoldItemFixedPriceList($return->data);
+  $return = $objSoapClient->getMySoldItemBuyerInfo($return->data, 249706669);
 
   if ($return->status === true) {
     foreach ($return->data as $objItem) {     
