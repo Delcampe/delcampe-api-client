@@ -12,7 +12,7 @@ Call this function to get data on a specified item, giving a personal reference
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _string_ : personal reference of the item
- * parameter 3 : _boolean_ : 
+ * parameter 3 : _boolean_ : (optional) true : returns only closed items, false : returns only open items
 
  * SOAP envelope
 {{{
