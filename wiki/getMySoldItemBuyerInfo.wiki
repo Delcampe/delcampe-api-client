@@ -13,9 +13,8 @@ Call this function to get the data of one of your buyers.
  * parameter : _string_ : secret token
  * parameter : _int_ : id of the item you want buyer's infos
 
- * examples : 
-   * getMySoldItemFixedPriceList(yourToken, 0, 100) : returns the first 100 items.
-   * getMySoldItemFixedPriceList(yourToken, 100, 500) : returns 500 items, beginning at the hundredth item.
+ * example : 
+   * getMySoldItemBuyerInfo(yourToken, 123456789) : returns the buyer's data for item 123456789
 
  * SOAP envelope
 {{{
