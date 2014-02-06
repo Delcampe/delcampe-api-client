@@ -8,7 +8,7 @@ Call this function to get the data of one of your buyers.
 
 === Call ===
 
- * syntax : getMySoldItemBuyerInfo(string token)
+ * syntax : getMySoldItemBuyerInfo(string token, integer idItem)
 
  * parameter : _string_ : secret token
  * parameter : _int_ : the item for wich you want buyer's infos
