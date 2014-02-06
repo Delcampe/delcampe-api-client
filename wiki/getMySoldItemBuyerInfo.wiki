@@ -30,7 +30,7 @@ Call this function to get the data of one of your buyers.
 
 === Response ===
 
- * ResponseItem, giving you a list of sold fixed price items
+ * ResponseBuyer, giving you buyer's data
 
  * SOAP envelope
 {{{
