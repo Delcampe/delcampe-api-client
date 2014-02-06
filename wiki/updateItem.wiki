@@ -9,7 +9,7 @@ If you update the images of an item, all existing images of this item will be lo
 
 === Call ===
 
- * syntax : updateItem(string token, array data)
+ * syntax : updateItem(string token, integer idItem, array data)
 
  * parameter 1 : _string_ : secret token
  * parameter 2 : _int_    : id of the item you want to update 
