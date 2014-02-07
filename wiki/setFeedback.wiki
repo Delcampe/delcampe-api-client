@@ -34,7 +34,7 @@ Call this function to set a feedback to one of your buyers.
 
 === Response ===
 
- * ResponseBuyer, giving you buyer's data
+ * ResponseSimple
 
  * SOAP envelope
 {{{
