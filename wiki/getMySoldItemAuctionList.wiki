@@ -22,7 +22,13 @@ If you want, you can pass, after your token, two more parameters. Those 2 parame
 
  * SOAP envelope
 {{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:ns1='http://xml.apache.org/xml-soap' 
+    xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/' 
+    SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
 <SOAP-ENV:Body>
 <SOAP-ENV:getMySoldItemAuctionList>
   <token xsi:type="xsd:string">2070888c0b8e4db76a41c70001e12fd0</token>
