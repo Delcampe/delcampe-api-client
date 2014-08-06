@@ -19,7 +19,13 @@ A delay of 5 seconds is applied between two calls of this function.
 
  * SOAP envelope
 {{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:ns1='http://xml.apache.org/xml-soap' 
+    xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/' 
+    SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
 <SOAP-ENV:Body>
 <SOAP-ENV:closeItemPriority>
   <token xsi:type="xsd:string">30df4259225ca44280be10978efa87f2</token>
