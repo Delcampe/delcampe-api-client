@@ -27,7 +27,13 @@ Call this function to get a list of API functions you are authorized to call
 
  * SOAP envelope
 {{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:ns1='http://xml.apache.org/xml-soap' 
+    xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/' 
+    SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
 <SOAP-ENV:Body>
 <SOAP-ENV:getAuthorizedActionsResponse>
   <getAuthorizedActionsReturn xsi:type="ns1:ResponseComplex">
