@@ -13,7 +13,13 @@ For more informations about Delcampe's notifications, see [Notifications].
 
  * SOAP envelope
 {{{
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Envelope 
+    xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:ns1='http://xml.apache.org/xml-soap' 
+    xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/' 
+    SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
 <SOAP-ENV:Body>
 <SOAP-ENV:getAvailableNotifications>
   <token xsi:type="xsd:string">1112f790632216429ad2d426bda67e30</token>
