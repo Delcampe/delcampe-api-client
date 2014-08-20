@@ -51,16 +51,16 @@ We encourage you thus to send your Test items in small quantity and to immediate
     <prefered_end_day xsi:nil="true"/>
     <prefered_end_hour xsi:nil="true"/>
     <renew xsi:nil="true"/>
-    <option_boldtitle xsi:nil="true"/>
-    <option_coloredborder xsi:nil="true"/>
-    <option_highlight xsi:nil="true"/>
-    <option_keepoptionsonrenewal xsi:nil="true"/>
-    <option_lastminutebidding xsi:nil="true"/>
-    <option_privatebidding xsi:nil="true"/>
-    <option_subtitle xsi:nil="true"/>
-    <option_topcategory xsi:nil="true"/>
-    <option_toplisting xsi:nil="true"/>
-    <option_topmain xsi:nil="true"/>
+    <option_boldtitle xsi:type="xsd:boolean">false</option_boldtitle>
+    <option_coloredborder xsi:type="xsd:boolean">true</option_coloredborder>
+    <option_highlight xsi:type="xsd:boolean">false</option_highlight>
+    <option_keepoptionsonrenewal xsi:type="xsd:boolean">false</option_keepoptionsonrenewal>
+    <option_lastminutebidding xsi:type="xsd:boolean">false</option_lastminutebidding>
+    <option_privatebidding xsi:type="xsd:boolean">false</option_privatebidding>
+    <option_subtitle xsi:type="xsd:boolean">false</option_subtitle>
+    <option_topcategory xsi:type="xsd:boolean">false</option_topcategory>
+    <option_toplisting xsi:type="xsd:boolean">false</option_toplisting>
+    <option_topmain xsi:type="xsd:boolean">false</option_topmain>
     <images SOAP-ENC:arrayType="xsd:string[2]" xsi:type="ns1:String[]">
     <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_1.jpg</item>
     <item xsi:type="xsd:string">http://www.mypics.net/pictures/testPicsApi_2.jpg</item>
