@@ -42,6 +42,10 @@ If you update the images of an item, all existing images of this item will be lo
 	    <key xsi:type="xsd:string">personal_reference</key>
 	    <value xsi:type="xsd:string">MyPersRef</value>
 	</item>
+        <item>
+            <key xsi:type="xsd:string">option_topcategory</key>
+            <value xsi:type="xsd:boolean">false</value>
+        </item>
 	<item>
 	    <key xsi:type="xsd:string">images</key>
 	    <value SOAP-ENC:arrayType="xsd:string[2]" xsi:type="SOAP-ENC:Array">
