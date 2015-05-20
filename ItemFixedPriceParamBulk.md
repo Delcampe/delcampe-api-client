@@ -1,0 +1,1 @@
+  * ItemFixedPriceParamBulk is an array of [ItemFixedPriceParam](ItemFixedPriceParam.md) objects

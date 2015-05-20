@@ -1,0 +1,1 @@
+  * WantedActions is an array of [String](String.md) objects

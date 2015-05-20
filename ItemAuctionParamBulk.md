@@ -1,0 +1,1 @@
+  * ItemAuctionParamBulk is an array of [ItemAuctionParam](ItemAuctionParam.md) objects
