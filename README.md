@@ -26,7 +26,7 @@ Use this Wiki to find :
 
 As the API is based on SOAP, you basically need this information:
 
-* The WSDL url: [[http://api.delcampe.net/soap.php?wsdl]]
+* The WSDL url: http://api.delcampe.net/soap.php?wsdl
 * Your API key : [Contact Delcampe](https://github.com/Delcampe/delcampe-api-client/wiki/Contact-Delcampe)
 
 To help you, we propose for each API function code samples in PHP. We'll try to add also other language helpers in the future: Java, Ruby, .net, Python, Perl, ...
@@ -35,7 +35,7 @@ To help you, we propose for each API function code samples in PHP. We'll try to 
 
 * [How to start](https://github.com/Delcampe/delcampe-api-client/wiki/How-to-start)
 * [List of Delcampe's API resource](https://github.com/Delcampe/delcampe-api-client/wiki/List-of-Delcampe%27s-API-resource)
-* There is an API forum on Delcampe's website. Please send an email to mailto:support_api@delcampe.com to ask an access to this forum. 
+* There is an API forum on Delcampe's website. Please send an email to support_api@delcampe.com to ask an access to this forum. 
 
 # Feedback and contact
 * [Contact Delcampe](https://github.com/Delcampe/delcampe-api-client/wiki/Contact-Delcampe)
