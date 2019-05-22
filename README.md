@@ -6,11 +6,11 @@ This site is aimed for developers. If you are a collectible company and are sear
 
 You will find here all needed information to begin with Delcampe's new API based on SOAP (easy to use with PHP, Java, Ruby, .net, Python, Perl, etc.).
 
-# DISCLAMER !
+# DISCLAIMER !
 
-Before you continue to read this documentation, please note that this Soap API is not supported anymore. It's still works, and we still provide help with current users but futur development won't be available for this API.
+Before you continue to read this documentation, please note that this Soap API is deprecated. It still works, and we still provide help with current users but futur development won't be available for this API.
 
-If you're currently developing a new application that will use our remote services, I strongly suggest you use the REST version.
+If you're currently developing a new application, we strongly advise you to use our REST api.
 You can find the documentation at this page: https://github.com/Delcampe/delcampe-apirest-client.
 
 # Delcampe's API, what for ?
