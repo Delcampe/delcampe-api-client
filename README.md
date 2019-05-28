@@ -1,3 +1,8 @@
+# WARNING !
+For safety reasons. As of January 1, 2020, the use of HTTP protocol will no longer be available. 
+
+Please use HTTPS protocol from now.
+
 # Welcome !
 
 The Delcampe API allows you to communicate easily with the Delcampe.net services. It allows you to start sales, close them, be informed when items are sold, etc.
