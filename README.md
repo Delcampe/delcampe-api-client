@@ -38,7 +38,7 @@ Use this Wiki to find :
 
 As the API is based on SOAP, you basically need this information:
 
-* The WSDL url: http://api.delcampe.net/soap.php?wsdl
+* The WSDL url: https://api.delcampe.net/soap.php?wsdl
 * Your API key : [Contact Delcampe](https://github.com/Delcampe/delcampe-api-client/wiki/Contact-Delcampe)
 
 To help you, we propose for each API function code samples in PHP. We'll try to add also other language helpers in the future: Java, Ruby, .net, Python, Perl, ...
